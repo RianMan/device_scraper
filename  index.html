@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>设备信息查询服务</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 40px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        font-weight: 300;
+      }
+
+      .header p {
+        font-size: 1.2em;
+        opacity: 0.9;
+      }
+
+      .main-content {
+        padding: 40px;
+      }
+
+      .search-section {
+        margin-bottom: 40px;
+      }
+
+      .search-form {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      .input-group {
+        flex: 1;
+      }
+
+      .input-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #333;
+      }
+
+      .input-group input {
+        width: 100%;
+        padding: 15px;
+        border: 2px solid #e1e5e9;
+        border-radius: 10px;
+        font-size: 16px;
+        transition: border-color 0.3s;
+      }
+
+      .input-group input:focus {
+        outline: none;
+        border-color: #667eea;
+      }
+
+      .search-btn {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+        align-self: end;
+      }
+
+      .search-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+      }
+
+      .search-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      .examples {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+
+      .examples h3 {
+        margin-bottom: 15px;
+        color: #333;
+      }
+
+      .example-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .example-tag {
+        background: #e9ecef;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .example-tag:hover {
+        background: #667eea;
+        color: white;
+      }
+
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+      }
+
+      .loading-spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #667eea;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .result-section {
+        background: #f8f9fa;
+        border-radius: 15px;
+        padding: 30px;
+        margin-top: 30px;
+      }
+
+      .device-card {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .device-name {
+        font-size: 1.8em;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 15px;
+      }
+
+      .device-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+
+      .info-item {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 10px;
+      }
+
+      .info-label {
+        font-weight: 600;
+        color: #666;
+        margin-bottom: 5px;
+      }
+
+      .info-value {
+        color: #333;
+        font-weight: 500;
+      }
+
+      .specs-section {
+        margin-top: 30px;
+      }
+
+      .specs-title {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 15px;
+      }
+
+      .specs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 15px;
+      }
+
+      .spec-item {
+        background: white;
+        padding: 12px;
+        border-radius: 8px;
+        border-left: 4px solid #667eea;
+      }
+
+      .spec-key {
+        font-weight: 600;
+        color: #666;
+        margin-bottom: 3px;
+      }
+
+      .spec-value {
+        color: #333;
+      }
+
+      .error-message {
+        background: #ffe6e6;
+        color: #d63384;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .success-message {
+        background: #e6f7e6;
+        color: #198754;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .search-form {
+          flex-direction: column;
+        }
+
+        .device-info {
+          grid-template-columns: 1fr;
+        }
+
+        .specs-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>设备信息查询服务</h1>
+        <p>输入手机型号代码，获取详细设备信息和价格</p>
+      </div>
+
+      <div class="main-content">
+        <div class="search-section">
+          <form class="search-form" id="searchForm">
+            <div class="input-group">
+              <label for="modelCode">设备型号代码</label>
+              <input
+                type="text"
+                id="modelCode"
+                placeholder="例如：CPH2387, V2111, SM-G991B"
+                required
+              />
+            </div>
+            <button type="submit" class="search-btn" id="searchBtn">
+              🔍 查询设备信息
+            </button>
+          </form>
+
+          <div class="examples">
+            <h3>📱 示例型号代码</h3>
+            <div class="example-tags">
+              <span class="example-tag" onclick="searchExample('CPH2387')"
+                >CPH2387 (OPPO)</span
+              >
+              <span class="example-tag" onclick="searchExample('V2111')"
+                >V2111 (vivo)</span
+              >
+              <span class="example-tag" onclick="searchExample('vivo 1906')"
+                >vivo 1906 (vivo)</span
+              >
+              <span class="example-tag" onclick="searchExample('SM-A145M')"
+                >SM-A145M (samsung)</span
+              >
+              <span class="example-tag" onclick="searchExample(`STK-LX3`)"
+                >STK-LX3 (HUAWEI)</span
+              >
+              <span class="example-tag" onclick="searchExample(`VNE-LX3`)"
+                >VNE-LX3 (HONOR)</span
+              >
+              <span class="example-tag" onclick="searchExample(`STK-LX3`)"
+                >STK-LX3 (HUAWEI)</span
+              >
+              <span class="example-tag" onclick="searchExample(`M2101K7BL`)"
+                >M2101K7BL (Redmi)</span
+              >
+              <span class="example-tag" onclick="searchExample(`Infinix X6525`)"
+                >Infinix X6525 (Infinix)</span
+              >
+              <span class="example-tag" onclick="searchExample(`TECNO BG6_13`)"
+                >TECNO BG6_13 (TECNO)</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div id="resultSection" style="display: none">
+          <!-- 结果将在这里显示 -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const API_BASE_URL = "http://172.16.29.227:8080/api";
+
+      // 搜索表单处理
+      document
+        .getElementById("searchForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const modelCode = document.getElementById("modelCode").value.trim();
+          if (modelCode) {
+            searchDevice(modelCode);
+          }
+        });
+
+      // 示例搜索
+      function searchExample(modelCode) {
+        document.getElementById("modelCode").value = modelCode;
+        searchDevice(modelCode);
+      }
+
+      // 搜索设备
+      async function searchDevice(modelCode) {
+        const resultSection = document.getElementById("resultSection");
+        const searchBtn = document.getElementById("searchBtn");
+
+        // 显示加载状态
+        showLoading();
+        searchBtn.disabled = true;
+        searchBtn.textContent = "🔍 查询中...";
+
+        try {
+          const response = await fetch(`${API_BASE_URL}/device-info`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              model_code: modelCode,
+            }),
+          });
+
+          const result = await response.json();
+
+          if (result.success) {
+            showResult(result.data);
+          } else {
+            showError(result.message);
+          }
+        } catch (error) {
+          console.error("搜索错误:", error);
+          showError("网络错误，请检查后端服务是否启动 (http://localhost:8080)");
+        } finally {
+          searchBtn.disabled = false;
+          searchBtn.textContent = "🔍 查询设备信息";
+        }
+      }
+
+      // 显示加载状态
+      function showLoading() {
+        const resultSection = document.getElementById("resultSection");
+        resultSection.style.display = "block";
+        resultSection.innerHTML = `
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>正在查询设备信息...</p>
+                </div>
+            `;
+      }
+
+      // 显示结果
+      function showResult(data) {
+        const resultSection = document.getElementById("resultSection");
+        resultSection.style.display = "block";
+
+        // 构建规格信息
+        let specsHtml = "";
+        if (
+          data.specifications &&
+          Object.keys(data.specifications).length > 0
+        ) {
+          specsHtml = `
+                    <div class="specs-section">
+                        <h3 class="specs-title">📋 详细规格</h3>
+                        <div class="specs-grid">
+                            ${Object.entries(data.specifications)
+                              .map(
+                                ([key, value]) => `
+                                <div class="spec-item">
+                                    <div class="spec-key">${key}</div>
+                                    <div class="spec-value">${value}</div>
+                                </div>
+                            `
+                              )
+                              .join("")}
+                        </div>
+                    </div>
+                `;
+        }
+
+        resultSection.innerHTML = `
+                <div class="result-section">
+                    <div class="success-message">
+                        ✅ 成功找到设备信息！
+                    </div>
+                    
+                    <div class="device-card">
+                        <h2 class="device-name">${data.device_name}</h2>
+                        
+                        <div class="device-info">
+                            <div class="info-item">
+                                <div class="info-label">🔍 搜索型号</div>
+                                <div class="info-value">${
+                                  data.search_model
+                                }</div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-label">📱 设备型号</div>
+                                <div class="info-value">${
+                                  data.model_code || "未知"
+                                }</div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-label">📅 发布日期</div>
+                                <div class="info-value">${
+                                  data.announced_date || "未知"
+                                }</div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-label">🚀 上市日期</div>
+                                <div class="info-value">${
+                                  data.release_date || "未知"
+                                }</div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-label">💰 价格</div>
+                                <div class="info-value">${
+                                  data.price || "未知"
+                                }</div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-label">🔗 数据来源</div>
+                                <div class="info-value">
+                                    <a href="${
+                                      data.source_url
+                                    }" target="_blank" style="color: #667eea;">
+                                        GSMArena
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        ${specsHtml}
+                    </div>
+                </div>
+            `;
+      }
+
+      // 显示错误
+      function showError(message) {
+        const resultSection = document.getElementById("resultSection");
+        resultSection.style.display = "block";
+        resultSection.innerHTML = `
+                <div class="error-message">
+                    ❌ ${message}
+                </div>
+            `;
+      }
+
+      // 页面加载时检查服务状态
+      window.addEventListener("load", async function () {
+        try {
+          const response = await fetch(`${API_BASE_URL}/health`);
+          if (response.ok) {
+            console.log("✅ 后端服务连接正常");
+          } else {
+            console.warn("⚠️ 后端服务状态异常");
+          }
+        } catch (error) {
+          console.warn("⚠️ 无法连接后端服务，请确保服务已启动");
+        }
+      });
+    </script>
+  </body>
+</html>
