@@ -1,0 +1,37 @@
+2025-07-16 19:50:06,956 - __main__ - INFO - 日志文件: logs/device_scraper_20250716_195006.log
+2025-07-16 19:50:06,956 - __main__ - INFO - 📱 设备信息爬取系统 v1.0.0
+2025-07-16 19:50:06,956 - __main__ - INFO - 🔧 模块化架构 | Google+GSMArena+GSMChoice
+2025-07-16 19:50:06,956 - __main__ - INFO - 🔍 检查运行环境...
+2025-07-16 19:50:06,956 - __main__ - INFO - ✅ requests
+2025-07-16 19:50:06,956 - __main__ - INFO - ✅ beautifulsoup4
+2025-07-16 19:50:06,956 - __main__ - INFO - ✅ selenium
+2025-07-16 19:50:06,956 - __main__ - INFO - ✅ pandas
+2025-07-16 19:50:08,031 - __main__ - INFO - ✅ Chrome WebDriver
+2025-07-16 19:50:08,031 - __main__ - INFO - ✅ 环境检查通过
+2025-07-16 19:50:08,032 - __main__ - INFO - 🚀 启动设备信息爬取系统
+2025-07-16 19:50:08,032 - __main__ - INFO - ============================================================
+2025-07-16 19:50:08,037 - __main__ - INFO - ✅ 输入文件有效: 文件有效，包含 265 行数据
+2025-07-16 19:50:08,925 - google.google_search - INFO - Google搜索WebDriver初始化成功
+2025-07-16 19:50:09,845 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver初始化成功
+2025-07-16 19:50:09,846 - scraper.orchestrator - INFO - 🚀 设备信息爬取调度器初始化完成
+2025-07-16 19:50:09,848 - tools.csv_tools - INFO - 读取CSV文件: model_codes.csv, 共 265 行
+2025-07-16 19:50:09,851 - tools.csv_tools - INFO - 唯一型号数量: 53
+2025-07-16 19:50:09,851 - tools.csv_tools - INFO - 有效设备数量: 53
+2025-07-16 19:50:09,851 - __main__ - INFO - 📄 读取到 53 个设备
+2025-07-16 19:50:09,851 - __main__ - INFO - ⚙️ 配置: 延迟 4 秒/请求
+2025-07-16 19:50:09,851 - scraper.orchestrator - INFO - 🚀 开始批量处理 53 个设备
+2025-07-16 19:50:09,851 - scraper.orchestrator - INFO - 📱 进度: 1/53 (1.9%)
+2025-07-16 19:50:09,852 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-J415G
+2025-07-16 19:50:09,852 - google.google_search - INFO - 🔍 Google搜索: SM-J415G site:gsmarena.com
+2025-07-16 19:50:15,321 - __main__ - WARNING - ⚠️ 用户中断处理
+2025-07-16 19:50:15,333 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116fa4230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c2d533d4bdcb4d5b2b8ef27a411ed5a1
+2025-07-16 19:50:15,334 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1024895e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c2d533d4bdcb4d5b2b8ef27a411ed5a1
+2025-07-16 19:50:15,334 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x117076f00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c2d533d4bdcb4d5b2b8ef27a411ed5a1
+2025-07-16 19:50:15,336 - google.google_search - INFO - Google搜索WebDriver已关闭
+2025-07-16 19:50:15,336 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x117076840>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ed486dc706acf31800f77434a17499c2
+2025-07-16 19:50:15,337 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x117077050>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ed486dc706acf31800f77434a17499c2
+2025-07-16 19:50:15,337 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x117077470>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/ed486dc706acf31800f77434a17499c2
+2025-07-16 19:50:15,338 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver已关闭
+2025-07-16 19:50:15,338 - gsmchoice.gsmchoice_scraper - INFO - GSMChoice爬虫已关闭
+2025-07-16 19:50:15,338 - scraper.orchestrator - INFO - 🔒 所有爬虫连接已关闭
+2025-07-16 19:50:15,338 - __main__ - ERROR - ❌ 程序执行失败

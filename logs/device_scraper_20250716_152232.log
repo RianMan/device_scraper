@@ -1,0 +1,1892 @@
+2025-07-16 15:22:32,962 - __main__ - INFO - 日志文件: logs/device_scraper_20250716_152232.log
+2025-07-16 15:22:32,962 - __main__ - INFO - 📱 设备信息爬取系统 v1.0.0
+2025-07-16 15:22:32,962 - __main__ - INFO - 🔧 模块化架构 | Google+GSMArena+GSMChoice
+2025-07-16 15:22:32,962 - __main__ - INFO - 🔍 检查运行环境...
+2025-07-16 15:22:32,962 - __main__ - INFO - ✅ requests
+2025-07-16 15:22:32,962 - __main__ - INFO - ✅ beautifulsoup4
+2025-07-16 15:22:32,962 - __main__ - INFO - ✅ selenium
+2025-07-16 15:22:32,962 - __main__ - INFO - ✅ pandas
+2025-07-16 15:22:34,061 - __main__ - INFO - ✅ Chrome WebDriver
+2025-07-16 15:22:34,061 - __main__ - INFO - ✅ 环境检查通过
+2025-07-16 15:22:34,061 - __main__ - INFO - 🚀 启动设备信息爬取系统
+2025-07-16 15:22:34,061 - __main__ - INFO - ============================================================
+2025-07-16 15:22:34,066 - __main__ - INFO - ✅ 输入文件有效: 文件有效，包含 265 行数据
+2025-07-16 15:22:34,937 - google.google_search - INFO - Google搜索WebDriver初始化成功
+2025-07-16 15:22:35,905 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver初始化成功
+2025-07-16 15:22:35,905 - scraper.orchestrator - INFO - 🚀 设备信息爬取调度器初始化完成
+2025-07-16 15:22:35,907 - tools.csv_tools - INFO - 读取CSV文件: model_codes.csv, 共 265 行
+2025-07-16 15:22:35,910 - tools.csv_tools - INFO - 唯一型号数量: 53
+2025-07-16 15:22:35,910 - tools.csv_tools - INFO - 有效设备数量: 53
+2025-07-16 15:22:35,910 - __main__ - INFO - 📄 读取到 53 个设备
+2025-07-16 15:22:35,910 - __main__ - INFO - ⚙️ 配置: 延迟 4 秒/请求
+2025-07-16 15:22:35,910 - scraper.orchestrator - INFO - 🚀 开始批量处理 53 个设备
+2025-07-16 15:22:35,910 - scraper.orchestrator - INFO - 📱 进度: 1/53 (1.9%)
+2025-07-16 15:22:35,910 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-J415G
+2025-07-16 15:22:35,911 - google.google_search - INFO - 🔍 Google搜索: SM-J415G site:gsmarena.com
+2025-07-16 15:22:42,759 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy J4+ - Full phone specifications
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy J4+
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare - Samsung Galaxy A50
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy J4+ vs. Samsung Galaxy J4 Core
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Samsung Galaxy J4+
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy J4+ vs. Samsung Galaxy A30
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A10 vs. Samsung Galaxy J4+
+2025-07-16 15:22:42,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Samsung Galaxy J4+
+2025-07-16 15:22:42,761 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Samsung Galaxy J4+ vs. Samsung Galaxy A20
+2025-07-16 15:22:42,761 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:22:42,761 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_j4+-9335.php
+2025-07-16 15:22:42,761 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_j4+-9335.php
+2025-07-16 15:22:48,446 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy J4+
+2025-07-16 15:22:48,446 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, September
+2025-07-16 15:22:48,446 - gsmarena.gsmarena_scraper - INFO - 价格: About 220 EUR
+2025-07-16 15:22:48,446 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy J4+
+2025-07-16 15:22:48,446 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-J415G
+2025-07-16 15:22:48,447 - scraper.orchestrator - INFO - ✅ 成功: SM-J415G - Samsung Galaxy J4+
+2025-07-16 15:22:48,447 - scraper.orchestrator - INFO - ⏳ 等待 5.2 秒...
+2025-07-16 15:22:53,677 - scraper.orchestrator - INFO - 📱 进度: 2/53 (3.8%)
+2025-07-16 15:22:53,678 - scraper.orchestrator - INFO - 🔄 开始处理设备: KINGKONG POWER
+2025-07-16 15:22:53,679 - google.google_search - INFO - 🔍 Google搜索: KINGKONG POWER site:gsmarena.com
+2025-07-16 15:23:02,373 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:23:02,374 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Cubot KingKong Power - Full phone specifications
+2025-07-16 15:23:02,375 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:23:02,375 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Cubot KingKong Power 5 - Full phone specifications
+2025-07-16 15:23:02,375 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Cubot KingKong Power 3 - Full phone specifications
+2025-07-16 15:23:02,375 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Cubot KingKong Power - User opinions and reviews
+2025-07-16 15:23:02,376 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Cubot KingKong Power 5 pictures, official photos
+2025-07-16 15:23:02,376 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Cubot KingKong Power
+2025-07-16 15:23:02,376 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Cubot KingKong Power pictures, official photos
+2025-07-16 15:23:02,376 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Cubot KingKong Power 5 price
+2025-07-16 15:23:02,376 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Cubot KingKong Power 3 price
+2025-07-16 15:23:02,376 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:23:02,376 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/cubot_kingkong_power-12303.php
+2025-07-16 15:23:02,376 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/cubot_kingkong_power-12303.php
+2025-07-16 15:23:07,384 - gsmarena.gsmarena_scraper - INFO - 设备名称: Cubot KingKong Power
+2025-07-16 15:23:07,384 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023
+2025-07-16 15:23:07,384 - gsmarena.gsmarena_scraper - INFO - 价格: About 210 EUR
+2025-07-16 15:23:07,384 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Cubot KingKong Power
+2025-07-16 15:23:07,384 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: KINGKONG POWER
+2025-07-16 15:23:07,384 - scraper.orchestrator - INFO - ✅ 成功: KINGKONG POWER - Cubot KingKong Power
+2025-07-16 15:23:07,384 - scraper.orchestrator - INFO - ⏳ 等待 3.9 秒...
+2025-07-16 15:23:11,251 - scraper.orchestrator - INFO - 📱 进度: 3/53 (5.7%)
+2025-07-16 15:23:11,252 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A217M
+2025-07-16 15:23:11,253 - google.google_search - INFO - 🔍 Google搜索: SM-A217M site:gsmarena.com
+2025-07-16 15:23:17,759 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:23:17,759 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy A21s - Full phone specifications
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare - Samsung Galaxy A32
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A21 vs. ...
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy A21s - User opinions and reviews
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A21s vs. ...
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A21s vs. Samsung Galaxy A06
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A21s
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A20s vs. ...
+2025-07-16 15:23:17,760 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Samsung Galaxy A21s vs. Samsung Galaxy A72
+2025-07-16 15:23:17,761 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:23:17,761 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a21s-reviews-10239p19.php
+2025-07-16 15:23:17,761 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a21s-reviews-10239p19.php
+2025-07-16 15:23:21,809 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A21s-  user opinions and reviews
+2025-07-16 15:23:21,809 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-07-16 15:23:21,809 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:23:21,809 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A21s-  user opinions and reviews
+2025-07-16 15:23:21,809 - scraper.orchestrator - WARNING - GSMArena信息不完整: SM-A217M
+2025-07-16 15:23:21,809 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: SM-A217M
+2025-07-16 15:23:21,809 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Samsung Samsung Galaxy A21s
+2025-07-16 15:23:28,155 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Galaxy A21s
+2025-07-16 15:23:28,156 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Galaxy A21s
+2025-07-16 15:23:28,156 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Galaxy A21s
+2025-07-16 15:23:36,093 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a21s-10239.php
+2025-07-16 15:23:42,023 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A21s
+2025-07-16 15:23:42,024 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, May 15
+2025-07-16 15:23:42,024 - gsmarena.gsmarena_scraper - INFO - 价格: About 220 EUR
+2025-07-16 15:23:42,024 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A21s
+2025-07-16 15:23:42,024 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: SM-A217M
+2025-07-16 15:23:42,024 - scraper.orchestrator - INFO - ✅ 成功: SM-A217M - Samsung Galaxy A21s
+2025-07-16 15:23:42,024 - scraper.orchestrator - INFO - ⏳ 等待 4.5 秒...
+2025-07-16 15:23:46,579 - scraper.orchestrator - INFO - 📱 进度: 4/53 (7.5%)
+2025-07-16 15:23:46,580 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE Blade V10
+2025-07-16 15:23:46,580 - google.google_search - INFO - 🔍 Google搜索: ZTE Blade V10 site:gsmarena.com
+2025-07-16 15:23:55,507 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:23:55,508 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: ZTE Blade V10 Vita - Full phone specifications
+2025-07-16 15:23:55,508 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: ZTE Blade V10 - Full phone specifications
+2025-07-16 15:23:55,508 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare ZTE Blade V10 vs. ZTE Blade V10 Vita
+2025-07-16 15:23:55,509 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: ZTE Blade V10 pictures, official photos
+2025-07-16 15:23:55,509 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare ZTE Blade V10
+2025-07-16 15:23:55,509 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: ZTE Blade V10 Vita pictures, official photos
+2025-07-16 15:23:55,509 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare ZTE Blade V10 vs. ZTE Axon 7
+2025-07-16 15:23:55,509 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: ZTE Blade V10 Vita - User opinions and reviews
+2025-07-16 15:23:55,509 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare ZTE Blade V10 vs. OnePlus 3 vs. ZTE Axon 7
+2025-07-16 15:23:55,509 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare ZTE Blade V10 Vita vs. Huawei Premia 4G M931
+2025-07-16 15:23:55,509 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:23:55,509 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/zte_blade_v10_vita-9715.php
+2025-07-16 15:23:55,509 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_v10_vita-9715.php
+2025-07-16 15:24:01,702 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade V10 Vita
+2025-07-16 15:24:01,702 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, February
+2025-07-16 15:24:01,702 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:24:01,702 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade V10 Vita
+2025-07-16 15:24:01,702 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: ZTE Blade V10
+2025-07-16 15:24:01,702 - scraper.orchestrator - INFO - ✅ 成功: ZTE Blade V10 - ZTE Blade V10 Vita
+2025-07-16 15:24:01,702 - scraper.orchestrator - INFO - ⏳ 等待 4.7 秒...
+2025-07-16 15:24:06,424 - scraper.orchestrator - INFO - 📱 进度: 5/53 (9.4%)
+2025-07-16 15:24:06,426 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A730F
+2025-07-16 15:24:06,426 - google.google_search - INFO - 🔍 Google搜索: SM-A730F site:gsmarena.com
+2025-07-16 15:24:14,315 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:24:14,317 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A8+ (2018)
+2025-07-16 15:24:14,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:24:14,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy A8+ (2018) - User opinions and reviews
+2025-07-16 15:24:14,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Samsung Galaxy A8+ (2018) pictures, official photos
+2025-07-16 15:24:14,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy A8+ (2018) vs. ...
+2025-07-16 15:24:14,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A8+ (2018) vs. ...
+2025-07-16 15:24:14,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Samsung Galaxy A8+ (2018) - User opinions and reviews
+2025-07-16 15:24:14,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A8+ (2018) vs. ...
+2025-07-16 15:24:14,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Next-gen Samsung Galaxy A5 and Galaxy A7 get Wi-Fi ...
+2025-07-16 15:24:14,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Samsung Galaxy A8+ (2018) - User opinions and reviews
+2025-07-16 15:24:14,320 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:24:14,320 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a8+_(2018)-8790.php
+2025-07-16 15:24:14,320 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a8+_(2018)-8790.php
+2025-07-16 15:24:20,092 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A8+ (2018)
+2025-07-16 15:24:20,092 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2017, December
+2025-07-16 15:24:20,092 - gsmarena.gsmarena_scraper - INFO - 价格: About 300 EUR
+2025-07-16 15:24:20,092 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A8+ (2018)
+2025-07-16 15:24:20,092 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A730F
+2025-07-16 15:24:20,092 - scraper.orchestrator - INFO - ✅ 成功: SM-A730F - Samsung Galaxy A8+ (2018)
+2025-07-16 15:24:20,092 - scraper.orchestrator - INFO - ⏳ 等待 3.3 秒...
+2025-07-16 15:24:23,364 - scraper.orchestrator - INFO - 📱 进度: 6/53 (11.3%)
+2025-07-16 15:24:23,366 - scraper.orchestrator - INFO - 🔄 开始处理设备: W-V770
+2025-07-16 15:24:23,367 - google.google_search - INFO - 🔍 Google搜索: W-V770 site:gsmarena.com
+2025-07-16 15:24:30,190 - google.google_search - INFO - 找到 9 个Google搜索结果
+2025-07-16 15:24:30,191 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:24:30,191 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Wiko T3 - Full phone specifications
+2025-07-16 15:24:30,191 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: alcatel OT-V770 - User opinions and reviews - page 4
+2025-07-16 15:24:30,191 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Samsung P860 - User opinions and reviews - page 10
+2025-07-16 15:24:30,191 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: 8 MP Samsung i8510 Primera surfaces, has it all but the ...
+2025-07-16 15:24:30,191 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Video compare alcatel OT-V770 vs. alcatel OT-I650 PRO
+2025-07-16 15:24:30,192 - google.google_search - INFO - 🎯 Google搜索找到 6 个GSMArena链接
+2025-07-16 15:24:30,192 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/wiko_t3-11601.php
+2025-07-16 15:24:30,192 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/wiko_t3-11601.php
+2025-07-16 15:24:36,758 - gsmarena.gsmarena_scraper - INFO - 设备名称: Wiko T3
+2025-07-16 15:24:36,758 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, December
+2025-07-16 15:24:36,758 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:24:36,759 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Wiko T3
+2025-07-16 15:24:36,759 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: W-V770
+2025-07-16 15:24:36,759 - scraper.orchestrator - INFO - ✅ 成功: W-V770 - Wiko T3
+2025-07-16 15:24:36,759 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-16 15:24:41,132 - scraper.orchestrator - INFO - 📱 进度: 7/53 (13.2%)
+2025-07-16 15:24:41,132 - scraper.orchestrator - INFO - 🔄 开始处理设备: Hisense H60 Smart
+2025-07-16 15:24:41,133 - google.google_search - INFO - 🔍 Google搜索: Hisense H60 Smart site:gsmarena.com
+2025-07-16 15:24:48,286 - google.google_search - INFO - 找到 6 个Google搜索结果
+2025-07-16 15:24:48,286 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Hisense Infinity H60 5G brings Dimensity 810 and vegan ...
+2025-07-16 15:24:48,286 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Articles tagged HiSense
+2025-07-16 15:24:48,287 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-16 15:24:48,288 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Huawei nova Y91 - User opinions and reviews - page 2
+2025-07-16 15:24:48,288 - google.google_search - INFO - 🎯 Google搜索找到 4 个GSMArena链接
+2025-07-16 15:24:48,288 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/newscomm-53244p3.php
+2025-07-16 15:24:48,288 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/newscomm-53244p3.php
+2025-07-16 15:24:53,227 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:24:53,227 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-07-16 15:24:53,227 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:24:53,227 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:24:53,227 - scraper.orchestrator - WARNING - GSMArena信息不完整: Hisense H60 Smart
+2025-07-16 15:24:53,227 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Hisense H60 Smart
+2025-07-16 15:24:53,227 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Hisense Hisense H60 Smart
+2025-07-16 15:25:00,102 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Infinity H60 Smart
+2025-07-16 15:25:00,103 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Infinity H60 Smart
+2025-07-16 15:25:00,103 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Infinity H60 Smart
+2025-07-16 15:25:18,628 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/infinix_hot_60-14006.php
+2025-07-16 15:25:24,393 - gsmarena.gsmarena_scraper - INFO - 设备名称: Infinix Hot 60
+2025-07-16 15:25:24,393 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2025, July 11
+2025-07-16 15:25:24,393 - gsmarena.gsmarena_scraper - INFO - 价格: About 110 EUR
+2025-07-16 15:25:24,393 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Infinix Hot 60
+2025-07-16 15:25:24,394 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: Hisense H60 Smart
+2025-07-16 15:25:24,394 - scraper.orchestrator - INFO - ✅ 成功: Hisense H60 Smart - Infinix Hot 60
+2025-07-16 15:25:24,394 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-16 15:25:28,802 - scraper.orchestrator - INFO - 📱 进度: 8/53 (15.1%)
+2025-07-16 15:25:28,803 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE 8050
+2025-07-16 15:25:28,803 - google.google_search - INFO - 🔍 Google搜索: ZTE 8050 site:gsmarena.com
+2025-07-16 15:25:35,216 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:25:35,217 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: ZTE Blade V50 Design 4G - Full phone specifications
+2025-07-16 15:25:35,217 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: ZTE Blade V50 - Full phone specifications
+2025-07-16 15:25:35,217 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: ZTE Blade V50 Design - Full phone specifications
+2025-07-16 15:25:35,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-16 15:25:35,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: ZTE nubia Neo - User opinions and reviews - page 2
+2025-07-16 15:25:35,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: ZTE nubia Flip2 - User opinions and reviews - page 2
+2025-07-16 15:25:35,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: All ZTE phones
+2025-07-16 15:25:35,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare ZTE Axon 7 vs. Motorola Moto G4 Plus
+2025-07-16 15:25:35,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: ZTE nubia Neo 2 - User opinions and reviews - page 10
+2025-07-16 15:25:35,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: ZTE nubia Flip2 - User opinions and reviews
+2025-07-16 15:25:35,218 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:25:35,218 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/zte_blade_v50_design_4g-12712.php
+2025-07-16 15:25:35,218 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_v50_design_4g-12712.php
+2025-07-16 15:25:39,282 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade V50 Design 4G
+2025-07-16 15:25:39,282 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, October
+2025-07-16 15:25:39,282 - gsmarena.gsmarena_scraper - INFO - 价格: About 120 EUR
+2025-07-16 15:25:39,282 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade V50 Design 4G
+2025-07-16 15:25:39,282 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: ZTE 8050
+2025-07-16 15:25:39,282 - scraper.orchestrator - INFO - ✅ 成功: ZTE 8050 - ZTE Blade V50 Design 4G
+2025-07-16 15:25:39,282 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-16 15:25:43,721 - scraper.orchestrator - INFO - 📱 进度: 9/53 (17.0%)
+2025-07-16 15:25:43,722 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-J810M
+2025-07-16 15:25:43,722 - google.google_search - INFO - 🔍 Google搜索: SM-J810M site:gsmarena.com
+2025-07-16 15:25:49,977 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:25:49,978 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:25:49,978 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare - Samsung Galaxy J8
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare - Samsung Galaxy J8
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy J8
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy J8 vs. Samsung Galaxy J7 Prime
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy J8 vs. ...
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare - Samsung Galaxy J8
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy J8 vs. Samsung Galaxy J6+
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A03 vs. Samsung Galaxy J8
+2025-07-16 15:25:49,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Samsung Galaxy J8 vs. Samsung Galaxy J7 Pro
+2025-07-16 15:25:49,979 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:25:49,980 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/compare.php3?idPhone1=6434&idPhone2=9205
+2025-07-16 15:25:49,980 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/compare.php3?idPhone1=6434&idPhone2=9205
+2025-07-16 15:25:54,457 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:25:54,457 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2014, September 03
+2025-07-16 15:25:54,457 - gsmarena.gsmarena_scraper - INFO - 价格: About 350 EUR
+2025-07-16 15:25:54,457 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:25:54,458 - scraper.orchestrator - WARNING - GSMArena信息不完整: SM-J810M
+2025-07-16 15:25:54,458 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: SM-J810M
+2025-07-16 15:25:54,458 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Samsung Samsung Galaxy J8
+2025-07-16 15:26:03,340 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Galaxy J8
+2025-07-16 15:26:03,340 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Galaxy J8
+2025-07-16 15:26:03,340 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Galaxy J8
+2025-07-16 15:26:18,574 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_j8-9205.php
+2025-07-16 15:26:24,281 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy J8
+2025-07-16 15:26:24,281 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, May
+2025-07-16 15:26:24,281 - gsmarena.gsmarena_scraper - INFO - 价格: About 310 EUR
+2025-07-16 15:26:24,281 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy J8
+2025-07-16 15:26:24,281 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: SM-J810M
+2025-07-16 15:26:24,281 - scraper.orchestrator - INFO - ✅ 成功: SM-J810M - Samsung Galaxy J8
+2025-07-16 15:26:24,281 - scraper.orchestrator - INFO - ⏳ 等待 5.6 秒...
+2025-07-16 15:26:29,889 - scraper.orchestrator - INFO - 📱 进度: 10/53 (18.9%)
+2025-07-16 15:26:29,889 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g(9) plus
+2025-07-16 15:26:29,889 - google.google_search - INFO - 🔍 Google搜索: moto g(9) plus site:gsmarena.com
+2025-07-16 15:26:39,076 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:26:39,077 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto G9 Plus - Full phone specifications
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Motorola Moto G9 Plus
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto G9 Plus - User opinions and reviews
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Motorola Moto G9 Plus vs. Motorola Moto G84
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G9 Plus pictures, official photos
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Moto G9 Plus review: Camera
+2025-07-16 15:26:39,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Motorola Moto G9 Plus - User opinions and reviews
+2025-07-16 15:26:39,079 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Snapdragon 730G SoC, 6.8" display, and 5000 mAh battery
+2025-07-16 15:26:39,079 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:26:39,079 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/motorola_moto_g9_plus-10432.php
+2025-07-16 15:26:39,079 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/motorola_moto_g9_plus-10432.php
+2025-07-16 15:26:45,681 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:26:45,682 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, September 07
+2025-07-16 15:26:45,682 - gsmarena.gsmarena_scraper - INFO - 价格: About 300 EUR
+2025-07-16 15:26:45,682 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:26:45,682 - scraper.orchestrator - WARNING - GSMArena信息不完整: moto g(9) plus
+2025-07-16 15:26:45,683 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: moto g(9) plus
+2025-07-16 15:26:45,683 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Motorola Moto G9 Plus
+2025-07-16 15:26:53,711 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Moto G9 Plus
+2025-07-16 15:26:53,712 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Moto G9 Plus
+2025-07-16 15:26:53,712 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Moto G9 Plus
+2025-07-16 15:27:20,843 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g9_plus-10432.php
+2025-07-16 15:27:26,685 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G9 Plus
+2025-07-16 15:27:26,685 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, September 07
+2025-07-16 15:27:26,686 - gsmarena.gsmarena_scraper - INFO - 价格: About 300 EUR
+2025-07-16 15:27:26,686 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G9 Plus
+2025-07-16 15:27:26,686 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: moto g(9) plus
+2025-07-16 15:27:26,686 - scraper.orchestrator - INFO - ✅ 成功: moto g(9) plus - Motorola Moto G9 Plus
+2025-07-16 15:27:26,686 - scraper.orchestrator - INFO - ⏳ 等待 5.8 秒...
+2025-07-16 15:27:32,511 - scraper.orchestrator - INFO - 📱 进度: 11/53 (20.8%)
+2025-07-16 15:27:32,513 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE 8010
+2025-07-16 15:27:32,514 - google.google_search - INFO - 🔍 Google搜索: ZTE 8010 site:gsmarena.com
+2025-07-16 15:27:41,596 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:27:41,597 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: ZTE Blade V20 - Full phone specifications
+2025-07-16 15:27:41,597 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: ZTE Blade V2020 5G - Full phone specifications
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: ZTE Blade alternatives - Similar or related devices
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy Note 10.1 N8010 vs. ...
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: ZTE Blade V30 Vita - Full phone specifications
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Motorola Moto X4 - User opinions and reviews - page 56
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Samsung Galaxy Note N7000 - User opinions and reviews
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Mobile phones news - GSMArena.com - page 1502
+2025-07-16 15:27:41,598 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Phone Finder results
+2025-07-16 15:27:41,598 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:27:41,598 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/zte_blade_v20-9913.php
+2025-07-16 15:27:41,598 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_v20-9913.php
+2025-07-16 15:27:47,190 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade V20
+2025-07-16 15:27:47,190 - gsmarena.gsmarena_scraper - INFO - 发布日期: Not announced yet
+2025-07-16 15:27:47,190 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:27:47,190 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade V20
+2025-07-16 15:27:47,190 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: ZTE 8010
+2025-07-16 15:27:47,190 - scraper.orchestrator - INFO - ✅ 成功: ZTE 8010 - ZTE Blade V20
+2025-07-16 15:27:47,190 - scraper.orchestrator - INFO - ⏳ 等待 4.5 秒...
+2025-07-16 15:27:51,697 - scraper.orchestrator - INFO - 📱 进度: 12/53 (22.6%)
+2025-07-16 15:27:51,699 - scraper.orchestrator - INFO - 🔄 开始处理设备: KINGKONG_AX
+2025-07-16 15:27:51,699 - google.google_search - INFO - 🔍 Google搜索: KINGKONG_AX site:gsmarena.com
+2025-07-16 15:27:59,094 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:27:59,094 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Cubot KingKong AX - Full phone specifications
+2025-07-16 15:27:59,094 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Cubot KingKong AX price
+2025-07-16 15:27:59,095 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-16 15:27:59,095 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Cubot KingKong AX pictures, official photos
+2025-07-16 15:27:59,095 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Cubot KingKong AX - User opinions and reviews
+2025-07-16 15:27:59,095 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Cubot KingKong AX alternatives - Similar or related devices
+2025-07-16 15:27:59,095 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: All Cubot phones
+2025-07-16 15:27:59,095 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: All Cubot phones by popularity
+2025-07-16 15:27:59,096 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Cubot KingKong Star
+2025-07-16 15:27:59,096 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Cubot KingKong X - Full phone specifications
+2025-07-16 15:27:59,096 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:27:59,096 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/cubot_kingkong_ax-12916.php
+2025-07-16 15:27:59,096 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/cubot_kingkong_ax-12916.php
+2025-07-16 15:28:05,337 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:28:05,337 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, March
+2025-07-16 15:28:05,337 - gsmarena.gsmarena_scraper - INFO - 价格: About 240 EUR
+2025-07-16 15:28:05,337 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:28:05,337 - scraper.orchestrator - WARNING - GSMArena信息不完整: KINGKONG_AX
+2025-07-16 15:28:05,338 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: KINGKONG_AX
+2025-07-16 15:28:05,338 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Cubot KINGKONG_AX
+2025-07-16 15:28:11,130 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: KingKong AX
+2025-07-16 15:28:11,131 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: KingKong AX
+2025-07-16 15:28:11,131 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: KingKong AX
+2025-07-16 15:28:26,298 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/cubot_kingkong_ax-12916.php
+2025-07-16 15:28:31,680 - gsmarena.gsmarena_scraper - INFO - 设备名称: Cubot KingKong AX
+2025-07-16 15:28:31,680 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, March
+2025-07-16 15:28:31,680 - gsmarena.gsmarena_scraper - INFO - 价格: About 240 EUR
+2025-07-16 15:28:31,680 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Cubot KingKong AX
+2025-07-16 15:28:31,680 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: KINGKONG_AX
+2025-07-16 15:28:31,680 - scraper.orchestrator - INFO - ✅ 成功: KINGKONG_AX - Cubot KingKong AX
+2025-07-16 15:28:31,680 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-16 15:28:36,086 - scraper.orchestrator - INFO - 📱 进度: 13/53 (24.5%)
+2025-07-16 15:28:36,087 - scraper.orchestrator - INFO - 🔄 开始处理设备: Hisense E60
+2025-07-16 15:28:36,088 - google.google_search - INFO - 🔍 Google搜索: Hisense E60 site:gsmarena.com
+2025-07-16 15:28:42,547 - google.google_search - INFO - 找到 8 个Google搜索结果
+2025-07-16 15:28:42,548 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:28:42,549 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Articles tagged Hisense
+2025-07-16 15:28:42,549 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Motorola Moto E22i - User opinions and reviews
+2025-07-16 15:28:42,549 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Xiaomi Redmi A1+ - User opinions and reviews - page 6
+2025-07-16 15:28:42,549 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy A04e - User opinions and reviews
+2025-07-16 15:28:42,549 - google.google_search - INFO - 🎯 Google搜索找到 5 个GSMArena链接
+2025-07-16 15:28:42,549 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_e22i-reviews-11884.php
+2025-07-16 15:28:42,549 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_e22i-reviews-11884.php
+2025-07-16 15:28:48,814 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto E22i-  user opinions and reviews
+2025-07-16 15:28:48,815 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-07-16 15:28:48,815 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:28:48,815 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto E22i-  user opinions and reviews
+2025-07-16 15:28:48,815 - scraper.orchestrator - WARNING - GSMArena信息不完整: Hisense E60
+2025-07-16 15:28:48,815 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Hisense E60
+2025-07-16 15:28:48,815 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Hisense Hisense E60
+2025-07-16 15:28:56,538 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: E60
+2025-07-16 15:28:56,539 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: E60
+2025-07-16 15:28:56,540 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: E60
+2025-07-16 15:29:21,587 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_edge_60_pro-13815.php
+2025-07-16 15:29:25,956 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Edge 60 Pro
+2025-07-16 15:29:25,956 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2025, April 24
+2025-07-16 15:29:25,956 - gsmarena.gsmarena_scraper - INFO - 价格: $ 786.00 / € 474.25
+2025-07-16 15:29:25,956 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Edge 60 Pro
+2025-07-16 15:29:25,956 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: Hisense E60
+2025-07-16 15:29:25,957 - scraper.orchestrator - INFO - ✅ 成功: Hisense E60 - Motorola Edge 60 Pro
+2025-07-16 15:29:25,957 - scraper.orchestrator - INFO - ⏳ 等待 3.9 秒...
+2025-07-16 15:29:29,865 - scraper.orchestrator - INFO - 📱 进度: 14/53 (26.4%)
+2025-07-16 15:29:29,866 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g(50) 5G
+2025-07-16 15:29:29,866 - google.google_search - INFO - 🔍 Google搜索: moto g(50) 5G site:gsmarena.com
+2025-07-16 15:29:36,434 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:29:36,435 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto G50 5G - Full phone specifications
+2025-07-16 15:29:36,435 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Motorola Moto G50 - Full phone specifications
+2025-07-16 15:29:36,435 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Motorola Moto G vs. Motorola Moto G50 5G
+2025-07-16 15:29:36,435 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Moto G50 review: Software and performance
+2025-07-16 15:29:36,436 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: 
+2025-07-16 15:29:36,436 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G50 5G pictures, official photos
+2025-07-16 15:29:36,436 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Motorola Moto G50 5G price
+2025-07-16 15:29:36,436 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Motorola Moto G50 5G (Saipan) appears on Geekbench ...
+2025-07-16 15:29:36,437 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Motorola Moto G50 5G
+2025-07-16 15:29:36,437 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare - Motorola Moto G50 5G
+2025-07-16 15:29:36,437 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:29:36,437 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/motorola_moto_g50_5g-11070.php
+2025-07-16 15:29:36,437 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/motorola_moto_g50_5g-11070.php
+2025-07-16 15:29:43,204 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:29:43,205 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, August 25
+2025-07-16 15:29:43,205 - gsmarena.gsmarena_scraper - INFO - 价格: About 170 EUR
+2025-07-16 15:29:43,205 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:29:43,205 - scraper.orchestrator - WARNING - GSMArena信息不完整: moto g(50) 5G
+2025-07-16 15:29:43,205 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: moto g(50) 5G
+2025-07-16 15:29:43,205 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Motorola Moto G50 5G
+2025-07-16 15:29:50,665 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Moto G50 5G Dual SIM
+2025-07-16 15:29:50,666 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Moto G50 5G Dual SIM
+2025-07-16 15:29:50,666 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Moto G50 5G Dual SIM
+2025-07-16 15:29:59,359 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/search.php3
+2025-07-16 15:30:04,196 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:30:04,196 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-07-16 15:30:04,196 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:30:04,196 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:30:04,196 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: moto g(50) 5G
+2025-07-16 15:30:04,196 - scraper.orchestrator - INFO - ✅ 成功: moto g(50) 5G - Unknown
+2025-07-16 15:30:04,196 - scraper.orchestrator - INFO - ⏳ 等待 4.3 秒...
+2025-07-16 15:30:08,535 - scraper.orchestrator - INFO - 📱 进度: 15/53 (28.3%)
+2025-07-16 15:30:08,535 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g(8) plus
+2025-07-16 15:30:08,536 - google.google_search - INFO - 🔍 Google搜索: moto g(8) plus site:gsmarena.com
+2025-07-16 15:30:16,795 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:30:16,796 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto G8 Plus - Full phone specifications
+2025-07-16 15:30:16,797 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:30:16,797 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Motorola Moto G8 Plus - User opinions and reviews
+2025-07-16 15:30:16,797 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto G8 Plus - User opinions and reviews - page 4
+2025-07-16 15:30:16,797 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Motorola Moto G8 Plus
+2025-07-16 15:30:16,797 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G8 Plus 3D view, 360-degree spin
+2025-07-16 15:30:16,797 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Motorola Moto G8 Plus - User opinions and reviews - page 8
+2025-07-16 15:30:16,798 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Motorola Moto G8 Plus review: Camera quality
+2025-07-16 15:30:16,798 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Motorola Moto G8 Plus pictures, official photos
+2025-07-16 15:30:16,798 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare - Motorola Moto G8 Plus
+2025-07-16 15:30:16,798 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:30:16,798 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_g8_plus-9916.php
+2025-07-16 15:30:16,798 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g8_plus-9916.php
+2025-07-16 15:30:21,048 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G8 Plus
+2025-07-16 15:30:21,048 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, October 24
+2025-07-16 15:30:21,048 - gsmarena.gsmarena_scraper - INFO - 价格: About 270 EUR
+2025-07-16 15:30:21,048 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G8 Plus
+2025-07-16 15:30:21,048 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: moto g(8) plus
+2025-07-16 15:30:21,048 - scraper.orchestrator - INFO - ✅ 成功: moto g(8) plus - Motorola Moto G8 Plus
+2025-07-16 15:30:21,049 - scraper.orchestrator - INFO - ⏳ 等待 4.7 秒...
+2025-07-16 15:30:25,733 - scraper.orchestrator - INFO - 📱 进度: 16/53 (30.2%)
+2025-07-16 15:30:25,734 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE 9050N
+2025-07-16 15:30:25,734 - google.google_search - INFO - 🔍 Google搜索: ZTE 9050N site:gsmarena.com
+2025-07-16 15:30:34,247 - google.google_search - INFO - 找到 5 个Google搜索结果
+2025-07-16 15:30:34,247 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: ZTE Blade V50 - Full phone specifications
+2025-07-16 15:30:34,247 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: All ZTE phones
+2025-07-16 15:30:34,248 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-16 15:30:34,248 - google.google_search - INFO - 🎯 Google搜索找到 3 个GSMArena链接
+2025-07-16 15:30:34,248 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/zte_blade_v50-12613.php
+2025-07-16 15:30:34,248 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_v50-12613.php
+2025-07-16 15:30:40,445 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade V50
+2025-07-16 15:30:40,445 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, September
+2025-07-16 15:30:40,445 - gsmarena.gsmarena_scraper - INFO - 价格: About 220 EUR
+2025-07-16 15:30:40,445 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade V50
+2025-07-16 15:30:40,445 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: ZTE 9050N
+2025-07-16 15:30:40,445 - scraper.orchestrator - INFO - ✅ 成功: ZTE 9050N - ZTE Blade V50
+2025-07-16 15:30:40,445 - scraper.orchestrator - INFO - ⏳ 等待 4.6 秒...
+2025-07-16 15:30:45,005 - scraper.orchestrator - INFO - 📱 进度: 17/53 (32.1%)
+2025-07-16 15:30:45,005 - scraper.orchestrator - INFO - 🔄 开始处理设备: LM-X420
+2025-07-16 15:30:45,006 - google.google_search - INFO - 🔍 Google搜索: LM-X420 site:gsmarena.com
+2025-07-16 15:30:51,242 - google.google_search - INFO - 找到 8 个Google搜索结果
+2025-07-16 15:30:51,243 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: LG K40 - Full phone specifications
+2025-07-16 15:30:51,243 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:30:51,244 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare LG K40
+2025-07-16 15:30:51,244 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare LG K40 vs. LG K40S
+2025-07-16 15:30:51,244 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare LG K40 vs. Samsung Galaxy A03
+2025-07-16 15:30:51,244 - google.google_search - INFO - 🎯 Google搜索找到 5 个GSMArena链接
+2025-07-16 15:30:51,244 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/lg_k40-9587.php
+2025-07-16 15:30:51,244 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/lg_k40-9587.php
+2025-07-16 15:30:56,448 - gsmarena.gsmarena_scraper - INFO - 设备名称: LG K40
+2025-07-16 15:30:56,448 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, February
+2025-07-16 15:30:56,448 - gsmarena.gsmarena_scraper - INFO - 价格: About 140 EUR
+2025-07-16 15:30:56,448 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: LG K40
+2025-07-16 15:30:56,448 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: LM-X420
+2025-07-16 15:30:56,449 - scraper.orchestrator - INFO - ✅ 成功: LM-X420 - LG K40
+2025-07-16 15:30:56,449 - scraper.orchestrator - INFO - ⏳ 等待 5.2 秒...
+2025-07-16 15:31:01,664 - scraper.orchestrator - INFO - 📱 进度: 18/53 (34.0%)
+2025-07-16 15:31:01,665 - scraper.orchestrator - INFO - 🔄 开始处理设备: TANK 2 PRO
+2025-07-16 15:31:01,665 - google.google_search - INFO - 🔍 Google搜索: TANK 2 PRO site:gsmarena.com
+2025-07-16 15:31:09,905 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:31:09,906 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Compare BLU Tank Xtreme Pro vs. Sharp Z2
+2025-07-16 15:31:09,906 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare BLU Tank Xtreme Pro
+2025-07-16 15:31:09,906 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare BLU Tank Xtreme Pro vs. Cat S31
+2025-07-16 15:31:09,907 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Icemobile Gravity Pro vs. BLU Tank 4.5
+2025-07-16 15:31:09,907 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Nothing officially reveals the CMF Phone 2 Pro's camera ...
+2025-07-16 15:31:09,907 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare BLU Hero II vs. BLU Tank 4.5
+2025-07-16 15:31:09,907 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: 
+2025-07-16 15:31:09,908 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare
+2025-07-16 15:31:09,908 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: OnePlus Pad 2 Pro will launch internationally as the ...
+2025-07-16 15:31:09,908 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Here's the Oukitel WP19 Pro with a 6.8" 120Hz screen and ...
+2025-07-16 15:31:09,908 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:31:09,908 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/compare.php3?idPhone1=8736&idPhone2=8410
+2025-07-16 15:31:09,908 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/compare.php3?idPhone1=8736&idPhone2=8410
+2025-07-16 15:31:16,728 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:31:16,728 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2017, July
+2025-07-16 15:31:16,728 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:31:16,728 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:31:16,728 - scraper.orchestrator - WARNING - GSMArena信息不完整: TANK 2 PRO
+2025-07-16 15:31:16,728 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: TANK 2 PRO
+2025-07-16 15:31:16,728 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Ulefone TANK 2 PRO
+2025-07-16 15:31:24,133 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Tank 2 Pro
+2025-07-16 15:31:24,134 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Tank 2 Pro
+2025-07-16 15:31:24,134 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Tank 2 Pro
+2025-07-16 15:31:37,857 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_x200_fe-13847.php
+2025-07-16 15:31:43,854 - gsmarena.gsmarena_scraper - INFO - 设备名称: vivo X200 FE
+2025-07-16 15:31:43,854 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2025, June 23
+2025-07-16 15:31:43,854 - gsmarena.gsmarena_scraper - INFO - 价格: € 799.00
+2025-07-16 15:31:43,854 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: vivo X200 FE
+2025-07-16 15:31:43,854 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: TANK 2 PRO
+2025-07-16 15:31:43,854 - scraper.orchestrator - INFO - ✅ 成功: TANK 2 PRO - vivo X200 FE
+2025-07-16 15:31:43,854 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-16 15:31:48,255 - scraper.orchestrator - INFO - 📱 进度: 19/53 (35.8%)
+2025-07-16 15:31:48,257 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE A7040
+2025-07-16 15:31:48,257 - google.google_search - INFO - 🔍 Google搜索: ZTE A7040 site:gsmarena.com
+2025-07-16 15:31:56,998 - google.google_search - INFO - 找到 9 个Google搜索结果
+2025-07-16 15:31:57,000 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:31:57,000 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: ZTE Blade V40 - Full phone specifications
+2025-07-16 15:31:57,000 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: ZTE Blade V40 Vita - Full phone specifications
+2025-07-16 15:31:57,000 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: ZTE Blade V40 - User opinions and reviews
+2025-07-16 15:31:57,000 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare ZTE Blade V40
+2025-07-16 15:31:57,000 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: ZTE Blade V40 Design - Full phone specifications
+2025-07-16 15:31:57,000 - google.google_search - INFO - 🎯 Google搜索找到 6 个GSMArena链接
+2025-07-16 15:31:57,000 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/zte_blade_v40-12104.php
+2025-07-16 15:31:57,000 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/zte_blade_v40-12104.php
+2025-07-16 15:32:02,033 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:32:02,033 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, February 28
+2025-07-16 15:32:02,033 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:32:02,033 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:32:02,033 - scraper.orchestrator - WARNING - GSMArena信息不完整: ZTE A7040
+2025-07-16 15:32:02,033 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: ZTE A7040
+2025-07-16 15:32:02,033 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: ZTE ZTE Blade A7 (2020)
+2025-07-16 15:32:09,834 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Blade A7
+2025-07-16 15:32:09,836 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Blade A7
+2025-07-16 15:32:09,836 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Blade A7
+2025-07-16 15:32:53,478 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_a75-13376.php
+2025-07-16 15:32:58,497 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade A75
+2025-07-16 15:32:58,497 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, September
+2025-07-16 15:32:58,497 - gsmarena.gsmarena_scraper - INFO - 价格: About 170 EUR
+2025-07-16 15:32:58,497 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade A75
+2025-07-16 15:32:58,498 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: ZTE A7040
+2025-07-16 15:32:58,498 - scraper.orchestrator - INFO - ✅ 成功: ZTE A7040 - ZTE Blade A75
+2025-07-16 15:32:58,498 - scraper.orchestrator - INFO - ⏳ 等待 5.3 秒...
+2025-07-16 15:33:03,799 - scraper.orchestrator - INFO - 📱 进度: 20/53 (37.7%)
+2025-07-16 15:33:03,801 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g stylus
+2025-07-16 15:33:03,801 - google.google_search - INFO - 🔍 Google搜索: moto g stylus site:gsmarena.com
+2025-07-16 15:33:11,461 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-16 15:33:11,462 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto G Stylus - Full phone specifications
+2025-07-16 15:33:11,462 - google.google_search - INFO - ✅ 找到GSMArena链接 #2: Motorola Moto G Stylus - 2025 | Unlocked | Made for US 8 ...
+2025-07-16 15:33:11,462 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Motorola Moto G Stylus 5G (2025) - Full phone specifications
+2025-07-16 15:33:11,462 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Motorola Moto G Stylus 5G (2024) - Full phone specifications
+2025-07-16 15:33:11,462 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto G Stylus 5G (2024) XT2419-1 128GB ...
+2025-07-16 15:33:11,462 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Moto G Stylus 5G (2024) review: Software, performance
+2025-07-16 15:33:11,463 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G Stylus 5G (2025)
+2025-07-16 15:33:11,463 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Motorola Moto G Stylus alternatives - Similar or related ...
+2025-07-16 15:33:11,463 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Motorola Moto G Stylus (2022) - Full phone specifications
+2025-07-16 15:33:11,463 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Motorola Moto G Stylus 5G (2025)
+2025-07-16 15:33:11,463 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:33:11,463 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_g_stylus-10057.php
+2025-07-16 15:33:11,463 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g_stylus-10057.php
+2025-07-16 15:33:18,197 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G Stylus
+2025-07-16 15:33:18,198 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, February 07
+2025-07-16 15:33:18,198 - gsmarena.gsmarena_scraper - INFO - 价格: About 70 EUR
+2025-07-16 15:33:18,198 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G Stylus
+2025-07-16 15:33:18,198 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: moto g stylus
+2025-07-16 15:33:18,198 - scraper.orchestrator - INFO - ✅ 成功: moto g stylus - Motorola Moto G Stylus
+2025-07-16 15:33:18,198 - scraper.orchestrator - INFO - ⏳ 等待 4.1 秒...
+2025-07-16 15:33:22,341 - scraper.orchestrator - INFO - 📱 进度: 21/53 (39.6%)
+2025-07-16 15:33:22,342 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A137F
+2025-07-16 15:33:22,342 - google.google_search - INFO - 🔍 Google搜索: SM-A137F site:gsmarena.com
+2025-07-16 15:33:28,675 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:33:28,680 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A13 (SM-A137) - Full phone specifications
+2025-07-16 15:33:28,681 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:33:28,681 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy A13 - Full phone specifications
+2025-07-16 15:33:28,682 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A13 (SM-A137)
+2025-07-16 15:33:28,682 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy A13 with Helio G80 and Xcover Pro now ...
+2025-07-16 15:33:28,682 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A13 (SM-A137) vs. ...
+2025-07-16 15:33:28,682 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare - Samsung Galaxy A13 (SM-A137)
+2025-07-16 15:33:28,682 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A13 (SM-A137) vs. Xiaomi Redmi ...
+2025-07-16 15:33:28,682 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Samsung Galaxy A13 (SM-A137)
+2025-07-16 15:33:28,682 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare - Samsung Galaxy A13 (SM-A137)
+2025-07-16 15:33:28,682 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:33:28,683 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a13_(sm_a137)-11665.php
+2025-07-16 15:33:28,683 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a13_(sm_a137)-11665.php
+2025-07-16 15:33:34,518 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A13 (SM-A137)
+2025-07-16 15:33:34,518 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, June
+2025-07-16 15:33:34,518 - gsmarena.gsmarena_scraper - INFO - 价格: About 180 EUR
+2025-07-16 15:33:34,518 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A13 (SM-A137)
+2025-07-16 15:33:34,518 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A137F
+2025-07-16 15:33:34,518 - scraper.orchestrator - INFO - ✅ 成功: SM-A137F - Samsung Galaxy A13 (SM-A137)
+2025-07-16 15:33:34,518 - scraper.orchestrator - INFO - ⏳ 等待 4.0 秒...
+2025-07-16 15:33:38,521 - scraper.orchestrator - INFO - 📱 进度: 22/53 (41.5%)
+2025-07-16 15:33:38,523 - scraper.orchestrator - INFO - 🔄 开始处理设备: TECNO BG6
+2025-07-16 15:33:38,523 - google.google_search - INFO - 🔍 Google搜索: TECNO BG6 site:gsmarena.com
+2025-07-16 15:33:46,907 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:33:46,908 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Tecno Spark Go 2024 - Full phone specifications
+2025-07-16 15:33:46,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:33:46,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Tecno Spark 6 - Full phone specifications
+2025-07-16 15:33:46,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Tecno Pop 8 - Full phone specifications
+2025-07-16 15:33:46,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Tecno Spark Go 2024
+2025-07-16 15:33:46,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Tecno Spark Go 1 announced with 120Hz LCD and Unisoc ...
+2025-07-16 15:33:46,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Tecno Spark Go 2024 vs. Xiaomi Mi 3
+2025-07-16 15:33:46,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Tecno Pop 6 - Full phone specifications
+2025-07-16 15:33:46,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Tecno Spark 20C
+2025-07-16 15:33:46,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Tecno Pop 6 - User opinions and reviews
+2025-07-16 15:33:46,910 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:33:46,910 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/tecno_spark_go_2024-12702.php
+2025-07-16 15:33:46,910 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/tecno_spark_go_2024-12702.php
+2025-07-16 15:33:51,723 - gsmarena.gsmarena_scraper - INFO - 设备名称: Tecno Spark Go 2024
+2025-07-16 15:33:51,723 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, November 21
+2025-07-16 15:33:51,723 - gsmarena.gsmarena_scraper - INFO - 价格: About 90 EUR
+2025-07-16 15:33:51,723 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Tecno Spark Go 2024
+2025-07-16 15:33:51,723 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: TECNO BG6
+2025-07-16 15:33:51,723 - scraper.orchestrator - INFO - ✅ 成功: TECNO BG6 - Tecno Spark Go 2024
+2025-07-16 15:33:51,723 - scraper.orchestrator - INFO - ⏳ 等待 5.3 秒...
+2025-07-16 15:33:57,004 - scraper.orchestrator - INFO - 📱 进度: 23/53 (43.4%)
+2025-07-16 15:33:57,006 - scraper.orchestrator - INFO - 🔄 开始处理设备: LOGIC L66 PRO
+2025-07-16 15:33:57,007 - google.google_search - INFO - 🔍 Google搜索: LOGIC L66 PRO site:gsmarena.com
+2025-07-16 15:34:05,761 - google.google_search - INFO - 找到 6 个Google搜索结果
+2025-07-16 15:34:05,762 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Yezz Art 3S - Full phone specifications
+2025-07-16 15:34:05,762 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Yezz Art 3S - User opinions and reviews
+2025-07-16 15:34:05,762 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: LG L60 - Full phone specifications
+2025-07-16 15:34:05,763 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-16 15:34:05,763 - google.google_search - INFO - 🎯 Google搜索找到 4 个GSMArena链接
+2025-07-16 15:34:05,763 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/yezz_art_3s-12101.php
+2025-07-16 15:34:05,763 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/yezz_art_3s-12101.php
+2025-07-16 15:34:12,146 - gsmarena.gsmarena_scraper - INFO - 设备名称: Yezz Art 3S
+2025-07-16 15:34:12,146 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, September
+2025-07-16 15:34:12,146 - gsmarena.gsmarena_scraper - INFO - 价格: About 110 EUR
+2025-07-16 15:34:12,146 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Yezz Art 3S
+2025-07-16 15:34:12,146 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: LOGIC L66 PRO
+2025-07-16 15:34:12,146 - scraper.orchestrator - INFO - ✅ 成功: LOGIC L66 PRO - Yezz Art 3S
+2025-07-16 15:34:12,146 - scraper.orchestrator - INFO - ⏳ 等待 4.1 秒...
+2025-07-16 15:34:16,285 - scraper.orchestrator - INFO - 📱 进度: 24/53 (45.3%)
+2025-07-16 15:34:16,287 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-N976U
+2025-07-16 15:34:16,287 - google.google_search - INFO - 🔍 Google搜索: SM-N976U site:gsmarena.com
+2025-07-16 15:34:22,671 - google.google_search - INFO - 找到 11 个Google搜索结果
+2025-07-16 15:34:22,671 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy Note10+ 5G - Full phone specifications
+2025-07-16 15:34:22,671 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Samsung Galaxy Note10+ 5G
+2025-07-16 15:34:22,671 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy Note10+ 5G vs. ...
+2025-07-16 15:34:22,671 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Samsung Galaxy Note20+ 5G pops up on Geekbench
+2025-07-16 15:34:22,671 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy Note10+ 5G vs. ...
+2025-07-16 15:34:22,671 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Motorola Moto E (2nd gen) vs. Samsung Galaxy ...
+2025-07-16 15:34:22,671 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy S20 FE 5G vs. ...
+2025-07-16 15:34:22,672 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: 
+2025-07-16 15:34:22,672 - google.google_search - INFO - 🎯 Google搜索找到 8 个GSMArena链接
+2025-07-16 15:34:22,672 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_note10+_5g-9787.php
+2025-07-16 15:34:22,672 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_note10+_5g-9787.php
+2025-07-16 15:34:26,476 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy Note10+ 5G
+2025-07-16 15:34:26,476 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, August
+2025-07-16 15:34:26,476 - gsmarena.gsmarena_scraper - INFO - 价格: About 700 EUR
+2025-07-16 15:34:26,476 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy Note10+ 5G
+2025-07-16 15:34:26,476 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-N976U
+2025-07-16 15:34:26,476 - scraper.orchestrator - INFO - ✅ 成功: SM-N976U - Samsung Galaxy Note10+ 5G
+2025-07-16 15:34:26,476 - scraper.orchestrator - INFO - ⏳ 等待 4.0 秒...
+2025-07-16 15:34:30,450 - scraper.orchestrator - INFO - 📱 进度: 25/53 (47.2%)
+2025-07-16 15:34:30,450 - scraper.orchestrator - INFO - 🔄 开始处理设备: G53
+2025-07-16 15:34:30,450 - google.google_search - INFO - 🔍 Google搜索: G53 site:gsmarena.com
+2025-07-16 15:34:38,217 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:34:38,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto G53 - Full phone specifications
+2025-07-16 15:34:38,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Motorola Moto G53 (5G) Dual-SIM 128GB ROM + 4GB ...
+2025-07-16 15:34:38,218 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-16 15:34:38,219 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto G53 review: Display, battery life, charging ...
+2025-07-16 15:34:38,219 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: BLU G53 - Full phone specifications
+2025-07-16 15:34:38,219 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G53 review: Camera: photo and video quality
+2025-07-16 15:34:38,219 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Motorola Moto G53 - User opinions and reviews - page 3
+2025-07-16 15:34:38,219 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Massive leak reveals global Moto G53 and G73 specs and ...
+2025-07-16 15:34:38,219 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Motorola Moto G53 vs. Motorola Moto G52
+2025-07-16 15:34:38,219 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Motorola Moto G53
+2025-07-16 15:34:38,219 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:34:38,219 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/motorola_moto_g53-12028.php
+2025-07-16 15:34:38,219 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/motorola_moto_g53-12028.php
+2025-07-16 15:34:45,073 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:34:45,074 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, December 15
+2025-07-16 15:34:45,074 - gsmarena.gsmarena_scraper - INFO - 价格: $ 295.00 / € 139.99
+2025-07-16 15:34:45,074 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:34:45,074 - scraper.orchestrator - WARNING - GSMArena信息不完整: G53
+2025-07-16 15:34:45,074 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: G53
+2025-07-16 15:34:45,074 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Unknown G53
+2025-07-16 15:34:52,072 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Moto G53
+2025-07-16 15:34:52,073 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Moto G53
+2025-07-16 15:34:52,073 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Moto G53
+2025-07-16 15:35:05,188 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g53-12028.php
+2025-07-16 15:35:09,855 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G53
+2025-07-16 15:35:09,856 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, December 15
+2025-07-16 15:35:09,856 - gsmarena.gsmarena_scraper - INFO - 价格: $ 295.00 / € 139.99
+2025-07-16 15:35:09,856 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G53
+2025-07-16 15:35:09,856 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: G53
+2025-07-16 15:35:09,856 - scraper.orchestrator - INFO - ✅ 成功: G53 - Motorola Moto G53
+2025-07-16 15:35:09,856 - scraper.orchestrator - INFO - ⏳ 等待 3.4 秒...
+2025-07-16 15:35:13,239 - scraper.orchestrator - INFO - 📱 进度: 26/53 (49.1%)
+2025-07-16 15:35:13,240 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g(7) plus
+2025-07-16 15:35:13,240 - google.google_search - INFO - 🔍 Google搜索: moto g(7) plus site:gsmarena.com
+2025-07-16 15:35:21,297 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:35:21,298 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:35:21,298 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Motorola Moto G7 Plus - Full phone specifications
+2025-07-16 15:35:21,298 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Motorola Moto G7 Plus review
+2025-07-16 15:35:21,298 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto G7 Plus - User opinions and reviews - page 3
+2025-07-16 15:35:21,299 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare - Motorola Moto G7 Plus
+2025-07-16 15:35:21,299 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G7 Plus - User opinions and reviews
+2025-07-16 15:35:21,299 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Motorola Moto G7 Plus - User opinions and reviews - page 7
+2025-07-16 15:35:21,299 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Motorola Moto G7 Plus vs. ...
+2025-07-16 15:35:21,299 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Motorola Moto G7 Plus 3D view, 360-degree spin
+2025-07-16 15:35:21,299 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Motorola Moto G7 Plus - User opinions and reviews - page 9
+2025-07-16 15:35:21,299 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:35:21,299 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_g7_plus-pictures-9533.php
+2025-07-16 15:35:21,299 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g7_plus-pictures-9533.php
+2025-07-16 15:35:26,710 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G7 Plus pictures
+2025-07-16 15:35:26,711 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-07-16 15:35:26,711 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:35:26,711 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G7 Plus pictures
+2025-07-16 15:35:26,711 - scraper.orchestrator - WARNING - GSMArena信息不完整: moto g(7) plus
+2025-07-16 15:35:26,711 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: moto g(7) plus
+2025-07-16 15:35:26,711 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Motorola Moto G7 Plus
+2025-07-16 15:35:34,069 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Moto G7 Plus
+2025-07-16 15:35:34,070 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Moto G7 Plus
+2025-07-16 15:35:34,070 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Moto G7 Plus
+2025-07-16 15:35:47,471 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g7_plus-9533.php
+2025-07-16 15:35:54,091 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G7 Plus
+2025-07-16 15:35:54,092 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, February
+2025-07-16 15:35:54,092 - gsmarena.gsmarena_scraper - INFO - 价格: About 120 EUR
+2025-07-16 15:35:54,092 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G7 Plus
+2025-07-16 15:35:54,092 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: moto g(7) plus
+2025-07-16 15:35:54,092 - scraper.orchestrator - INFO - ✅ 成功: moto g(7) plus - Motorola Moto G7 Plus
+2025-07-16 15:35:54,092 - scraper.orchestrator - INFO - ⏳ 等待 3.5 秒...
+2025-07-16 15:35:57,558 - scraper.orchestrator - INFO - 📱 进度: 27/53 (50.9%)
+2025-07-16 15:35:57,559 - scraper.orchestrator - INFO - 🔄 开始处理设备: Hisense E50 Lite
+2025-07-16 15:35:57,559 - google.google_search - INFO - 🔍 Google搜索: Hisense E50 Lite site:gsmarena.com
+2025-07-16 15:36:06,196 - google.google_search - INFO - 找到 5 个Google搜索结果
+2025-07-16 15:36:06,197 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Honor 50 Lite - Full phone specifications
+2025-07-16 15:36:06,197 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:36:06,197 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Articles tagged Hisense
+2025-07-16 15:36:06,197 - google.google_search - INFO - 🎯 Google搜索找到 3 个GSMArena链接
+2025-07-16 15:36:06,197 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/honor_50_lite-11175.php
+2025-07-16 15:36:06,197 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/honor_50_lite-11175.php
+2025-07-16 15:36:12,305 - gsmarena.gsmarena_scraper - INFO - 设备名称: Honor 50 Lite
+2025-07-16 15:36:12,306 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, October 25
+2025-07-16 15:36:12,306 - gsmarena.gsmarena_scraper - INFO - 价格: About 160 EUR
+2025-07-16 15:36:12,306 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Honor 50 Lite
+2025-07-16 15:36:12,307 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: Hisense E50 Lite
+2025-07-16 15:36:12,307 - scraper.orchestrator - INFO - ✅ 成功: Hisense E50 Lite - Honor 50 Lite
+2025-07-16 15:36:12,307 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-16 15:36:16,740 - scraper.orchestrator - INFO - 📱 进度: 28/53 (52.8%)
+2025-07-16 15:36:16,742 - scraper.orchestrator - INFO - 🔄 开始处理设备: TANK2
+2025-07-16 15:36:16,743 - google.google_search - INFO - 🔍 Google搜索: TANK2 site:gsmarena.com
+2025-07-16 15:36:24,655 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:36:24,656 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: BLU Tank Xtreme 2.4 - Full phone specifications
+2025-07-16 15:36:24,656 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare BLU Hero II vs. BLU Tank 4.5
+2025-07-16 15:36:24,656 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Here's the Oukitel WP19 Pro with a 6.8" 120Hz screen and ...
+2025-07-16 15:36:24,657 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-16 15:36:24,657 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare BLU Tank Xtreme Pro vs. Sharp Z2
+2025-07-16 15:36:24,657 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: BLU Tank - User opinions and reviews - page 2
+2025-07-16 15:36:24,657 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Ulefone T2 Pro - Full phone specifications
+2025-07-16 15:36:24,658 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare BLU Tank 4.5 vs. Samsung S7710 Galaxy Xcover 2
+2025-07-16 15:36:24,658 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: BLU Tank 4.5 - Full phone specifications
+2025-07-16 15:36:24,658 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Here's the Oukitel WP19 Pro with a 6.8" 120Hz screen and ...
+2025-07-16 15:36:24,658 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:36:24,658 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/blu_tank_xtreme_2_4-8526.php
+2025-07-16 15:36:24,658 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/blu_tank_xtreme_2_4-8526.php
+2025-07-16 15:36:30,835 - gsmarena.gsmarena_scraper - INFO - 设备名称: BLU Tank Xtreme 2.4
+2025-07-16 15:36:30,835 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2017, January
+2025-07-16 15:36:30,835 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:36:30,835 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: BLU Tank Xtreme 2.4
+2025-07-16 15:36:30,836 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: TANK2
+2025-07-16 15:36:30,836 - scraper.orchestrator - INFO - ✅ 成功: TANK2 - BLU Tank Xtreme 2.4
+2025-07-16 15:36:30,836 - scraper.orchestrator - INFO - ⏳ 等待 3.4 秒...
+2025-07-16 15:36:34,228 - scraper.orchestrator - INFO - 📱 进度: 29/53 (54.7%)
+2025-07-16 15:36:34,229 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g stylus 5G
+2025-07-16 15:36:34,229 - google.google_search - INFO - 🔍 Google搜索: moto g stylus 5G site:gsmarena.com
+2025-07-16 15:36:41,123 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:36:41,125 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto G Stylus 5G (2025) - Full phone specifications
+2025-07-16 15:36:41,126 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Motorola Moto G Stylus - 2025 | Unlocked | Made for US 8 ...
+2025-07-16 15:36:41,126 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Motorola Moto G Stylus 5G (2024) - Full phone specifications
+2025-07-16 15:36:41,127 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto G Stylus 5G - Full phone specifications
+2025-07-16 15:36:41,128 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: 
+2025-07-16 15:36:41,128 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G Stylus 5G (2024)
+2025-07-16 15:36:41,128 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Moto G Stylus 5G (2024) review: Software, performance
+2025-07-16 15:36:41,129 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Motorola Moto G Stylus 5G (2024) XT2419-1 128GB ...
+2025-07-16 15:36:41,129 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Motorola Moto G Stylus 5G (2025)
+2025-07-16 15:36:41,129 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Motorola Moto G Stylus 5G alternatives - Similar or related ...
+2025-07-16 15:36:41,129 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:36:41,129 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_g_stylus_5g_(2025)-13784.php
+2025-07-16 15:36:41,129 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g_stylus_5g_(2025)-13784.php
+2025-07-16 15:36:48,010 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G Stylus 5G (2025)
+2025-07-16 15:36:48,011 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2025, April 08
+2025-07-16 15:36:48,011 - gsmarena.gsmarena_scraper - INFO - 价格: $ 399.99
+2025-07-16 15:36:48,011 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G Stylus 5G (2025)
+2025-07-16 15:36:48,011 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: moto g stylus 5G
+2025-07-16 15:36:48,011 - scraper.orchestrator - INFO - ✅ 成功: moto g stylus 5G - Motorola Moto G Stylus 5G (2025)
+2025-07-16 15:36:48,011 - scraper.orchestrator - INFO - ⏳ 等待 3.7 秒...
+2025-07-16 15:36:51,705 - scraper.orchestrator - INFO - 📱 进度: 30/53 (56.6%)
+2025-07-16 15:36:51,706 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g 5G
+2025-07-16 15:36:51,706 - google.google_search - INFO - 🔍 Google搜索: moto g 5G site:gsmarena.com
+2025-07-16 15:36:58,436 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-16 15:36:58,437 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto G 5G - Full phone specifications
+2025-07-16 15:36:58,437 - google.google_search - INFO - ✅ 找到GSMArena链接 #2: Motorola Moto G Stylus 5G (2024) XT2419-1 128GB ...
+2025-07-16 15:36:58,437 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:36:58,438 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Motorola Moto G 5G - User opinions and reviews - page 2
+2025-07-16 15:36:58,438 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto G (2022) - Full phone specifications
+2025-07-16 15:36:58,438 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Motorola Moto G 5G Plus - Full phone specifications
+2025-07-16 15:36:58,438 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto G Stylus 5G (2024) - Full phone specifications
+2025-07-16 15:36:58,438 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Moto G 5G 2025 gets an extra camera, leaked renders show
+2025-07-16 15:36:58,438 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Motorola Moto G Stylus 5G (2025) - Full phone specifications
+2025-07-16 15:36:58,438 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Motorola Edge vs. Motorola Moto G 5G
+2025-07-16 15:36:58,438 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:36:58,438 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_g_5g-10577.php
+2025-07-16 15:36:58,438 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g_5g-10577.php
+2025-07-16 15:37:03,932 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G 5G
+2025-07-16 15:37:03,932 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, November 05
+2025-07-16 15:37:03,932 - gsmarena.gsmarena_scraper - INFO - 价格: About 90 EUR
+2025-07-16 15:37:03,932 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G 5G
+2025-07-16 15:37:03,932 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: moto g 5G
+2025-07-16 15:37:03,932 - scraper.orchestrator - INFO - ✅ 成功: moto g 5G - Motorola Moto G 5G
+2025-07-16 15:37:03,932 - scraper.orchestrator - INFO - ⏳ 等待 5.7 秒...
+2025-07-16 15:37:09,588 - scraper.orchestrator - INFO - 📱 进度: 31/53 (58.5%)
+2025-07-16 15:37:09,589 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto e(6) plus
+2025-07-16 15:37:09,589 - google.google_search - INFO - 🔍 Google搜索: moto e(6) plus site:gsmarena.com
+2025-07-16 15:37:18,397 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:37:18,398 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto E6 Plus - Full phone specifications
+2025-07-16 15:37:18,398 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Motorola Moto E6 Plus - Full phone specifications
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Motorola Moto E6 Plus - User opinions and reviews - page 4
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare - Motorola Moto E6 Plus
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Motorola Moto E6 Plus vs. Nokia 2.3
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A54 vs. Motorola Moto E6 Plus
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Motorola Moto E6 Plus
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Motorola Moto E6 Plus pictures, official photos
+2025-07-16 15:37:18,399 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Moto E6 Plus gets official too with 6.1-inch display, Helio ...
+2025-07-16 15:37:18,399 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:37:18,399 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_e6_plus-9831.php
+2025-07-16 15:37:18,399 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_e6_plus-9831.php
+2025-07-16 15:37:24,545 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto E6 Plus
+2025-07-16 15:37:24,546 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, September 05
+2025-07-16 15:37:24,546 - gsmarena.gsmarena_scraper - INFO - 价格: About 200 EUR
+2025-07-16 15:37:24,546 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto E6 Plus
+2025-07-16 15:37:24,546 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: moto e(6) plus
+2025-07-16 15:37:24,546 - scraper.orchestrator - INFO - ✅ 成功: moto e(6) plus - Motorola Moto E6 Plus
+2025-07-16 15:37:24,546 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-16 15:37:29,001 - scraper.orchestrator - INFO - 📱 进度: 32/53 (60.4%)
+2025-07-16 15:37:29,002 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A920F
+2025-07-16 15:37:29,002 - google.google_search - INFO - 🔍 Google搜索: SM-A920F site:gsmarena.com
+2025-07-16 15:37:36,515 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:37:36,516 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:37:36,516 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy A9 (2018) - Full phone specifications
+2025-07-16 15:37:36,517 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy A9 (2018) vs. ...
+2025-07-16 15:37:36,517 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A9 (2018) vs. Apple iPhone 7 ...
+2025-07-16 15:37:36,517 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy A9 (2018) vs. ...
+2025-07-16 15:37:36,517 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A9 (2018) vs. ...
+2025-07-16 15:37:36,517 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A9 (2018) vs. ...
+2025-07-16 15:37:36,517 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A9 (2018)
+2025-07-16 15:37:36,517 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Samsung Galaxy S25 Ultra
+2025-07-16 15:37:36,518 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Samsung Galaxy A9 (2018) vs. ... - GSMArena.com
+2025-07-16 15:37:36,518 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:37:36,518 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a9_(2018)-9344.php
+2025-07-16 15:37:36,518 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a9_(2018)-9344.php
+2025-07-16 15:37:41,481 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A9 (2018)
+2025-07-16 15:37:41,481 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, October
+2025-07-16 15:37:41,481 - gsmarena.gsmarena_scraper - INFO - 价格: About 550 EUR
+2025-07-16 15:37:41,481 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A9 (2018)
+2025-07-16 15:37:41,482 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A920F
+2025-07-16 15:37:41,482 - scraper.orchestrator - INFO - ✅ 成功: SM-A920F - Samsung Galaxy A9 (2018)
+2025-07-16 15:37:41,482 - scraper.orchestrator - INFO - ⏳ 等待 5.2 秒...
+2025-07-16 15:37:46,668 - scraper.orchestrator - INFO - 📱 进度: 33/53 (62.3%)
+2025-07-16 15:37:46,670 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto e14
+2025-07-16 15:37:46,670 - google.google_search - INFO - 🔍 Google搜索: moto e14 site:gsmarena.com
+2025-07-16 15:37:53,076 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-16 15:37:53,076 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Motorola Moto E14
+2025-07-16 15:37:53,076 - google.google_search - INFO - ✅ 找到GSMArena链接 #2: Motorola Moto E14 arrives quietly: a £70 Android Go ...
+2025-07-16 15:37:53,076 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Motorola Moto E14 vs. Xiaomi Poco C75 vs. ZTE ...
+2025-07-16 15:37:53,077 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Motorola Moto E14 - User opinions and reviews - page 2
+2025-07-16 15:37:53,077 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Motorola Moto E14 vs. Xiaomi Mi 3
+2025-07-16 15:37:53,077 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Motorola Moto E14 alternatives - Similar or related devices
+2025-07-16 15:37:53,077 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Motorola Moto E14 pictures, official photos
+2025-07-16 15:37:53,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: 
+2025-07-16 15:37:53,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Motorola Moto E14 vs. Nokia ...
+2025-07-16 15:37:53,078 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Motorola Moto E14 price in UK, EU
+2025-07-16 15:37:53,078 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:37:53,078 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/motorola_moto_e14-13148.php
+2025-07-16 15:37:53,078 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_e14-13148.php
+2025-07-16 15:37:58,586 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto E14
+2025-07-16 15:37:58,586 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, June
+2025-07-16 15:37:58,586 - gsmarena.gsmarena_scraper - INFO - 价格: € 77.58
+2025-07-16 15:37:58,587 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto E14
+2025-07-16 15:37:58,587 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: moto e14
+2025-07-16 15:37:58,587 - scraper.orchestrator - INFO - ✅ 成功: moto e14 - Motorola Moto E14
+2025-07-16 15:37:58,587 - scraper.orchestrator - INFO - ⏳ 等待 5.5 秒...
+2025-07-16 15:38:04,118 - scraper.orchestrator - INFO - 📱 进度: 34/53 (64.2%)
+2025-07-16 15:38:04,119 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE A2022L
+2025-07-16 15:38:04,119 - google.google_search - INFO - 🔍 Google搜索: ZTE A2022L site:gsmarena.com
+2025-07-16 15:38:13,637 - google.google_search - INFO - 找到 4 个Google搜索结果
+2025-07-16 15:38:13,638 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:38:13,638 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: ZTE Axon 30 Pro to bring three 64MP cameras
+2025-07-16 15:38:13,639 - google.google_search - INFO - 🎯 Google搜索找到 2 个GSMArena链接
+2025-07-16 15:38:13,639 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/zte_axon_30_pro_to_bring_three_64mp_cameras-news-48235.php
+2025-07-16 15:38:13,639 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_axon_30_pro_to_bring_three_64mp_cameras-news-48235.php
+2025-07-16 15:38:19,197 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:38:19,197 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-07-16 15:38:19,197 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:38:19,197 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:38:19,197 - scraper.orchestrator - WARNING - GSMArena信息不完整: ZTE A2022L
+2025-07-16 15:38:19,197 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: ZTE A2022L
+2025-07-16 15:38:19,197 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: ZTE ZTE Blade A52
+2025-07-16 15:38:25,508 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Blade A52 Lite
+2025-07-16 15:38:25,509 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Blade A52 Lite
+2025-07-16 15:38:25,509 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Blade A52 Lite
+2025-07-16 15:38:38,955 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_a52_lite-11927.php
+2025-07-16 15:38:44,218 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade A52 Lite
+2025-07-16 15:38:44,218 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, August 20
+2025-07-16 15:38:44,218 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:38:44,218 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade A52 Lite
+2025-07-16 15:38:44,218 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: ZTE A2022L
+2025-07-16 15:38:44,219 - scraper.orchestrator - INFO - ✅ 成功: ZTE A2022L - ZTE Blade A52 Lite
+2025-07-16 15:38:44,219 - scraper.orchestrator - INFO - ⏳ 等待 3.8 秒...
+2025-07-16 15:38:48,062 - scraper.orchestrator - INFO - 📱 进度: 35/53 (66.0%)
+2025-07-16 15:38:48,062 - scraper.orchestrator - INFO - 🔄 开始处理设备: G3223
+2025-07-16 15:38:48,063 - google.google_search - INFO - 🔍 Google搜索: G3223 site:gsmarena.com
+2025-07-16 15:38:56,066 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:38:56,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:38:56,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Sony Xperia XA1 Ultra - Full phone specifications
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Sony Xperia XA1 Ultra
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Sony Xperia XA1 Ultra vs. ...
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Sony Xperia XZ1 vs. Sony Xperia XA1 Ultra
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Sony Xperia XA1 Ultra
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Sony Xperia XA1 Ultra vs. Samsung Galaxy J7 Pro
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Sony Xperia XA1 Ultra vs. Samsung Galaxy A50s
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Sony Xperia XA1 Ultra vs. Huawei Mate 10 Lite
+2025-07-16 15:38:56,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Sony Xperia XA1 Ultra vs. Huawei P20 lite
+2025-07-16 15:38:56,067 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:38:56,067 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/sony_xperia_xa1_ultra-8595.php
+2025-07-16 15:38:56,068 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/sony_xperia_xa1_ultra-8595.php
+2025-07-16 15:39:01,564 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:39:01,565 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2017, February
+2025-07-16 15:39:01,565 - gsmarena.gsmarena_scraper - INFO - 价格: About 250 EUR
+2025-07-16 15:39:01,565 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:39:01,565 - scraper.orchestrator - WARNING - GSMArena信息不完整: G3223
+2025-07-16 15:39:01,565 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: G3223
+2025-07-16 15:39:01,565 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Unknown G3223
+2025-07-16 15:39:08,497 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-16 15:39:16,110 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: Unknown G3223
+2025-07-16 15:39:16,111 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: G3223
+2025-07-16 15:39:16,111 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: G3223
+2025-07-16 15:39:16,111 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: G3223
+2025-07-16 15:39:31,517 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/sony_xperia_xa1_ultra-8595.php
+2025-07-16 15:39:36,362 - gsmarena.gsmarena_scraper - INFO - 设备名称: Sony Xperia XA1 Ultra
+2025-07-16 15:39:36,363 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2017, February
+2025-07-16 15:39:36,363 - gsmarena.gsmarena_scraper - INFO - 价格: About 250 EUR
+2025-07-16 15:39:36,363 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Sony Xperia XA1 Ultra
+2025-07-16 15:39:36,363 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: G3223
+2025-07-16 15:39:36,363 - scraper.orchestrator - INFO - ✅ 成功: G3223 - Sony Xperia XA1 Ultra
+2025-07-16 15:39:36,363 - scraper.orchestrator - INFO - ⏳ 等待 5.4 秒...
+2025-07-16 15:39:41,809 - scraper.orchestrator - INFO - 📱 进度: 36/53 (67.9%)
+2025-07-16 15:39:41,810 - scraper.orchestrator - INFO - 🔄 开始处理设备: STELLAR P7
+2025-07-16 15:39:41,811 - google.google_search - INFO - 🔍 Google搜索: STELLAR P7 site:gsmarena.com
+2025-07-16 15:39:49,951 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:39:49,953 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:39:49,953 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Huawei Ascend Mate7 review: Stargazer: Performance
+2025-07-16 15:39:49,953 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Huawei P8lite review: Style on a budget
+2025-07-16 15:39:49,953 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: LG G3 vs Oppo Find 7: Resolution wars: Battery life
+2025-07-16 15:39:49,953 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Asus PadFone X review: Like no other
+2025-07-16 15:39:49,954 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: GSMArena smartphone buyer's guide: February 2015
+2025-07-16 15:39:49,954 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Huawei P9 review: Ascension - Reader comments
+2025-07-16 15:39:49,954 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Tecno Phantom X2 in for review
+2025-07-16 15:39:49,954 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Weekly poll: what does your dream foldable phone look like?
+2025-07-16 15:39:49,954 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Huawei Honor 6 review: Virtue in disguise
+2025-07-16 15:39:49,954 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:39:49,954 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/allview_p7_seon-6858.php
+2025-07-16 15:39:49,954 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/allview_p7_seon-6858.php
+2025-07-16 15:39:55,232 - gsmarena.gsmarena_scraper - INFO - 设备名称: Allview P7 Seon
+2025-07-16 15:39:55,232 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2014, July
+2025-07-16 15:39:55,232 - gsmarena.gsmarena_scraper - INFO - 价格: About 230 EUR
+2025-07-16 15:39:55,232 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Allview P7 Seon
+2025-07-16 15:39:55,232 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: STELLAR P7
+2025-07-16 15:39:55,232 - scraper.orchestrator - INFO - ✅ 成功: STELLAR P7 - Allview P7 Seon
+2025-07-16 15:39:55,232 - scraper.orchestrator - INFO - ⏳ 等待 5.1 秒...
+2025-07-16 15:40:00,370 - scraper.orchestrator - INFO - 📱 进度: 37/53 (69.8%)
+2025-07-16 15:40:00,371 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE Blade A33s
+2025-07-16 15:40:00,371 - google.google_search - INFO - 🔍 Google搜索: ZTE Blade A33s site:gsmarena.com
+2025-07-16 15:40:07,504 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:40:07,504 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: ZTE Blade A33s - Full phone specifications
+2025-07-16 15:40:07,505 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:40:07,505 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare ZTE Blade A33s vs. Nokia C22
+2025-07-16 15:40:07,505 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: ZTE Blade A33s - User opinions and reviews
+2025-07-16 15:40:07,505 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: ZTE Blade A33s pictures, official photos
+2025-07-16 15:40:07,505 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: ZTE Blade A33s alternatives - Similar or related devices
+2025-07-16 15:40:07,505 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: All ZTE phones
+2025-07-16 15:40:07,505 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: ZTE Blade A3 - Full phone specifications
+2025-07-16 15:40:07,506 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: ZTE Blade A3 - User opinions and reviews
+2025-07-16 15:40:07,506 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: ZTE Blade A3 Plus - Full phone specifications
+2025-07-16 15:40:07,506 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:40:07,506 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/zte_blade_a33s-13550.php
+2025-07-16 15:40:07,506 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_a33s-13550.php
+2025-07-16 15:40:13,034 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade A33s
+2025-07-16 15:40:13,035 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, November
+2025-07-16 15:40:13,035 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:40:13,035 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade A33s
+2025-07-16 15:40:13,035 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: ZTE Blade A33s
+2025-07-16 15:40:13,035 - scraper.orchestrator - INFO - ✅ 成功: ZTE Blade A33s - ZTE Blade A33s
+2025-07-16 15:40:13,035 - scraper.orchestrator - INFO - ⏳ 等待 3.2 秒...
+2025-07-16 15:40:16,271 - scraper.orchestrator - INFO - 📱 进度: 38/53 (71.7%)
+2025-07-16 15:40:16,272 - scraper.orchestrator - INFO - 🔄 开始处理设备: G63
+2025-07-16 15:40:16,272 - google.google_search - INFO - 🔍 Google搜索: G63 site:gsmarena.com
+2025-07-16 15:40:24,441 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:40:24,442 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: BLU G63 - Full phone specifications
+2025-07-16 15:40:24,442 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare BLU G63
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: BLU G63 pictures, official photos
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: BLU G63 alternatives - Similar or related devices
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: BLU G63 - User opinions and reviews
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Photo compare BLU G63
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Video compare BLU G63
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: BLU View 3 - Full phone specifications
+2025-07-16 15:40:24,443 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: BLU Amour - Full phone specifications
+2025-07-16 15:40:24,443 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:40:24,443 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/blu_g63-12458.php
+2025-07-16 15:40:24,443 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/blu_g63-12458.php
+2025-07-16 15:40:29,817 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: HTTPSConnectionPool(host='m.gsmarena.com', port=443): Max retries exceeded with url: /blu_g63-12458.php (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))
+2025-07-16 15:40:29,817 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: G63
+2025-07-16 15:40:29,817 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Unknown G63
+2025-07-16 15:40:35,481 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-16 15:40:40,720 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: Unknown G63
+2025-07-16 15:40:40,720 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: G63
+2025-07-16 15:40:40,720 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: G63
+2025-07-16 15:40:40,720 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: G63
+2025-07-16 15:40:55,798 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/blu_g63-12458.php
+2025-07-16 15:41:02,271 - gsmarena.gsmarena_scraper - INFO - 设备名称: BLU G63
+2025-07-16 15:41:02,271 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, June
+2025-07-16 15:41:02,271 - gsmarena.gsmarena_scraper - INFO - 价格: About 120 EUR
+2025-07-16 15:41:02,271 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: BLU G63
+2025-07-16 15:41:02,271 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: G63
+2025-07-16 15:41:02,271 - scraper.orchestrator - INFO - ✅ 成功: G63 - BLU G63
+2025-07-16 15:41:02,271 - scraper.orchestrator - INFO - ⏳ 等待 5.6 秒...
+2025-07-16 15:41:07,904 - scraper.orchestrator - INFO - 📱 进度: 39/53 (73.6%)
+2025-07-16 15:41:07,905 - scraper.orchestrator - INFO - 🔄 开始处理设备: SHARK KSR-H0
+2025-07-16 15:41:07,906 - google.google_search - INFO - 🔍 Google搜索: SHARK KSR-H0 site:gsmarena.com
+2025-07-16 15:41:14,721 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-16 15:41:14,723 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-16 15:41:14,723 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Xiaomi Black Shark 4 - Full phone specifications
+2025-07-16 15:41:14,723 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Xiaomi Black Shark 4 Pro - Full phone specifications
+2025-07-16 15:41:14,723 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Black Shark 4 Pro ...
+2025-07-16 15:41:14,723 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Black Shark vs. Xiaomi Black Shark 2
+2025-07-16 15:41:14,724 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Black Shark
+2025-07-16 15:41:14,724 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Black Shark vs. Xiaomi Mi 8
+2025-07-16 15:41:14,724 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Xiaomi Black Shark 5
+2025-07-16 15:41:14,724 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Black Shark vs. Razer Phone ...
+2025-07-16 15:41:14,724 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare - Xiaomi Black Shark 4
+2025-07-16 15:41:14,724 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-16 15:41:14,724 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_black_shark_4-10714.php
+2025-07-16 15:41:14,724 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_black_shark_4-10714.php
+2025-07-16 15:41:19,471 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Black Shark 4
+2025-07-16 15:41:19,471 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, March 23
+2025-07-16 15:41:19,471 - gsmarena.gsmarena_scraper - INFO - 价格: About 930 EUR
+2025-07-16 15:41:19,471 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Black Shark 4
+2025-07-16 15:41:19,471 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SHARK KSR-H0
+2025-07-16 15:41:19,471 - scraper.orchestrator - INFO - ✅ 成功: SHARK KSR-H0 - Xiaomi Black Shark 4
+2025-07-16 15:41:19,471 - scraper.orchestrator - INFO - ⏳ 等待 3.4 秒...
+2025-07-16 15:41:22,888 - scraper.orchestrator - INFO - 📱 进度: 40/53 (75.5%)
+2025-07-16 15:41:22,889 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE 9046
+2025-07-16 15:41:22,889 - google.google_search - INFO - 🔍 Google搜索: ZTE 9046 site:gsmarena.com
+2025-07-16 15:41:30,451 - google.google_search - INFO - 找到 5 个Google搜索结果
+2025-07-16 15:41:30,451 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: ZTE Blade V40 Pro - Full phone specifications
+2025-07-16 15:41:30,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-16 15:41:30,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Video quality comparison
+2025-07-16 15:41:30,452 - google.google_search - INFO - 🎯 Google搜索找到 3 个GSMArena链接
+2025-07-16 15:41:30,452 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://m.gsmarena.com/zte_blade_v40_pro-11660.php
+2025-07-16 15:41:30,452 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://m.gsmarena.com/zte_blade_v40_pro-11660.php
+2025-07-16 15:41:35,444 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-07-16 15:41:35,444 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, March 01
+2025-07-16 15:41:35,445 - gsmarena.gsmarena_scraper - INFO - 价格: About 350 EUR
+2025-07-16 15:41:35,445 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-07-16 15:41:35,445 - scraper.orchestrator - WARNING - GSMArena信息不完整: ZTE 9046
+2025-07-16 15:41:35,445 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: ZTE 9046
+2025-07-16 15:41:35,445 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: ZTE ZTE Blade A51
+2025-07-16 15:41:44,044 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Blade A51
+2025-07-16 15:41:44,045 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Blade A51
+2025-07-16 15:41:44,045 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Blade A51
+2025-07-16 15:42:00,555 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/zte_blade_a51-11239.php
+2025-07-16 15:42:06,208 - gsmarena.gsmarena_scraper - INFO - 设备名称: ZTE Blade A51
+2025-07-16 15:42:06,208 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, May 08
+2025-07-16 15:42:06,208 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-16 15:42:06,208 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: ZTE Blade A51
+2025-07-16 15:42:06,208 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: ZTE 9046
+2025-07-16 15:42:06,208 - scraper.orchestrator - INFO - ✅ 成功: ZTE 9046 - ZTE Blade A51
+2025-07-16 15:42:06,208 - scraper.orchestrator - INFO - ⏳ 等待 5.3 秒...
+2025-07-16 15:42:11,478 - scraper.orchestrator - INFO - 📱 进度: 41/53 (77.4%)
+2025-07-16 15:42:11,479 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g(6) plus
+2025-07-16 15:42:11,479 - google.google_search - INFO - 🔍 Google搜索: moto g(6) plus site:gsmarena.com
+2025-07-16 15:42:34,957 - google.google_search - WARNING - Google搜索页面加载超时: moto g(6) plus
+2025-07-16 15:42:34,958 - scraper.orchestrator - INFO - Google未找到GSMArena链接: moto g(6) plus
+2025-07-16 15:42:34,958 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: moto g(6) plus
+2025-07-16 15:42:34,959 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Motorola Moto G6 Plus
+2025-07-16 15:42:42,080 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Moto G6 Plus
+2025-07-16 15:42:42,080 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Moto G6 Plus
+2025-07-16 15:42:42,081 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Moto G6 Plus
+2025-07-16 15:42:55,821 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/motorola_moto_g6_plus-9001.php
+2025-07-16 15:43:01,381 - gsmarena.gsmarena_scraper - INFO - 设备名称: Motorola Moto G6 Plus
+2025-07-16 15:43:01,381 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, April
+2025-07-16 15:43:01,381 - gsmarena.gsmarena_scraper - INFO - 价格: About 190 EUR
+2025-07-16 15:43:01,381 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Motorola Moto G6 Plus
+2025-07-16 15:43:01,381 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: moto g(6) plus
+2025-07-16 15:43:01,381 - scraper.orchestrator - INFO - ✅ 成功: moto g(6) plus - Motorola Moto G6 Plus
+2025-07-16 15:43:01,381 - scraper.orchestrator - INFO - ⏳ 等待 4.2 秒...
+2025-07-16 15:43:05,560 - scraper.orchestrator - INFO - 📱 进度: 42/53 (79.2%)
+2025-07-16 15:43:05,561 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE Blade L210
+2025-07-16 15:43:05,561 - google.google_search - INFO - 🔍 Google搜索: ZTE Blade L210 site:gsmarena.com
+2025-07-16 15:43:17,830 - google.google_search - ERROR - Google搜索失败 ZTE Blade L210: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e3f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x0000000104357dc8 chromedriver + 196040
+4   chromedriver                        0x000000010437af14 cxxbridge1$string$len + 142660
+5   chromedriver                        0x00000001043dd9bc cxxbridge1$string$len + 546796
+6   chromedriver                        0x00000001043f6638 cxxbridge1$string$len + 648296
+7   chromedriver                        0x00000001043a9a0c cxxbridge1$string$len + 333884
+8   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+9   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+10  chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+11  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+12  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+13  chromedriver                        0x000000010480dff8 cxxbridge1$str$ptr + 2627284
+14  chromedriver                        0x000000010480e184 cxxbridge1$str$ptr + 2627680
+15  chromedriver                        0x000000010481f090 cxxbridge1$str$ptr + 2697068
+16  libsystem_pthread.dylib             0x0000000198d6ffa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x0000000198d6ada0 thread_start + 8
+
+2025-07-16 15:43:17,831 - scraper.orchestrator - INFO - Google未找到GSMArena链接: ZTE Blade L210
+2025-07-16 15:43:17,831 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: ZTE Blade L210
+2025-07-16 15:43:17,831 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: ZTE ZTE Blade L210
+2025-07-16 15:43:23,730 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Blade L210
+2025-07-16 15:43:23,730 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Blade L210
+2025-07-16 15:43:23,730 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Blade L210
+2025-07-16 15:43:28,508 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 Blade L210: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a3f8 cxxbridge1$string$len + 90664
+3   chromedriver                        0x0000000100953dc8 chromedriver + 196040
+4   chromedriver                        0x0000000100976f14 cxxbridge1$string$len + 142660
+5   chromedriver                        0x00000001009d99bc cxxbridge1$string$len + 546796
+6   chromedriver                        0x00000001009f2638 cxxbridge1$string$len + 648296
+7   chromedriver                        0x00000001009a5a0c cxxbridge1$string$len + 333884
+8   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+9   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+10  chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+11  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+12  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+13  chromedriver                        0x0000000100e09ff8 cxxbridge1$str$ptr + 2627284
+14  chromedriver                        0x0000000100e0a184 cxxbridge1$str$ptr + 2627680
+15  chromedriver                        0x0000000100e1b090 cxxbridge1$str$ptr + 2697068
+16  libsystem_pthread.dylib             0x0000000198d6ffa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x0000000198d6ada0 thread_start + 8
+
+2025-07-16 15:43:28,508 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: ZTE Blade L210
+2025-07-16 15:43:28,508 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: ZTE Blade L210
+2025-07-16 15:43:32,847 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 ZTE Blade L210: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:43:32,847 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: ZTE Blade L210
+2025-07-16 15:43:32,847 - scraper.orchestrator - WARNING - ❌ 失败: ZTE Blade L210 - 所有搜索方法都失败
+2025-07-16 15:43:32,848 - scraper.orchestrator - INFO - ⏳ 等待 5.9 秒...
+2025-07-16 15:43:38,784 - scraper.orchestrator - INFO - 📱 进度: 43/53 (81.1%)
+2025-07-16 15:43:38,784 - scraper.orchestrator - INFO - 🔄 开始处理设备: Hisense E50 128G
+2025-07-16 15:43:38,784 - google.google_search - INFO - 🔍 Google搜索: Hisense E50 128G site:gsmarena.com
+2025-07-16 15:43:44,757 - google.google_search - ERROR - Google搜索失败 Hisense E50 128G: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:43:44,758 - scraper.orchestrator - INFO - Google未找到GSMArena链接: Hisense E50 128G
+2025-07-16 15:43:44,758 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Hisense E50 128G
+2025-07-16 15:43:44,758 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Hisense Hisense E50 128G
+2025-07-16 15:43:50,578 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: E50
+2025-07-16 15:43:50,579 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: E50
+2025-07-16 15:43:50,579 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: E50
+2025-07-16 15:43:56,376 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 E50: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:43:56,377 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: Hisense E50 128G
+2025-07-16 15:43:56,377 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: Hisense E50 128G
+2025-07-16 15:44:00,956 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 Hisense E50 128G: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:44:00,957 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: Hisense E50 128G
+2025-07-16 15:44:00,957 - scraper.orchestrator - WARNING - ❌ 失败: Hisense E50 128G - 所有搜索方法都失败
+2025-07-16 15:44:00,957 - scraper.orchestrator - INFO - ⏳ 等待 3.5 秒...
+2025-07-16 15:44:04,505 - scraper.orchestrator - INFO - 📱 进度: 44/53 (83.0%)
+2025-07-16 15:44:04,505 - scraper.orchestrator - INFO - 🔄 开始处理设备: LM-X525
+2025-07-16 15:44:04,506 - google.google_search - INFO - 🔍 Google搜索: LM-X525 site:gsmarena.com
+2025-07-16 15:44:08,598 - google.google_search - ERROR - Google搜索失败 LM-X525: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:44:08,599 - scraper.orchestrator - INFO - Google未找到GSMArena链接: LM-X525
+2025-07-16 15:44:08,599 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: LM-X525
+2025-07-16 15:44:08,599 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: LG LM-X525
+2025-07-16 15:44:16,289 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: K12 Prime
+2025-07-16 15:44:16,290 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: K12 Prime
+2025-07-16 15:44:16,290 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: K12 Prime
+2025-07-16 15:44:20,845 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 K12 Prime: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:44:20,846 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: LM-X525
+2025-07-16 15:44:20,846 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: LM-X525
+2025-07-16 15:44:25,383 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 LM-X525: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:44:25,384 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: LM-X525
+2025-07-16 15:44:25,384 - scraper.orchestrator - WARNING - ❌ 失败: LM-X525 - 所有搜索方法都失败
+2025-07-16 15:44:25,384 - scraper.orchestrator - INFO - ⏳ 等待 4.9 秒...
+2025-07-16 15:44:30,252 - scraper.orchestrator - INFO - 📱 进度: 45/53 (84.9%)
+2025-07-16 15:44:30,253 - scraper.orchestrator - INFO - 🔄 开始处理设备: Hisense U50
+2025-07-16 15:44:30,253 - google.google_search - INFO - 🔍 Google搜索: Hisense U50 site:gsmarena.com
+2025-07-16 15:44:35,604 - google.google_search - ERROR - Google搜索失败 Hisense U50: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:44:35,604 - scraper.orchestrator - INFO - Google未找到GSMArena链接: Hisense U50
+2025-07-16 15:44:35,604 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Hisense U50
+2025-07-16 15:44:35,604 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Hisense Hisense U50
+2025-07-16 15:44:42,754 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: U50
+2025-07-16 15:44:42,755 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: U50
+2025-07-16 15:44:42,755 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: U50
+2025-07-16 15:44:47,167 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 U50: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:44:47,168 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: Hisense U50
+2025-07-16 15:44:47,168 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: Hisense U50
+2025-07-16 15:44:52,914 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 Hisense U50: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:44:52,915 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: Hisense U50
+2025-07-16 15:44:52,915 - scraper.orchestrator - WARNING - ❌ 失败: Hisense U50 - 所有搜索方法都失败
+2025-07-16 15:44:52,915 - scraper.orchestrator - INFO - ⏳ 等待 4.0 秒...
+2025-07-16 15:44:56,893 - scraper.orchestrator - INFO - 📱 进度: 46/53 (86.8%)
+2025-07-16 15:44:56,893 - scraper.orchestrator - INFO - 🔄 开始处理设备: 65PA1
+2025-07-16 15:44:56,894 - google.google_search - INFO - 🔍 Google搜索: 65PA1 site:gsmarena.com
+2025-07-16 15:45:00,329 - google.google_search - ERROR - Google搜索失败 65PA1: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:45:00,330 - scraper.orchestrator - INFO - Google未找到GSMArena链接: 65PA1
+2025-07-16 15:45:00,330 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: 65PA1
+2025-07-16 15:45:00,330 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Unknown 65PA1
+2025-07-16 15:45:07,551 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-16 15:45:15,620 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: Unknown 65PA1
+2025-07-16 15:45:15,620 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: 65PA1
+2025-07-16 15:45:15,620 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: 65PA1
+2025-07-16 15:45:15,620 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: 65PA1
+2025-07-16 15:45:21,565 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 65PA1: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:45:21,566 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: 65PA1
+2025-07-16 15:45:21,566 - scraper.orchestrator - WARNING - ❌ 失败: 65PA1 - 所有搜索方法都失败
+2025-07-16 15:45:21,566 - scraper.orchestrator - INFO - ⏳ 等待 4.8 秒...
+2025-07-16 15:45:26,335 - scraper.orchestrator - INFO - 📱 进度: 47/53 (88.7%)
+2025-07-16 15:45:26,336 - scraper.orchestrator - INFO - 🔄 开始处理设备: ALT-LX3
+2025-07-16 15:45:26,336 - google.google_search - INFO - 🔍 Google搜索: ALT-LX3 site:gsmarena.com
+2025-07-16 15:45:31,828 - google.google_search - ERROR - Google搜索失败 ALT-LX3: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:45:31,828 - scraper.orchestrator - INFO - Google未找到GSMArena链接: ALT-LX3
+2025-07-16 15:45:31,828 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: ALT-LX3
+2025-07-16 15:45:31,828 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Huawei ALT-LX3
+2025-07-16 15:45:38,248 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Y6s
+2025-07-16 15:45:38,249 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Y6s
+2025-07-16 15:45:38,249 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Y6s
+2025-07-16 15:45:43,186 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 Y6s: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:45:43,186 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: ALT-LX3
+2025-07-16 15:45:43,186 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: ALT-LX3
+2025-07-16 15:45:49,056 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 ALT-LX3: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:45:49,056 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: ALT-LX3
+2025-07-16 15:45:49,056 - scraper.orchestrator - WARNING - ❌ 失败: ALT-LX3 - 所有搜索方法都失败
+2025-07-16 15:45:49,056 - scraper.orchestrator - INFO - ⏳ 等待 3.4 秒...
+2025-07-16 15:45:52,423 - scraper.orchestrator - INFO - 📱 进度: 48/53 (90.6%)
+2025-07-16 15:45:52,423 - scraper.orchestrator - INFO - 🔄 开始处理设备: ZTE 9045
+2025-07-16 15:45:52,423 - google.google_search - INFO - 🔍 Google搜索: ZTE 9045 site:gsmarena.com
+2025-07-16 15:45:55,909 - google.google_search - ERROR - Google搜索失败 ZTE 9045: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:45:55,910 - scraper.orchestrator - INFO - Google未找到GSMArena链接: ZTE 9045
+2025-07-16 15:45:55,910 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: ZTE 9045
+2025-07-16 15:45:55,910 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: ZTE ZTE Blade A31
+2025-07-16 15:46:04,811 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Blade A31
+2025-07-16 15:46:04,812 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Blade A31
+2025-07-16 15:46:04,812 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Blade A31
+2025-07-16 15:46:08,260 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 Blade A31: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:46:08,261 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: ZTE 9045
+2025-07-16 15:46:08,261 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: ZTE 9045
+2025-07-16 15:46:13,071 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 ZTE 9045: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:46:13,072 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: ZTE 9045
+2025-07-16 15:46:13,072 - scraper.orchestrator - WARNING - ❌ 失败: ZTE 9045 - 所有搜索方法都失败
+2025-07-16 15:46:13,072 - scraper.orchestrator - INFO - ⏳ 等待 4.9 秒...
+2025-07-16 15:46:17,978 - scraper.orchestrator - INFO - 📱 进度: 49/53 (92.5%)
+2025-07-16 15:46:17,979 - scraper.orchestrator - INFO - 🔄 开始处理设备: moto g stylus 5G - 2023
+2025-07-16 15:46:17,979 - google.google_search - INFO - 🔍 Google搜索: moto g stylus 5G - 2023 site:gsmarena.com
+2025-07-16 15:46:22,321 - google.google_search - ERROR - Google搜索失败 moto g stylus 5G - 2023: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:46:22,321 - scraper.orchestrator - INFO - Google未找到GSMArena链接: moto g stylus 5G - 2023
+2025-07-16 15:46:22,321 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: moto g stylus 5G - 2023
+2025-07-16 15:46:22,322 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Motorola Moto G Stylus 5G (2023)
+2025-07-16 15:46:29,473 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Moto G Stylus 5G 2025
+2025-07-16 15:46:29,474 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Moto G Stylus 5G 2025
+2025-07-16 15:46:29,474 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Moto G Stylus 5G 2025
+2025-07-16 15:46:34,510 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 Moto G Stylus 5G 2025: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:46:34,510 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: moto g stylus 5G - 2023
+2025-07-16 15:46:34,510 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: moto g stylus 5G - 2023
+2025-07-16 15:46:39,266 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 moto g stylus 5G - 2023: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:46:39,267 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: moto g stylus 5G - 2023
+2025-07-16 15:46:39,267 - scraper.orchestrator - WARNING - ❌ 失败: moto g stylus 5G - 2023 - 所有搜索方法都失败
+2025-07-16 15:46:39,267 - scraper.orchestrator - INFO - ⏳ 等待 5.0 秒...
+2025-07-16 15:46:44,233 - scraper.orchestrator - INFO - 📱 进度: 50/53 (94.3%)
+2025-07-16 15:46:44,233 - scraper.orchestrator - INFO - 🔄 开始处理设备: Q5
+2025-07-16 15:46:44,234 - google.google_search - INFO - 🔍 Google搜索: Q5 site:gsmarena.com
+2025-07-16 15:46:49,815 - google.google_search - ERROR - Google搜索失败 Q5: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:46:49,815 - scraper.orchestrator - INFO - Google未找到GSMArena链接: Q5
+2025-07-16 15:46:49,815 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Q5
+2025-07-16 15:46:49,815 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Unknown Q5
+2025-07-16 15:46:57,171 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Q5
+2025-07-16 15:46:57,171 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Q5
+2025-07-16 15:46:57,172 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Q5
+2025-07-16 15:47:02,339 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 Q5: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:47:02,340 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: Q5
+2025-07-16 15:47:02,340 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: Q5
+2025-07-16 15:47:08,068 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 Q5: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:47:08,068 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: Q5
+2025-07-16 15:47:08,068 - scraper.orchestrator - WARNING - ❌ 失败: Q5 - 所有搜索方法都失败
+2025-07-16 15:47:08,069 - scraper.orchestrator - INFO - ⏳ 等待 4.9 秒...
+2025-07-16 15:47:12,986 - scraper.orchestrator - INFO - 📱 进度: 51/53 (96.2%)
+2025-07-16 15:47:12,987 - scraper.orchestrator - INFO - 🔄 开始处理设备: Motorola Defy
+2025-07-16 15:47:12,987 - google.google_search - INFO - 🔍 Google搜索: Motorola Defy site:gsmarena.com
+2025-07-16 15:47:18,646 - google.google_search - ERROR - Google搜索失败 Motorola Defy: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:47:18,647 - scraper.orchestrator - INFO - Google未找到GSMArena链接: Motorola Defy
+2025-07-16 15:47:18,647 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Motorola Defy
+2025-07-16 15:47:18,647 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Motorola Motorola Defy
+2025-07-16 15:47:24,730 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Defy
+2025-07-16 15:47:24,730 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Defy
+2025-07-16 15:47:24,731 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Defy
+2025-07-16 15:47:30,304 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 Defy: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:47:30,305 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: Motorola Defy
+2025-07-16 15:47:30,305 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: Motorola Defy
+2025-07-16 15:47:34,350 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 Motorola Defy: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:47:34,351 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: Motorola Defy
+2025-07-16 15:47:34,351 - scraper.orchestrator - WARNING - ❌ 失败: Motorola Defy - 所有搜索方法都失败
+2025-07-16 15:47:34,351 - scraper.orchestrator - INFO - ⏳ 等待 4.6 秒...
+2025-07-16 15:47:38,936 - scraper.orchestrator - INFO - 📱 进度: 52/53 (98.1%)
+2025-07-16 15:47:38,937 - scraper.orchestrator - INFO - 🔄 开始处理设备: Mi A2 Lite
+2025-07-16 15:47:38,937 - google.google_search - INFO - 🔍 Google搜索: Mi A2 Lite site:gsmarena.com
+2025-07-16 15:47:44,242 - google.google_search - ERROR - Google搜索失败 Mi A2 Lite: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:47:44,243 - scraper.orchestrator - INFO - Google未找到GSMArena链接: Mi A2 Lite
+2025-07-16 15:47:44,243 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Mi A2 Lite
+2025-07-16 15:47:44,243 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Xiaomi Mi A2 Lite
+2025-07-16 15:47:51,021 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: Mi A2 Lite
+2025-07-16 15:47:51,021 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Mi A2 Lite
+2025-07-16 15:47:51,021 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Mi A2 Lite
+2025-07-16 15:47:55,371 - gsmarena.gsmarena_scraper - ERROR - GSMArena按名称搜索失败 Mi A2 Lite: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:47:55,371 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: Mi A2 Lite
+2025-07-16 15:47:55,371 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: Mi A2 Lite
+2025-07-16 15:48:01,018 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 Mi A2 Lite: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:48:01,019 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: Mi A2 Lite
+2025-07-16 15:48:01,019 - scraper.orchestrator - WARNING - ❌ 失败: Mi A2 Lite - 所有搜索方法都失败
+2025-07-16 15:48:01,019 - scraper.orchestrator - INFO - ⏳ 等待 5.8 秒...
+2025-07-16 15:48:06,808 - scraper.orchestrator - INFO - 📱 进度: 53/53 (100.0%)
+2025-07-16 15:48:06,809 - scraper.orchestrator - INFO - 🔄 开始处理设备: ALP-L09
+2025-07-16 15:48:06,809 - google.google_search - INFO - 🔍 Google搜索: ALP-L09 site:gsmarena.com
+2025-07-16 15:48:11,340 - google.google_search - ERROR - Google搜索失败 ALP-L09: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x000000010482755c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x000000010481f454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010436e26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001043a8ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001043d14c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001043d07d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x000000010433d3d4 chromedriver + 86996
+7   chromedriver                        0x00000001047ea5e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x00000001047ed848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x00000001047cb234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x00000001047ee104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x00000001047bc2e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x000000010433b664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:48:11,340 - scraper.orchestrator - INFO - Google未找到GSMArena链接: ALP-L09
+2025-07-16 15:48:11,340 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: ALP-L09
+2025-07-16 15:48:11,340 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备名称: Unknown ALP-L09
+2025-07-16 15:48:18,807 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-16 15:48:23,812 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: HTTPSConnectionPool(host='www.gsmchoice.com', port=443): Max retries exceeded with url: /en/search/?sSearch4=Unknown+ALP-L09 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-07-16 15:48:23,813 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: ALP-L09
+2025-07-16 15:48:23,813 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: ALP-L09
+2025-07-16 15:48:23,813 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: ALP-L09
+2025-07-16 15:48:27,112 - gsmarena.gsmarena_scraper - ERROR - GSMArena搜索失败 ALP-L09: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e2355c cxxbridge1$str$ptr + 2731064
+1   chromedriver                        0x0000000100e1b454 cxxbridge1$str$ptr + 2698032
+2   chromedriver                        0x000000010096a26c cxxbridge1$string$len + 90268
+3   chromedriver                        0x00000001009a4ed0 cxxbridge1$string$len + 331008
+4   chromedriver                        0x00000001009cd4c8 cxxbridge1$string$len + 496376
+5   chromedriver                        0x00000001009cc7d0 cxxbridge1$string$len + 493056
+6   chromedriver                        0x00000001009393d4 chromedriver + 86996
+7   chromedriver                        0x0000000100de65e0 cxxbridge1$str$ptr + 2481340
+8   chromedriver                        0x0000000100de9848 cxxbridge1$str$ptr + 2494244
+9   chromedriver                        0x0000000100dc7234 cxxbridge1$str$ptr + 2353424
+10  chromedriver                        0x0000000100dea104 cxxbridge1$str$ptr + 2496480
+11  chromedriver                        0x0000000100db82e4 cxxbridge1$str$ptr + 2292160
+12  chromedriver                        0x0000000100937664 chromedriver + 79460
+13  dyld                                0x0000000198a17f28 start + 2236
+
+2025-07-16 15:48:27,113 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: ALP-L09
+2025-07-16 15:48:27,113 - scraper.orchestrator - WARNING - ❌ 失败: ALP-L09 - 所有搜索方法都失败
+2025-07-16 15:48:27,113 - scraper.orchestrator - INFO - 
+🎯 处理完成!
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - 📊 总数: 53
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - ✅ 成功: 41
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - ❌ 失败: 12
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - 📈 成功率: 77.4%
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - ⏱️ 处理时间: 1551.2 秒
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - 🔍 Google搜索: 53 次
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - 🎯 GSMArena直接命中: 25 次
+2025-07-16 15:48:27,114 - scraper.orchestrator - INFO - 🔄 GSMChoice备用方案: 28 次
+2025-07-16 15:48:27,128 - tools.csv_tools - INFO - ✅ 成功保存 41 条结果到: output/device_info_extracted_20250716_154827.csv
+2025-07-16 15:48:27,129 - tools.csv_tools - INFO - 📋 样例数据:
+2025-07-16 15:48:27,129 - tools.csv_tools - INFO -    设备: Samsung Galaxy J4+
+2025-07-16 15:48:27,129 - tools.csv_tools - INFO -    价格: About 220 EUR
+2025-07-16 15:48:27,129 - tools.csv_tools - INFO -    发布: 2018, September
+2025-07-16 15:48:27,130 - tools.csv_tools - INFO - ❌ 失败设备已保存到: output/failed_devices_20250716_154827.csv
+2025-07-16 15:48:27,132 - tools.csv_tools - INFO - 📊 处理日志已保存到: output/processing_log_20250716_154827.csv
+2025-07-16 15:48:27,132 - __main__ - INFO - 
+============================================================
+2025-07-16 15:48:27,132 - __main__ - INFO - 🎉 处理完成!
+2025-07-16 15:48:27,132 - __main__ - INFO - ============================================================
+2025-07-16 15:48:27,132 - __main__ - INFO - ⏱️ 总耗时: 1551.2 秒
+2025-07-16 15:48:27,132 - __main__ - INFO - 📁 保存的文件:
+2025-07-16 15:48:27,133 - __main__ - INFO -    success_file: output/device_info_extracted_20250716_154827.csv
+2025-07-16 15:48:27,133 - __main__ - INFO -    failed_file: output/failed_devices_20250716_154827.csv
+2025-07-16 15:48:27,133 - __main__ - INFO -    log_file: output/processing_log_20250716_154827.csv
+2025-07-16 15:48:27,138 - google.google_search - INFO - Google搜索WebDriver已关闭
+2025-07-16 15:48:27,142 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver已关闭
+2025-07-16 15:48:27,142 - gsmchoice.gsmchoice_scraper - INFO - GSMChoice爬虫已关闭
+2025-07-16 15:48:27,142 - scraper.orchestrator - INFO - 🔒 所有爬虫连接已关闭
+2025-07-16 15:48:27,142 - __main__ - INFO - ✅ 程序执行成功

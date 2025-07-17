@@ -1,0 +1,1112 @@
+2025-07-17 11:21:56,173 - __main__ - INFO - 日志文件: logs/device_scraper_20250717_112156.log
+2025-07-17 11:21:56,173 - __main__ - INFO - 📱 设备信息爬取系统 v1.0.0
+2025-07-17 11:21:56,173 - __main__ - INFO - 🔧 模块化架构 | Google+GSMArena+GSMChoice
+2025-07-17 11:21:56,173 - __main__ - INFO - 🔍 检查运行环境...
+2025-07-17 11:21:56,174 - __main__ - INFO - ✅ requests
+2025-07-17 11:21:56,174 - __main__ - INFO - ✅ beautifulsoup4
+2025-07-17 11:21:56,174 - __main__ - INFO - ✅ selenium
+2025-07-17 11:21:56,174 - __main__ - INFO - ✅ pandas
+2025-07-17 11:22:01,295 - selenium.webdriver.common.selenium_manager - WARNING - There was an error managing chrome (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: Connection reset by peer (os error 54)); using driver found in the cache
+2025-07-17 11:22:02,882 - __main__ - INFO - ✅ Chrome WebDriver
+2025-07-17 11:22:02,882 - __main__ - INFO - ✅ 环境检查通过
+2025-07-17 11:22:02,882 - __main__ - INFO - 🚀 启动设备信息爬取系统
+2025-07-17 11:22:02,883 - __main__ - INFO - ============================================================
+2025-07-17 11:22:02,888 - __main__ - INFO - ✅ 输入文件有效: 文件有效，包含 841 行数据
+2025-07-17 11:22:07,966 - selenium.webdriver.common.selenium_manager - WARNING - There was an error managing chrome (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: Connection reset by peer (os error 54)); using driver found in the cache
+2025-07-17 11:22:08,874 - google.google_search - INFO - Google搜索WebDriver初始化成功
+2025-07-17 11:22:13,942 - selenium.webdriver.common.selenium_manager - WARNING - There was an error managing chrome (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: Connection reset by peer (os error 54)); using driver found in the cache
+2025-07-17 11:22:14,882 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver初始化成功
+2025-07-17 11:22:14,882 - scraper.orchestrator - INFO - 🚀 设备信息爬取调度器初始化完成
+2025-07-17 11:22:14,885 - tools.csv_tools - INFO - 读取CSV文件: model_codes.csv, 共 841 行
+2025-07-17 11:22:14,889 - tools.csv_tools - INFO - 唯一型号数量: 837
+2025-07-17 11:22:14,889 - tools.csv_tools - INFO - 有效设备数量: 837
+2025-07-17 11:22:14,889 - __main__ - INFO - 📄 读取到 837 个设备
+2025-07-17 11:22:14,889 - __main__ - INFO - ⚙️ 配置: 延迟 4 秒/请求
+2025-07-17 11:22:14,889 - scraper.orchestrator - INFO - 🚀 开始批量处理 837 个设备
+2025-07-17 11:22:14,889 - scraper.orchestrator - INFO - 📱 进度: 1/837 (0.1%)
+2025-07-17 11:22:14,889 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2239
+2025-07-17 11:22:14,890 - google.google_search - INFO - 🔍 Google搜索: CPH2239 site:gsmarena.com
+2025-07-17 11:22:24,901 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:22:24,902 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A54 - Full phone specifications
+2025-07-17 11:22:24,902 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A54 5G - Full phone specifications
+2025-07-17 11:22:24,902 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A54
+2025-07-17 11:22:24,902 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A54 vs. Oppo A54 5G
+2025-07-17 11:22:24,902 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: 
+2025-07-17 11:22:24,903 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Oppo A54 price
+2025-07-17 11:22:24,903 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Oppo A54 pictures, official photos
+2025-07-17 11:22:24,903 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Oppo A54s - Full phone specifications
+2025-07-17 11:22:24,903 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A54 vs. Oppo A74 5G
+2025-07-17 11:22:24,903 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Oppo A54 - User opinions and reviews
+2025-07-17 11:22:24,903 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:22:24,903 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a54-10818.php
+2025-07-17 11:22:24,903 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a54-10818.php
+2025-07-17 11:22:33,962 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:22:33,962 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2239
+2025-07-17 11:22:33,962 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2239
+2025-07-17 11:22:40,323 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: oppo/a54
+2025-07-17 11:22:45,277 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice找到发布日期: 2Q 2021
+2025-07-17 11:22:45,277 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Oppo A54
+2025-07-17 11:22:45,277 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Oppo A54
+2025-07-17 11:23:00,477 - gsmarena.gsmarena_scraper - WARNING - ⚠️ GSMArena显示最接近匹配结果
+2025-07-17 11:23:00,478 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a54-10818.php
+2025-07-17 11:23:06,337 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A54
+2025-07-17 11:23:06,338 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, March 26
+2025-07-17 11:23:06,338 - gsmarena.gsmarena_scraper - INFO - 价格: About 160 EUR
+2025-07-17 11:23:06,338 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A54
+2025-07-17 11:23:06,338 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: CPH2239
+2025-07-17 11:23:06,338 - scraper.orchestrator - INFO - ✅ 成功: CPH2239 - Oppo A54
+2025-07-17 11:23:06,338 - scraper.orchestrator - INFO - ⏳ 等待 3.8 秒...
+2025-07-17 11:23:10,112 - scraper.orchestrator - INFO - 📱 进度: 2/837 (0.2%)
+2025-07-17 11:23:10,112 - scraper.orchestrator - INFO - 🔄 开始处理设备: 23108RN04Y
+2025-07-17 11:23:10,113 - google.google_search - INFO - 🔍 Google搜索: 23108RN04Y site:gsmarena.com
+2025-07-17 11:23:18,405 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:23:18,407 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-17 11:23:18,407 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Xiaomi Redmi 13C - Full phone specifications
+2025-07-17 11:23:18,407 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Xiaomi Redmi 13C 5G - Full phone specifications
+2025-07-17 11:23:18,407 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi 13C
+2025-07-17 11:23:18,407 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Redmi 13C vs. Xiaomi Redmi 13C 5G
+2025-07-17 11:23:18,407 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Xiaomi Redmi 13C vs. Xiaomi Mi Note 10
+2025-07-17 11:23:18,407 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi 13C vs. Realme 11 Pro
+2025-07-17 11:23:18,408 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi 13C vs. Xiaomi Redmi 12
+2025-07-17 11:23:18,408 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Xiaomi Redmi 13C vs. Xiaomi Poco C65
+2025-07-17 11:23:18,408 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi 13C vs. Xiaomi 13 Lite
+2025-07-17 11:23:18,408 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:23:18,408 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/compare.php3?idPhone1=12689&idPhone2=12261
+2025-07-17 11:23:18,408 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/compare.php3?idPhone1=12689&idPhone2=12261
+2025-07-17 11:23:27,497 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:23:27,499 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: 23108RN04Y
+2025-07-17 11:23:27,499 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: 23108RN04Y
+2025-07-17 11:23:34,210 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-17 11:23:38,442 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: 23108RN04Y
+2025-07-17 11:23:38,443 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: 23108RN04Y
+2025-07-17 11:23:38,443 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: 23108RN04Y
+2025-07-17 11:23:38,443 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: 23108RN04Y
+2025-07-17 11:23:52,977 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_13c-12689.php
+2025-07-17 11:23:58,402 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi 13C
+2025-07-17 11:23:58,402 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, November 10
+2025-07-17 11:23:58,402 - gsmarena.gsmarena_scraper - INFO - 价格: £ 94.00 / € 99.99 / $ 119.00
+2025-07-17 11:23:58,402 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi 13C
+2025-07-17 11:23:58,402 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: 23108RN04Y
+2025-07-17 11:23:58,402 - scraper.orchestrator - INFO - ✅ 成功: 23108RN04Y - Xiaomi Redmi 13C
+2025-07-17 11:23:58,402 - scraper.orchestrator - INFO - ⏳ 等待 3.9 秒...
+2025-07-17 11:24:02,271 - scraper.orchestrator - INFO - 📱 进度: 3/837 (0.4%)
+2025-07-17 11:24:02,272 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2591
+2025-07-17 11:24:02,275 - google.google_search - INFO - 🔍 Google搜索: CPH2591 site:gsmarena.com
+2025-07-17 11:24:20,067 - google.google_search - INFO - 找到 11 个Google搜索结果
+2025-07-17 11:24:20,068 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A18 - Full phone specifications
+2025-07-17 11:24:20,068 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Oppo A38 vs. Oppo A18
+2025-07-17 11:24:20,068 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A18
+2025-07-17 11:24:20,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-17 11:24:20,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A18 vs. Motorola Moto G24
+2025-07-17 11:24:20,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo A3x vs. Oppo A18
+2025-07-17 11:24:20,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A18 vs. Oppo A16
+2025-07-17 11:24:20,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A18 vs. Samsung Galaxy A06
+2025-07-17 11:24:20,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A18 vs. Oppo A3x 4G
+2025-07-17 11:24:20,069 - google.google_search - INFO - 🎯 Google搜索找到 9 个GSMArena链接
+2025-07-17 11:24:20,069 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a18-12591.php
+2025-07-17 11:24:20,069 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a18-12591.php
+2025-07-17 11:24:26,249 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A18
+2025-07-17 11:24:26,249 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, September 27
+2025-07-17 11:24:26,249 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-17 11:24:26,249 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A18
+2025-07-17 11:24:26,249 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2591
+2025-07-17 11:24:26,249 - scraper.orchestrator - INFO - ✅ 成功: CPH2591 - Oppo A18
+2025-07-17 11:24:26,249 - scraper.orchestrator - INFO - ⏳ 等待 4.1 秒...
+2025-07-17 11:24:30,346 - scraper.orchestrator - INFO - 📱 进度: 4/837 (0.5%)
+2025-07-17 11:24:30,347 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2631
+2025-07-17 11:24:30,347 - google.google_search - INFO - 🔍 Google搜索: CPH2631 site:gsmarena.com
+2025-07-17 11:24:47,685 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:24:47,686 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A60 - Full phone specifications
+2025-07-17 11:24:47,686 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Oppo A60
+2025-07-17 11:24:47,686 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A3 Pro vs. Oppo A60
+2025-07-17 11:24:47,687 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-17 11:24:47,687 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A3 vs. Oppo A60
+2025-07-17 11:24:47,687 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo A60 vs. Samsung Galaxy A16 5G
+2025-07-17 11:24:47,687 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A5 Pro vs. Oppo A60
+2025-07-17 11:24:47,688 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A3x vs. Oppo A60
+2025-07-17 11:24:47,688 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A60 vs. Realme C75 4G
+2025-07-17 11:24:47,688 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Poco C65 vs. Oppo A60
+2025-07-17 11:24:47,688 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:24:47,688 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a60-12964.php
+2025-07-17 11:24:47,688 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a60-12964.php
+2025-07-17 11:24:58,036 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:24:58,038 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2631
+2025-07-17 11:24:58,038 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2631
+2025-07-17 11:25:06,722 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:25:13,127 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: CPH2631
+2025-07-17 11:25:13,128 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2631
+2025-07-17 11:25:13,128 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2631
+2025-07-17 11:25:13,128 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: CPH2631
+2025-07-17 11:25:26,219 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a60-12964.php
+2025-07-17 11:25:35,390 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:25:35,390 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: CPH2631
+2025-07-17 11:25:35,390 - scraper.orchestrator - WARNING - ❌ 失败: CPH2631 - 所有搜索方法都失败
+2025-07-17 11:25:35,391 - scraper.orchestrator - INFO - ⏳ 等待 4.1 秒...
+2025-07-17 11:25:39,492 - scraper.orchestrator - INFO - 📱 进度: 5/837 (0.6%)
+2025-07-17 11:25:39,492 - scraper.orchestrator - INFO - 🔄 开始处理设备: 23053RN02A
+2025-07-17 11:25:39,493 - google.google_search - INFO - 🔍 Google搜索: 23053RN02A site:gsmarena.com
+2025-07-17 11:25:49,253 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:25:49,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi 12 - Full phone specifications
+2025-07-17 11:25:49,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Xiaomi Redmi 12 vs. Xiaomi Redmi 12 5G
+2025-07-17 11:25:49,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Xiaomi Redmi 12 vs. Xiaomi Redmi Note 12
+2025-07-17 11:25:49,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare - Xiaomi Redmi 12
+2025-07-17 11:25:49,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Motorola Edge 50 Pro vs. Xiaomi Redmi 12
+2025-07-17 11:25:49,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Xiaomi Redmi 12 vs. Xiaomi Redmi 13
+2025-07-17 11:25:49,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Xiaomi Redmi 12C
+2025-07-17 11:25:49,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi 13C vs. Xiaomi Redmi 12
+2025-07-17 11:25:49,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Xiaomi Redmi 12 vs. Xiaomi Redmi Note 14 4G
+2025-07-17 11:25:49,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi 13 vs. Xiaomi Redmi 12
+2025-07-17 11:25:49,255 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:25:49,255 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_12-12328.php
+2025-07-17 11:25:49,255 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_12-12328.php
+2025-07-17 11:25:59,335 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:25:59,337 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: 23053RN02A
+2025-07-17 11:25:59,337 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: 23053RN02A
+2025-07-17 11:26:07,587 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:26:16,080 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:26:16,081 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: 23053RN02A
+2025-07-17 11:26:16,082 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: 23053RN02A
+2025-07-17 11:26:16,082 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: 23053RN02A
+2025-07-17 11:26:24,063 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_12-12328.php
+2025-07-17 11:26:34,462 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:26:34,463 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: 23053RN02A
+2025-07-17 11:26:34,463 - scraper.orchestrator - WARNING - ❌ 失败: 23053RN02A - 所有搜索方法都失败
+2025-07-17 11:26:34,463 - scraper.orchestrator - INFO - ⏳ 等待 4.9 秒...
+2025-07-17 11:26:39,370 - scraper.orchestrator - INFO - 📱 进度: 6/837 (0.7%)
+2025-07-17 11:26:39,371 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2269
+2025-07-17 11:26:39,371 - google.google_search - INFO - 🔍 Google搜索: CPH2269 site:gsmarena.com
+2025-07-17 11:26:55,038 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:26:55,039 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A16 - Full phone specifications
+2025-07-17 11:26:55,039 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A16s - Full phone specifications
+2025-07-17 11:26:55,039 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A16
+2025-07-17 11:26:55,039 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-17 11:26:55,039 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Oppo A16 pictures, official photos
+2025-07-17 11:26:55,040 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Oppo A16 price in US, UK, EU
+2025-07-17 11:26:55,040 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Oppo A16
+2025-07-17 11:26:55,040 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A54s vs. Oppo A16
+2025-07-17 11:26:55,040 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A16 vs. Xiaomi Poco M3
+2025-07-17 11:26:55,040 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A16 vs. Huawei P smart 2019
+2025-07-17 11:26:55,040 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:26:55,040 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a16-11021.php
+2025-07-17 11:26:55,040 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a16-11021.php
+2025-07-17 11:27:00,191 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A16
+2025-07-17 11:27:00,191 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, July 17
+2025-07-17 11:27:00,192 - gsmarena.gsmarena_scraper - INFO - 价格: £ 93.20 / € 124.99 / $ 429.00
+2025-07-17 11:27:00,192 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A16
+2025-07-17 11:27:00,192 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2269
+2025-07-17 11:27:00,192 - scraper.orchestrator - INFO - ✅ 成功: CPH2269 - Oppo A16
+2025-07-17 11:27:00,192 - scraper.orchestrator - INFO - ⏳ 等待 4.1 秒...
+2025-07-17 11:27:04,301 - scraper.orchestrator - INFO - 📱 进度: 7/837 (0.8%)
+2025-07-17 11:27:04,302 - scraper.orchestrator - INFO - 🔄 开始处理设备: RMX3760
+2025-07-17 11:27:04,303 - google.google_search - INFO - 🔍 Google搜索: RMX3760 site:gsmarena.com
+2025-07-17 11:27:11,318 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:27:11,318 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Realme C53 - Full phone specifications
+2025-07-17 11:27:11,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Realme C53 (India) - Full phone specifications
+2025-07-17 11:27:11,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-17 11:27:11,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Realme C53
+2025-07-17 11:27:11,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Realme C53 - User opinions and reviews - page 4
+2025-07-17 11:27:11,319 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Realme C53 vs. Realme Note 50
+2025-07-17 11:27:11,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Realme C53 vs. Realme C55
+2025-07-17 11:27:11,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Realme C53 vs. Realme C63
+2025-07-17 11:27:11,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Realme C53 vs. vivo Y27 (2014)
+2025-07-17 11:27:11,320 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Realme 11 Pro gets BIS certification ahead of launch in ...
+2025-07-17 11:27:11,320 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:27:11,320 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/realme_c53-12310.php
+2025-07-17 11:27:11,320 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/realme_c53-12310.php
+2025-07-17 11:27:15,155 - gsmarena.gsmarena_scraper - INFO - 设备名称: Realme C53
+2025-07-17 11:27:15,156 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, May 31
+2025-07-17 11:27:15,156 - gsmarena.gsmarena_scraper - INFO - 价格: $ 105.61
+2025-07-17 11:27:15,156 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Realme C53
+2025-07-17 11:27:15,156 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: RMX3760
+2025-07-17 11:27:15,156 - scraper.orchestrator - INFO - ✅ 成功: RMX3760 - Realme C53
+2025-07-17 11:27:15,156 - scraper.orchestrator - INFO - ⏳ 等待 4.9 秒...
+2025-07-17 11:27:20,059 - scraper.orchestrator - INFO - 📱 进度: 8/837 (1.0%)
+2025-07-17 11:27:20,060 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2641
+2025-07-17 11:27:20,060 - google.google_search - INFO - 🔍 Google搜索: CPH2641 site:gsmarena.com
+2025-07-17 11:27:26,819 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:27:26,820 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A3x 4G - Full phone specifications
+2025-07-17 11:27:26,820 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A3x - Full phone specifications
+2025-07-17 11:27:26,820 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A3x gets NBTC certified, key specs revealed by ...
+2025-07-17 11:27:26,820 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A3x 4G
+2025-07-17 11:27:26,820 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: 
+2025-07-17 11:27:26,821 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Oppo A3x 4G - User opinions and reviews
+2025-07-17 11:27:26,821 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Oppo A3x 4G lands in India with low price, military grade ...
+2025-07-17 11:27:26,821 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A18 vs. Oppo A3x 4G
+2025-07-17 11:27:26,821 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Oppo A16 - Full phone specifications
+2025-07-17 11:27:26,821 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A3x 4G vs. Samsung Galaxy A05s
+2025-07-17 11:27:26,821 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:27:26,821 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a3x_4g-13261.php
+2025-07-17 11:27:26,821 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a3x_4g-13261.php
+2025-07-17 11:27:36,031 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:27:36,031 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2641
+2025-07-17 11:27:36,032 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2641
+2025-07-17 11:27:45,771 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:27:53,449 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: CPH2641
+2025-07-17 11:27:53,449 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2641
+2025-07-17 11:27:53,449 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2641
+2025-07-17 11:27:53,449 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: CPH2641
+2025-07-17 11:28:08,174 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a3x_4g-13261.php
+2025-07-17 11:28:15,166 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A3x 4G
+2025-07-17 11:28:15,166 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, August 20
+2025-07-17 11:28:15,166 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-17 11:28:15,167 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A3x 4G
+2025-07-17 11:28:15,167 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: CPH2641
+2025-07-17 11:28:15,167 - scraper.orchestrator - INFO - ✅ 成功: CPH2641 - Oppo A3x 4G
+2025-07-17 11:28:15,167 - scraper.orchestrator - INFO - ⏳ 等待 4.2 秒...
+2025-07-17 11:28:19,360 - scraper.orchestrator - INFO - 📱 进度: 9/837 (1.1%)
+2025-07-17 11:28:19,361 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2387
+2025-07-17 11:28:19,361 - google.google_search - INFO - 🔍 Google搜索: CPH2387 site:gsmarena.com
+2025-07-17 11:28:33,070 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:28:33,071 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A57 4G - Full phone specifications
+2025-07-17 11:28:33,071 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A57 - Full phone specifications
+2025-07-17 11:28:33,072 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A57e - Full phone specifications
+2025-07-17 11:28:33,072 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo A57 4G price in US, UK, EU
+2025-07-17 11:28:33,072 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: 
+2025-07-17 11:28:33,072 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo A57 vs. Oppo A57 4G
+2025-07-17 11:28:33,072 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Oppo A57 4G - User opinions and reviews
+2025-07-17 11:28:33,072 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Oppo A57 4G pictures, official photos
+2025-07-17 11:28:33,073 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A77s vs. Oppo A57 4G
+2025-07-17 11:28:33,073 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare vivo Y21 vs. Oppo A57 4G
+2025-07-17 11:28:33,073 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:28:33,073 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a57_4g-11565.php
+2025-07-17 11:28:33,073 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a57_4g-11565.php
+2025-07-17 11:28:42,529 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:28:42,530 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2387
+2025-07-17 11:28:42,530 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2387
+2025-07-17 11:28:52,773 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:29:01,755 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:29:01,755 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2387
+2025-07-17 11:29:01,756 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2387
+2025-07-17 11:29:01,756 - gsmarena.gsmarena_scraper - INFO - 使用已知映射: CPH2387 -> https://www.gsmarena.com/oppo_a57_4g-11565.php
+2025-07-17 11:29:01,756 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a57_4g-11565.php
+2025-07-17 11:29:12,744 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:29:12,745 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: CPH2387
+2025-07-17 11:29:12,745 - scraper.orchestrator - WARNING - ❌ 失败: CPH2387 - 所有搜索方法都失败
+2025-07-17 11:29:12,746 - scraper.orchestrator - INFO - ⏳ 等待 5.3 秒...
+2025-07-17 11:29:18,012 - scraper.orchestrator - INFO - 📱 进度: 10/837 (1.2%)
+2025-07-17 11:29:18,013 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2577
+2025-07-17 11:29:18,013 - google.google_search - INFO - 🔍 Google搜索: CPH2577 site:gsmarena.com
+2025-07-17 11:29:26,279 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:29:26,280 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A58 4G - Full phone specifications
+2025-07-17 11:29:26,280 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A58 (China) - Full phone specifications
+2025-07-17 11:29:26,280 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare - Oppo A58 4G
+2025-07-17 11:29:26,280 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A58 4G
+2025-07-17 11:29:26,281 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A58 4G vs. Oppo A3x
+2025-07-17 11:29:26,281 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A38 vs. Oppo A58 4G
+2025-07-17 11:29:26,281 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A58 4G vs. Oppo A5 Pro
+2025-07-17 11:29:26,281 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Xiaomi Mi 3 vs. Oppo A58 4G
+2025-07-17 11:29:26,281 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A58 4G vs. Xiaomi Redmi Note 14 4G
+2025-07-17 11:29:26,281 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Oppo A58 4G - User opinions and reviews - page 3
+2025-07-17 11:29:26,281 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:29:26,281 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a58_4g-12436.php
+2025-07-17 11:29:26,281 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a58_4g-12436.php
+2025-07-17 11:29:32,535 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A58 4G
+2025-07-17 11:29:32,535 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, July 26
+2025-07-17 11:29:32,535 - gsmarena.gsmarena_scraper - INFO - 价格: About 150 EUR
+2025-07-17 11:29:32,535 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A58 4G
+2025-07-17 11:29:32,535 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2577
+2025-07-17 11:29:32,535 - scraper.orchestrator - INFO - ✅ 成功: CPH2577 - Oppo A58 4G
+2025-07-17 11:29:32,535 - scraper.orchestrator - INFO - ⏳ 等待 5.9 秒...
+2025-07-17 11:29:38,417 - scraper.orchestrator - INFO - 📱 进度: 11/837 (1.3%)
+2025-07-17 11:29:38,418 - scraper.orchestrator - INFO - 🔄 开始处理设备: 2409BRN2CY
+2025-07-17 11:29:38,419 - google.google_search - INFO - 🔍 Google搜索: 2409BRN2CY site:gsmarena.com
+2025-07-17 11:29:46,919 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:29:46,919 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi 14C - Full phone specifications
+2025-07-17 11:29:46,919 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Xiaomi Redmi 13 - Full phone specifications
+2025-07-17 11:29:46,920 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-17 11:29:46,920 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi 14C
+2025-07-17 11:29:46,920 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Redmi 13 vs. Xiaomi Redmi 14C
+2025-07-17 11:29:46,920 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Xiaomi Poco C75 vs. Xiaomi Redmi 14C
+2025-07-17 11:29:46,920 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi 14C vs. Google Pixel 2
+2025-07-17 11:29:46,921 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi 14C vs. Xiaomi Redmi A5 4G
+2025-07-17 11:29:46,921 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Infinix Hot 50 vs. Xiaomi Redmi 14C
+2025-07-17 11:29:46,921 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Motorola Moto G35 vs. Xiaomi Redmi 14C
+2025-07-17 11:29:46,921 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:29:46,921 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_14c-13291.php
+2025-07-17 11:29:46,921 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_14c-13291.php
+2025-07-17 11:29:52,620 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi 14C
+2025-07-17 11:29:52,620 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, August 30
+2025-07-17 11:29:52,621 - gsmarena.gsmarena_scraper - INFO - 价格: £ 79.00 / € 91.92 / $ 107.72
+2025-07-17 11:29:52,621 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi 14C
+2025-07-17 11:29:52,621 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: 2409BRN2CY
+2025-07-17 11:29:52,621 - scraper.orchestrator - INFO - ✅ 成功: 2409BRN2CY - Xiaomi Redmi 14C
+2025-07-17 11:29:52,621 - scraper.orchestrator - INFO - ⏳ 等待 5.0 秒...
+2025-07-17 11:29:57,658 - scraper.orchestrator - INFO - 📱 进度: 12/837 (1.4%)
+2025-07-17 11:29:57,659 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2127
+2025-07-17 11:29:57,659 - google.google_search - INFO - 🔍 Google搜索: CPH2127 site:gsmarena.com
+2025-07-17 11:30:06,674 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:30:06,674 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A53 - Full phone specifications
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A53 price in US, UK, EU
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A53 5G vs. Oppo A53
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Oppo A53s - Full phone specifications
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Oppo A53 5G - Full phone specifications
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Oppo A53 pictures, official photos
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A53 vs. Oppo A52
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A53 vs. Oppo A12
+2025-07-17 11:30:06,675 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Oppo A53 vs. Oppo K10
+2025-07-17 11:30:06,675 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:30:06,675 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a53-10376.php
+2025-07-17 11:30:06,675 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a53-10376.php
+2025-07-17 11:30:13,593 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A53
+2025-07-17 11:30:13,594 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, August 20
+2025-07-17 11:30:13,594 - gsmarena.gsmarena_scraper - INFO - 价格: £ 92.94 / € 169.99 / $ 535.00
+2025-07-17 11:30:13,594 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A53
+2025-07-17 11:30:13,594 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2127
+2025-07-17 11:30:13,594 - scraper.orchestrator - INFO - ✅ 成功: CPH2127 - Oppo A53
+2025-07-17 11:30:13,594 - scraper.orchestrator - INFO - ⏳ 等待 3.8 秒...
+2025-07-17 11:30:17,440 - scraper.orchestrator - INFO - 📱 进度: 13/837 (1.6%)
+2025-07-17 11:30:17,441 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2473
+2025-07-17 11:30:17,441 - google.google_search - INFO - 🔍 Google搜索: CPH2473 site:gsmarena.com
+2025-07-17 11:30:24,104 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:30:24,105 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-17 11:30:24,105 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A77s - Full phone specifications
+2025-07-17 11:30:24,105 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A77 - Full phone specifications
+2025-07-17 11:30:24,105 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A77s vs. Oppo A77 4G
+2025-07-17 11:30:24,105 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Oppo A77s gathers certifications in preparation for a global ...
+2025-07-17 11:30:24,106 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo A77s
+2025-07-17 11:30:24,106 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Oppo A77s
+2025-07-17 11:30:24,106 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A77s vs. Oppo A77 4G vs. Oppo A74 5G
+2025-07-17 11:30:24,106 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A77s vs. Honor X8 5G
+2025-07-17 11:30:24,106 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A77s vs. Oppo A31
+2025-07-17 11:30:24,106 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:30:24,106 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a77s-11907.php
+2025-07-17 11:30:24,106 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a77s-11907.php
+2025-07-17 11:30:28,378 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A77s
+2025-07-17 11:30:28,378 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, October 05
+2025-07-17 11:30:28,378 - gsmarena.gsmarena_scraper - INFO - 价格: About 220 EUR
+2025-07-17 11:30:28,378 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A77s
+2025-07-17 11:30:28,378 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2473
+2025-07-17 11:30:28,378 - scraper.orchestrator - INFO - ✅ 成功: CPH2473 - Oppo A77s
+2025-07-17 11:30:28,378 - scraper.orchestrator - INFO - ⏳ 等待 3.5 秒...
+2025-07-17 11:30:31,835 - scraper.orchestrator - INFO - 📱 进度: 14/837 (1.7%)
+2025-07-17 11:30:31,836 - scraper.orchestrator - INFO - 🔄 开始处理设备: RMX3933
+2025-07-17 11:30:31,836 - google.google_search - INFO - 🔍 Google搜索: RMX3933 site:gsmarena.com
+2025-07-17 11:30:39,882 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:30:39,882 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Realme Note 60 - Full phone specifications
+2025-07-17 11:30:39,882 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Realme C61 (India) - Full phone specifications
+2025-07-17 11:30:39,882 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Realme Note 60 appears on Geekbench
+2025-07-17 11:30:39,883 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-17 11:30:39,883 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Realme C61 - Full phone specifications
+2025-07-17 11:30:39,883 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Realme 9 Pro - Full phone specifications
+2025-07-17 11:30:39,883 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Realme Narzo N61 - Full phone specifications
+2025-07-17 11:30:39,883 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Realme C33 - Full phone specifications
+2025-07-17 11:30:39,884 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Realme Note 60
+2025-07-17 11:30:39,884 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare - Realme Note 60x
+2025-07-17 11:30:39,884 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:30:39,884 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/realme_note_60-13283.php
+2025-07-17 11:30:39,884 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/realme_note_60-13283.php
+2025-07-17 11:30:49,557 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:30:49,558 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: RMX3933
+2025-07-17 11:30:49,558 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: RMX3933
+2025-07-17 11:30:58,173 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:31:06,578 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: RMX3933
+2025-07-17 11:31:06,579 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: RMX3933
+2025-07-17 11:31:06,579 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: RMX3933
+2025-07-17 11:31:06,579 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: RMX3933
+2025-07-17 11:31:22,192 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/realme_note_60-13283.php
+2025-07-17 11:31:29,319 - gsmarena.gsmarena_scraper - INFO - 设备名称: Realme Note 60
+2025-07-17 11:31:29,319 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, August 30
+2025-07-17 11:31:29,319 - gsmarena.gsmarena_scraper - INFO - 价格: £ 79.00 / € 65.00 / $ 165.00
+2025-07-17 11:31:29,319 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Realme Note 60
+2025-07-17 11:31:29,319 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: RMX3933
+2025-07-17 11:31:29,319 - scraper.orchestrator - INFO - ✅ 成功: RMX3933 - Realme Note 60
+2025-07-17 11:31:29,319 - scraper.orchestrator - INFO - ⏳ 等待 4.8 秒...
+2025-07-17 11:31:34,152 - scraper.orchestrator - INFO - 📱 进度: 15/837 (1.8%)
+2025-07-17 11:31:34,153 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2477
+2025-07-17 11:31:34,153 - google.google_search - INFO - 🔍 Google搜索: CPH2477 site:gsmarena.com
+2025-07-17 11:31:47,980 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:31:47,981 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A17 - Full phone specifications
+2025-07-17 11:31:47,981 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:31:47,981 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A17 vs. Oppo A77s
+2025-07-17 11:31:47,981 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A17 vs. Oppo A76
+2025-07-17 11:31:47,981 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A17
+2025-07-17 11:31:47,982 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Oppo A77 - Full phone specifications
+2025-07-17 11:31:47,982 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A17 vs. Samsung Galaxy A03
+2025-07-17 11:31:47,982 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Oppo A17k
+2025-07-17 11:31:47,982 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A17 vs. Oppo A77
+2025-07-17 11:31:47,982 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: GSMArena.com
+2025-07-17 11:31:47,982 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:31:47,982 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a17-11902.php
+2025-07-17 11:31:47,982 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a17-11902.php
+2025-07-17 11:31:53,666 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A17
+2025-07-17 11:31:53,666 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, September 26
+2025-07-17 11:31:53,666 - gsmarena.gsmarena_scraper - INFO - 价格: £ 78.90 / € 124.99 / $ 168.76
+2025-07-17 11:31:53,666 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A17
+2025-07-17 11:31:53,666 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2477
+2025-07-17 11:31:53,666 - scraper.orchestrator - INFO - ✅ 成功: CPH2477 - Oppo A17
+2025-07-17 11:31:53,667 - scraper.orchestrator - INFO - ⏳ 等待 4.2 秒...
+2025-07-17 11:31:57,894 - scraper.orchestrator - INFO - 📱 进度: 16/837 (1.9%)
+2025-07-17 11:31:57,894 - scraper.orchestrator - INFO - 🔄 开始处理设备: 23124RA7EO
+2025-07-17 11:31:57,895 - google.google_search - INFO - 🔍 Google搜索: 23124RA7EO site:gsmarena.com
+2025-07-17 11:32:05,185 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:32:05,185 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi Note 13 4G - Full phone specifications
+2025-07-17 11:32:05,186 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:32:05,186 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Xiaomi Redmi 13 vs. Xiaomi Redmi Note 13 4G
+2025-07-17 11:32:05,186 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi Note 13 4G vs. ...
+2025-07-17 11:32:05,186 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Xiaomi Redmi Note 13 4G - User opinions and reviews
+2025-07-17 11:32:05,186 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi Note 13 4G vs. Xiaomi Poco M3 vs ...
+2025-07-17 11:32:05,187 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi Note 13 4G ...
+2025-07-17 11:32:05,187 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Xiaomi Redmi Note 13 4G vs. Apple iPhone 16e
+2025-07-17 11:32:05,187 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi Note 13 4G vs. ...
+2025-07-17 11:32:05,187 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare - Xiaomi Redmi Note 13 4G
+2025-07-17 11:32:05,187 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:32:05,187 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_note_13_4g-12750.php
+2025-07-17 11:32:05,187 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_13_4g-12750.php
+2025-07-17 11:32:13,941 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:32:13,941 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: 23124RA7EO
+2025-07-17 11:32:13,942 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: 23124RA7EO
+2025-07-17 11:32:20,279 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-17 11:32:27,340 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: 23124RA7EO
+2025-07-17 11:32:27,340 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: 23124RA7EO
+2025-07-17 11:32:27,340 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: 23124RA7EO
+2025-07-17 11:32:27,340 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: 23124RA7EO
+2025-07-17 11:32:47,462 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_13_4g-12750.php
+2025-07-17 11:32:52,318 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi Note 13 4G
+2025-07-17 11:32:52,319 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, January 15
+2025-07-17 11:32:52,319 - gsmarena.gsmarena_scraper - INFO - 价格: £ 95.58 / € 114.89 / $ 145.00 / C$ 305.42
+2025-07-17 11:32:52,319 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi Note 13 4G
+2025-07-17 11:32:52,319 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: 23124RA7EO
+2025-07-17 11:32:52,319 - scraper.orchestrator - INFO - ✅ 成功: 23124RA7EO - Xiaomi Redmi Note 13 4G
+2025-07-17 11:32:52,319 - scraper.orchestrator - INFO - ⏳ 等待 4.7 秒...
+2025-07-17 11:32:57,009 - scraper.orchestrator - INFO - 📱 进度: 17/837 (2.0%)
+2025-07-17 11:32:57,009 - scraper.orchestrator - INFO - 🔄 开始处理设备: 24040RN64Y
+2025-07-17 11:32:57,010 - google.google_search - INFO - 🔍 Google搜索: 24040RN64Y site:gsmarena.com
+2025-07-17 11:33:17,239 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:33:17,240 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi 13 - Full phone specifications
+2025-07-17 11:33:17,240 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Redmi 13 gets certified, could be identical to the Poco M6 4G
+2025-07-17 11:33:17,240 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Xiaomi Redmi 13 vs. Xiaomi Redmi Note 13 4G
+2025-07-17 11:33:17,240 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi 13
+2025-07-17 11:33:17,240 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Redmi 13 vs. Xiaomi Redmi 14C
+2025-07-17 11:33:17,241 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Xiaomi Redmi 13 vs. Xiaomi Redmi Note 14 4G
+2025-07-17 11:33:17,241 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi 12 vs. Xiaomi Redmi 13
+2025-07-17 11:33:17,241 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi 13 vs. Infinix Note 50 Pro+
+2025-07-17 11:33:17,241 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: 
+2025-07-17 11:33:17,241 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi 13 vs. Xiaomi Redmi 12
+2025-07-17 11:33:17,241 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:33:17,241 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_13-13102.php
+2025-07-17 11:33:17,241 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_13-13102.php
+2025-07-17 11:33:26,681 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:33:26,681 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: 24040RN64Y
+2025-07-17 11:33:26,681 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: 24040RN64Y
+2025-07-17 11:33:33,614 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-17 11:33:38,695 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: 24040RN64Y
+2025-07-17 11:33:38,695 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: 24040RN64Y
+2025-07-17 11:33:38,695 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: 24040RN64Y
+2025-07-17 11:33:38,695 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: 24040RN64Y
+2025-07-17 11:33:47,741 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_13-13102.php
+2025-07-17 11:33:57,275 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:33:57,279 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: 24040RN64Y
+2025-07-17 11:33:57,280 - scraper.orchestrator - WARNING - ❌ 失败: 24040RN64Y - 所有搜索方法都失败
+2025-07-17 11:33:57,280 - scraper.orchestrator - INFO - ⏳ 等待 4.1 秒...
+2025-07-17 11:34:01,383 - scraper.orchestrator - INFO - 📱 进度: 18/837 (2.2%)
+2025-07-17 11:34:01,384 - scraper.orchestrator - INFO - 🔄 开始处理设备: V2310
+2025-07-17 11:34:01,384 - google.google_search - INFO - 🔍 Google搜索: V2310 site:gsmarena.com
+2025-07-17 11:34:08,899 - google.google_search - INFO - 找到 8 个Google搜索结果
+2025-07-17 11:34:08,900 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: vivo Y17s - Full phone specifications
+2025-07-17 11:34:08,900 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:34:08,900 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: vivo V23 5G - Full phone specifications
+2025-07-17 11:34:08,900 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: vivo Y17s - User opinions and reviews - page 2
+2025-07-17 11:34:08,901 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: vivo Y17s - User opinions and reviews - page 3
+2025-07-17 11:34:08,901 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: vivo V23 Pro review: User interface, performance
+2025-07-17 11:34:08,901 - google.google_search - INFO - 🎯 Google搜索找到 6 个GSMArena链接
+2025-07-17 11:34:08,901 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/vivo_y17s-12568.php
+2025-07-17 11:34:08,901 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_y17s-12568.php
+2025-07-17 11:34:13,506 - gsmarena.gsmarena_scraper - INFO - 设备名称: vivo Y17s
+2025-07-17 11:34:13,506 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, September 18
+2025-07-17 11:34:13,506 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-17 11:34:13,506 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: vivo Y17s
+2025-07-17 11:34:13,507 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: V2310
+2025-07-17 11:34:13,507 - scraper.orchestrator - INFO - ✅ 成功: V2310 - vivo Y17s
+2025-07-17 11:34:13,507 - scraper.orchestrator - INFO - ⏳ 等待 5.7 秒...
+2025-07-17 11:34:19,203 - scraper.orchestrator - INFO - 📱 进度: 19/837 (2.3%)
+2025-07-17 11:34:19,204 - scraper.orchestrator - INFO - 🔄 开始处理设备: 23021RAA2Y
+2025-07-17 11:34:19,204 - google.google_search - INFO - 🔍 Google搜索: 23021RAA2Y site:gsmarena.com
+2025-07-17 11:34:27,068 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:34:27,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-17 11:34:27,069 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Xiaomi Redmi Note 12 4G - Full phone specifications
+2025-07-17 11:34:27,070 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Xiaomi Redmi Note 12 - Full phone specifications
+2025-07-17 11:34:27,070 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi Note 12 4G ...
+2025-07-17 11:34:27,070 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Xiaomi Redmi Note 12 4G - User opinions and reviews
+2025-07-17 11:34:27,070 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Xiaomi Redmi Note 12 4G vs. ...
+2025-07-17 11:34:27,070 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi Note 12 4G
+2025-07-17 11:34:27,070 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Xiaomi Redmi Note 12 4G - User opinions and reviews
+2025-07-17 11:34:27,071 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A24 4G vs. Xiaomi Redmi Note ...
+2025-07-17 11:34:27,071 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi 12 5G vs. Xiaomi Redmi Note 12 4G
+2025-07-17 11:34:27,071 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:34:27,071 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_note_12_4g-12188.php
+2025-07-17 11:34:27,071 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_12_4g-12188.php
+2025-07-17 11:34:32,079 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi Note 12 4G
+2025-07-17 11:34:32,079 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, March 23
+2025-07-17 11:34:32,079 - gsmarena.gsmarena_scraper - INFO - 价格: £ 84.05 / € 99.16 / $ 179.99
+2025-07-17 11:34:32,079 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi Note 12 4G
+2025-07-17 11:34:32,079 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: 23021RAA2Y
+2025-07-17 11:34:32,079 - scraper.orchestrator - INFO - ✅ 成功: 23021RAA2Y - Xiaomi Redmi Note 12 4G
+2025-07-17 11:34:32,079 - scraper.orchestrator - INFO - ⏳ 等待 4.5 秒...
+2025-07-17 11:34:36,573 - scraper.orchestrator - INFO - 📱 进度: 20/837 (2.4%)
+2025-07-17 11:34:36,575 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH1909
+2025-07-17 11:34:36,575 - google.google_search - INFO - 🔍 Google搜索: CPH1909 site:gsmarena.com
+2025-07-17 11:34:43,439 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:34:43,440 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-17 11:34:43,440 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A5s (AX5s) - Full phone specifications
+2025-07-17 11:34:43,441 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A5 (AX5) - Full phone specifications
+2025-07-17 11:34:43,441 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo A5s (AX5s) pictures, official photos
+2025-07-17 11:34:43,441 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A5s (AX5s) vs. Oppo A5 (2020)
+2025-07-17 11:34:43,441 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A5s (AX5s) vs. Oppo A3s
+2025-07-17 11:34:43,441 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A5s (AX5s) vs. Oppo ...
+2025-07-17 11:34:43,441 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Oppo A5s (AX5s) - User opinions and reviews - page 11
+2025-07-17 11:34:43,441 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A5s (AX5s) vs. Oppo F9 (F9 Pro)
+2025-07-17 11:34:43,442 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Oppo A5 (2020) - Full phone specifications
+2025-07-17 11:34:43,442 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:34:43,442 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a5s_(ax5s)-9626.php
+2025-07-17 11:34:43,442 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a5s_(ax5s)-9626.php
+2025-07-17 11:34:47,075 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A5s (AX5s)
+2025-07-17 11:34:47,075 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, March 18
+2025-07-17 11:34:47,075 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-07-17 11:34:47,075 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A5s (AX5s)
+2025-07-17 11:34:47,075 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH1909
+2025-07-17 11:34:47,075 - scraper.orchestrator - INFO - ✅ 成功: CPH1909 - Oppo A5s (AX5s)
+2025-07-17 11:34:47,076 - scraper.orchestrator - INFO - ⏳ 等待 5.6 秒...
+2025-07-17 11:34:52,645 - scraper.orchestrator - INFO - 📱 进度: 21/837 (2.5%)
+2025-07-17 11:34:52,645 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH1937
+2025-07-17 11:34:52,646 - google.google_search - INFO - 🔍 Google搜索: CPH1937 site:gsmarena.com
+2025-07-17 11:35:00,519 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:35:00,519 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A9 (2020) - Full phone specifications
+2025-07-17 11:35:00,519 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A9 - Full phone specifications
+2025-07-17 11:35:00,519 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A9 (2020) vs. Oppo A9
+2025-07-17 11:35:00,520 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A9 (2020)
+2025-07-17 11:35:00,520 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Oppo A9 (2020) - User opinions and reviews
+2025-07-17 11:35:00,520 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A9 (2020) vs. Motorola Moto G8 Power
+2025-07-17 11:35:00,520 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo F11 vs. Oppo A9 (2020)
+2025-07-17 11:35:00,520 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A9 (2020) vs. Oppo A72
+2025-07-17 11:35:00,520 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A9 (2020) vs. Oppo A52
+2025-07-17 11:35:00,521 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Oppo A9 (2020) vs. Oppo A53
+2025-07-17 11:35:00,521 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:35:00,521 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a9_(2020)-9819.php
+2025-07-17 11:35:00,521 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a9_(2020)-9819.php
+2025-07-17 11:35:05,115 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A9 (2020)
+2025-07-17 11:35:05,115 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, September 10
+2025-07-17 11:35:05,115 - gsmarena.gsmarena_scraper - INFO - 价格: About 150 EUR
+2025-07-17 11:35:05,115 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A9 (2020)
+2025-07-17 11:35:05,115 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH1937
+2025-07-17 11:35:05,115 - scraper.orchestrator - INFO - ✅ 成功: CPH1937 - Oppo A9 (2020)
+2025-07-17 11:35:05,115 - scraper.orchestrator - INFO - ⏳ 等待 4.4 秒...
+2025-07-17 11:35:09,527 - scraper.orchestrator - INFO - 📱 进度: 22/837 (2.6%)
+2025-07-17 11:35:09,528 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2015
+2025-07-17 11:35:09,528 - google.google_search - INFO - 🔍 Google搜索: CPH2015 site:gsmarena.com
+2025-07-17 11:35:27,753 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:35:27,754 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A31 - Full phone specifications
+2025-07-17 11:35:27,754 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A31 (2015) - Full phone specifications
+2025-07-17 11:35:27,754 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: New affordable Oppo incoming with big battery
+2025-07-17 11:35:27,755 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-17 11:35:27,755 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Oppo A31 pictures, official photos
+2025-07-17 11:35:27,755 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A31 vs. Oppo A8
+2025-07-17 11:35:27,755 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A31
+2025-07-17 11:35:27,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A54 5G vs. Oppo A31
+2025-07-17 11:35:27,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Oppo A31 price in US
+2025-07-17 11:35:27,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Oppo A31 vs. Samsung Galaxy A31
+2025-07-17 11:35:27,756 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:35:27,756 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a31-10083.php
+2025-07-17 11:35:27,756 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a31-10083.php
+2025-07-17 11:35:37,052 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:35:37,052 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2015
+2025-07-17 11:35:37,052 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2015
+2025-07-17 11:35:45,762 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:35:53,117 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: CPH2015
+2025-07-17 11:35:53,118 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2015
+2025-07-17 11:35:53,118 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2015
+2025-07-17 11:35:53,118 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: CPH2015
+2025-07-17 11:36:02,970 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a31-10083.php
+2025-07-17 11:36:11,725 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:36:11,726 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: CPH2015
+2025-07-17 11:36:11,726 - scraper.orchestrator - WARNING - ❌ 失败: CPH2015 - 所有搜索方法都失败
+2025-07-17 11:36:11,727 - scraper.orchestrator - INFO - ⏳ 等待 5.7 秒...
+2025-07-17 11:36:17,451 - scraper.orchestrator - INFO - 📱 进度: 23/837 (2.7%)
+2025-07-17 11:36:17,452 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A057F
+2025-07-17 11:36:17,452 - google.google_search - INFO - 🔍 Google搜索: SM-A057F site:gsmarena.com
+2025-07-17 11:36:39,931 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:36:39,931 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A05s - Full phone specifications
+2025-07-17 11:36:39,932 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:36:39,932 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy A05s
+2025-07-17 11:36:39,932 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A05s vs. Motorola Moto ...
+2025-07-17 11:36:39,932 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy A05s review
+2025-07-17 11:36:39,932 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Samsung Galaxy A05s vs. Samsung Galaxy A04s
+2025-07-17 11:36:39,932 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A05s vs. ...
+2025-07-17 11:36:39,932 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare - Samsung Galaxy A05s
+2025-07-17 11:36:39,933 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Samsung Galaxy A05s
+2025-07-17 11:36:39,933 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A05s vs. ...
+2025-07-17 11:36:39,933 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:36:39,933 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
+2025-07-17 11:36:39,933 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
+2025-07-17 11:36:48,433 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:36:48,434 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: SM-A057F
+2025-07-17 11:36:48,434 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: SM-A057F
+2025-07-17 11:36:53,101 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: samsung/galaxya05s
+2025-07-17 11:36:57,169 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice找到发布日期: 3Q 2023
+2025-07-17 11:36:57,169 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Samsung Galaxy A05s
+2025-07-17 11:36:57,169 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Samsung Galaxy A05s
+2025-07-17 11:37:25,651 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a05s-12584.php
+2025-07-17 11:37:32,941 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A05s
+2025-07-17 11:37:32,941 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, September 25
+2025-07-17 11:37:32,941 - gsmarena.gsmarena_scraper - INFO - 价格: £ 89.99 / € 99.94 / $ 107.70 / C$ 149.00
+2025-07-17 11:37:32,941 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A05s
+2025-07-17 11:37:32,941 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: SM-A057F
+2025-07-17 11:37:32,941 - scraper.orchestrator - INFO - ✅ 成功: SM-A057F - Samsung Galaxy A05s
+2025-07-17 11:37:32,942 - scraper.orchestrator - INFO - ⏳ 等待 4.2 秒...
+2025-07-17 11:37:37,136 - scraper.orchestrator - INFO - 📱 进度: 24/837 (2.9%)
+2025-07-17 11:37:37,136 - scraper.orchestrator - INFO - 🔄 开始处理设备: M2006C3MG
+2025-07-17 11:37:37,137 - google.google_search - INFO - 🔍 Google搜索: M2006C3MG site:gsmarena.com
+2025-07-17 11:37:46,473 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:37:46,474 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi 9C - Full phone specifications
+2025-07-17 11:37:46,474 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:37:46,474 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Xiaomi Redmi 9C
+2025-07-17 11:37:46,474 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi 9C vs. Xiaomi Redmi 9C NFC
+2025-07-17 11:37:46,475 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Redmi 9C vs. Xiaomi Redmi 9T
+2025-07-17 11:37:46,475 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi 9C vs. Xiaomi Redmi Note 9
+2025-07-17 11:37:46,475 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi 9C vs. Tecno Spark 6 Go
+2025-07-17 11:37:46,475 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Xiaomi Redmi 10C vs. Xiaomi Redmi 9C
+2025-07-17 11:37:46,475 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi Note 11 vs. Xiaomi Redmi 9C
+2025-07-17 11:37:46,475 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Xiaomi Redmi 9C vs. Xiaomi Redmi Note 8
+2025-07-17 11:37:46,475 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:37:46,475 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_9c-10278.php
+2025-07-17 11:37:46,475 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_9c-10278.php
+2025-07-17 11:37:52,670 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi 9C
+2025-07-17 11:37:52,670 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, June 30
+2025-07-17 11:37:52,670 - gsmarena.gsmarena_scraper - INFO - 价格: £ 84.64 / € 79.99 / $ 42.00
+2025-07-17 11:37:52,670 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi 9C
+2025-07-17 11:37:52,670 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: M2006C3MG
+2025-07-17 11:37:52,670 - scraper.orchestrator - INFO - ✅ 成功: M2006C3MG - Xiaomi Redmi 9C
+2025-07-17 11:37:52,670 - scraper.orchestrator - INFO - ⏳ 等待 4.3 秒...
+2025-07-17 11:37:56,933 - scraper.orchestrator - INFO - 📱 进度: 25/837 (3.0%)
+2025-07-17 11:37:56,933 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2185
+2025-07-17 11:37:56,933 - google.google_search - INFO - 🔍 Google搜索: CPH2185 site:gsmarena.com
+2025-07-17 11:38:09,754 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:38:09,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-17 11:38:09,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A15 - Full phone specifications
+2025-07-17 11:38:09,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A16 vs. Oppo A15
+2025-07-17 11:38:09,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo A15s - Full phone specifications
+2025-07-17 11:38:09,756 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Oppo A15 - User opinions and reviews
+2025-07-17 11:38:09,757 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Oppo A15 price in US
+2025-07-17 11:38:09,757 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A53 vs. Oppo A15
+2025-07-17 11:38:09,757 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Oppo A15 launching in India soon
+2025-07-17 11:38:09,757 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A15 vs. Oppo A12
+2025-07-17 11:38:09,757 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Huawei Y7p vs. Oppo A15
+2025-07-17 11:38:09,757 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:38:09,757 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a15-10497.php
+2025-07-17 11:38:09,757 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a15-10497.php
+2025-07-17 11:38:14,366 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A15
+2025-07-17 11:38:14,366 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, October 15
+2025-07-17 11:38:14,366 - gsmarena.gsmarena_scraper - INFO - 价格: $ 549.00
+2025-07-17 11:38:14,366 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A15
+2025-07-17 11:38:14,366 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2185
+2025-07-17 11:38:14,366 - scraper.orchestrator - INFO - ✅ 成功: CPH2185 - Oppo A15
+2025-07-17 11:38:14,366 - scraper.orchestrator - INFO - ⏳ 等待 5.3 秒...
+2025-07-17 11:38:19,703 - scraper.orchestrator - INFO - 📱 进度: 26/837 (3.1%)
+2025-07-17 11:38:19,704 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2579
+2025-07-17 11:38:19,704 - google.google_search - INFO - 🔍 Google搜索: CPH2579 site:gsmarena.com
+2025-07-17 11:38:33,784 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:38:33,785 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A38 - Full phone specifications
+2025-07-17 11:38:33,786 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:38:33,786 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A38 vs. Oppo A18
+2025-07-17 11:38:33,786 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo A57 - Full phone specifications
+2025-07-17 11:38:33,786 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A38 vs. Motorola Moto G13
+2025-07-17 11:38:33,786 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A38 vs. Oppo A58 4G
+2025-07-17 11:38:33,786 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A3 4G vs. Oppo A38
+2025-07-17 11:38:33,787 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A38 vs. Samsung Galaxy A06
+2025-07-17 11:38:33,787 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A3 vs. Oppo A38
+2025-07-17 11:38:33,787 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Sony Xperia XA Dual vs. Oppo A38
+2025-07-17 11:38:33,787 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:38:33,787 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a38-12541.php
+2025-07-17 11:38:33,787 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a38-12541.php
+2025-07-17 11:38:40,740 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A38
+2025-07-17 11:38:40,740 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, September 04
+2025-07-17 11:38:40,740 - gsmarena.gsmarena_scraper - INFO - 价格: £ 109.00 / € 133.89 / $ 315.00
+2025-07-17 11:38:40,740 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A38
+2025-07-17 11:38:40,740 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2579
+2025-07-17 11:38:40,740 - scraper.orchestrator - INFO - ✅ 成功: CPH2579 - Oppo A38
+2025-07-17 11:38:40,740 - scraper.orchestrator - INFO - ⏳ 等待 3.9 秒...
+2025-07-17 11:38:44,647 - scraper.orchestrator - INFO - 📱 进度: 27/837 (3.2%)
+2025-07-17 11:38:44,648 - scraper.orchestrator - INFO - 🔄 开始处理设备: M2003J15SC
+2025-07-17 11:38:44,648 - google.google_search - INFO - 🔍 Google搜索: M2003J15SC site:gsmarena.com
+2025-07-17 11:38:58,325 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:38:58,325 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi Note 9 - Full phone specifications
+2025-07-17 11:38:58,325 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Xiaomi Redmi 10X 4G - Full phone specifications
+2025-07-17 11:38:58,326 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: 
+2025-07-17 11:38:58,326 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare - Xiaomi Redmi Note 3
+2025-07-17 11:38:58,326 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Alleged Redmi Note 9 spotted at 3C with 4G connectivity, ...
+2025-07-17 11:38:58,326 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Xiaomi Redmi Note 9 4G vs. ...
+2025-07-17 11:38:58,326 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Xiaomi Redmi Note 9 price in US, UK, India, EU
+2025-07-17 11:38:58,326 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Alleged Redmi Note 9 will actually be called Redmi 10X in ...
+2025-07-17 11:38:58,327 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Xiaomi Redmi Note 9 review
+2025-07-17 11:38:58,327 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi Note 9
+2025-07-17 11:38:58,327 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:38:58,327 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_note_9-10192.php
+2025-07-17 11:38:58,327 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_9-10192.php
+2025-07-17 11:39:06,965 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:39:06,965 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: M2003J15SC
+2025-07-17 11:39:06,965 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: M2003J15SC
+2025-07-17 11:39:11,818 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 0
+2025-07-17 11:39:17,051 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: M2003J15SC
+2025-07-17 11:39:17,052 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: M2003J15SC
+2025-07-17 11:39:17,052 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: M2003J15SC
+2025-07-17 11:39:17,052 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: M2003J15SC
+2025-07-17 11:39:33,141 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_9-10192.php
+2025-07-17 11:39:38,752 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi Note 9
+2025-07-17 11:39:38,752 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, April 30
+2025-07-17 11:39:38,753 - gsmarena.gsmarena_scraper - INFO - 价格: £ 119.00 / € 90.52 / $ 79.99
+2025-07-17 11:39:38,753 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi Note 9
+2025-07-17 11:39:38,753 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: M2003J15SC
+2025-07-17 11:39:38,753 - scraper.orchestrator - INFO - ✅ 成功: M2003J15SC - Xiaomi Redmi Note 9
+2025-07-17 11:39:38,753 - scraper.orchestrator - INFO - ⏳ 等待 5.3 秒...
+2025-07-17 11:39:44,032 - scraper.orchestrator - INFO - 📱 进度: 28/837 (3.3%)
+2025-07-17 11:39:44,034 - scraper.orchestrator - INFO - 🔄 开始处理设备: M2101K7BNY
+2025-07-17 11:39:44,034 - google.google_search - INFO - 🔍 Google搜索: M2101K7BNY site:gsmarena.com
+2025-07-17 11:39:58,061 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:39:58,062 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi Note 10S - Full phone specifications
+2025-07-17 11:39:58,063 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Xiaomi Redmi Note 10 vs. ...
+2025-07-17 11:39:58,063 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Xiaomi Redmi Note 10S - User opinions and reviews
+2025-07-17 11:39:58,063 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: 
+2025-07-17 11:39:58,063 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Redmi Note 10S
+2025-07-17 11:39:58,064 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Xiaomi Redmi Note 10S price in UK, India, EU
+2025-07-17 11:39:58,064 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi Note 10S vs. ...
+2025-07-17 11:39:58,064 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Xiaomi Redmi Note 10S vs. ...
+2025-07-17 11:39:58,064 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi Note 10S vs. ...
+2025-07-17 11:39:58,064 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Xiaomi Redmi Note 10S vs. ...
+2025-07-17 11:39:58,064 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:39:58,064 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_note_10s-10769.php
+2025-07-17 11:39:58,064 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_10s-10769.php
+2025-07-17 11:40:03,548 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi Note 10S
+2025-07-17 11:40:03,548 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, March 04
+2025-07-17 11:40:03,548 - gsmarena.gsmarena_scraper - INFO - 价格: £ 132.07 / € 96.45 / $ 159.99
+2025-07-17 11:40:03,548 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi Note 10S
+2025-07-17 11:40:03,549 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: M2101K7BNY
+2025-07-17 11:40:03,549 - scraper.orchestrator - INFO - ✅ 成功: M2101K7BNY - Xiaomi Redmi Note 10S
+2025-07-17 11:40:03,549 - scraper.orchestrator - INFO - ⏳ 等待 4.7 秒...
+2025-07-17 11:40:08,236 - scraper.orchestrator - INFO - 📱 进度: 29/837 (3.5%)
+2025-07-17 11:40:08,237 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A556E
+2025-07-17 11:40:08,237 - google.google_search - INFO - 🔍 Google搜索: SM-A556E site:gsmarena.com
+2025-07-17 11:40:35,430 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:40:35,431 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A55 - Full phone specifications
+2025-07-17 11:40:35,431 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: SAMSUNG Galaxy A55 5G + 4G LTE (128GB + 8GB) ...
+2025-07-17 11:40:35,431 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy A55
+2025-07-17 11:40:35,432 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A55 vs. Samsung Galaxy A56
+2025-07-17 11:40:35,432 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy A55 review
+2025-07-17 11:40:35,432 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare - Samsung Galaxy A55
+2025-07-17 11:40:35,432 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Samsung Galaxy A55 5G inches closer to launch as it gets ...
+2025-07-17 11:40:35,432 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: 
+2025-07-17 11:40:35,432 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy S21 FE 5G vs. ...
+2025-07-17 11:40:35,433 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Samsung Galaxy A55 spotted on Geekbench running ...
+2025-07-17 11:40:35,433 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:40:35,433 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a55-12824.php
+2025-07-17 11:40:35,433 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a55-12824.php
+2025-07-17 11:40:40,764 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A55
+2025-07-17 11:40:40,764 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, March 11
+2025-07-17 11:40:40,764 - gsmarena.gsmarena_scraper - INFO - 价格: £ 258.69 / € 322.42 / $ 378.80
+2025-07-17 11:40:40,764 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A55
+2025-07-17 11:40:40,764 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A556E
+2025-07-17 11:40:40,764 - scraper.orchestrator - INFO - ✅ 成功: SM-A556E - Samsung Galaxy A55
+2025-07-17 11:40:40,764 - scraper.orchestrator - INFO - ⏳ 等待 3.4 秒...
+2025-07-17 11:40:44,185 - scraper.orchestrator - INFO - 📱 进度: 30/837 (3.6%)
+2025-07-17 11:40:44,186 - scraper.orchestrator - INFO - 🔄 开始处理设备: RMX3710
+2025-07-17 11:40:44,186 - google.google_search - INFO - 🔍 Google搜索: RMX3710 site:gsmarena.com
+2025-07-17 11:40:59,580 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:40:59,581 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Realme C55 - Full phone specifications
+2025-07-17 11:40:59,581 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Realme Narzo N55 - Full phone specifications
+2025-07-17 11:40:59,581 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Realme C55
+2025-07-17 11:40:59,581 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Nothing Phone (2a) vs. Realme C55
+2025-07-17 11:40:59,581 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Realme 10 vs. Realme C55
+2025-07-17 11:40:59,581 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Realme C53 - Full phone specifications
+2025-07-17 11:40:59,582 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy F13 vs. Realme C55 vs. Xiaomi ...
+2025-07-17 11:40:59,582 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Realme C55 vs. Tecno Spark 10 Pro
+2025-07-17 11:40:59,582 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Realme Narzo 60x - Full phone specifications
+2025-07-17 11:40:59,582 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Realme C55 vs. Samsung Galaxy M32
+2025-07-17 11:40:59,582 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:40:59,582 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/realme_c55-12159.php
+2025-07-17 11:40:59,582 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/realme_c55-12159.php
+2025-07-17 11:41:10,271 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:41:10,273 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: RMX3710
+2025-07-17 11:41:10,273 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: RMX3710
+2025-07-17 11:41:14,854 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: realme/c55
+2025-07-17 11:41:19,854 - gsmchoice.gsmchoice_scraper - WARNING - 提取设备信息失败: HTTPSConnectionPool(host='www.gsmchoice.com', port=443): Max retries exceeded with url: /en/catalogue/realme/c55/ (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-07-17 11:41:26,059 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: RMX3710
+2025-07-17 11:41:26,059 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: RMX3710
+2025-07-17 11:41:26,059 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: RMX3710
+2025-07-17 11:41:26,059 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: RMX3710
+2025-07-17 11:41:41,694 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/realme_c55-12159.php
+2025-07-17 11:41:50,863 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:41:50,863 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: RMX3710
+2025-07-17 11:41:50,864 - scraper.orchestrator - WARNING - ❌ 失败: RMX3710 - 所有搜索方法都失败
+2025-07-17 11:41:50,864 - scraper.orchestrator - INFO - ⏳ 等待 4.2 秒...
+2025-07-17 11:41:55,119 - scraper.orchestrator - INFO - 📱 进度: 31/837 (3.7%)
+2025-07-17 11:41:55,119 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2059
+2025-07-17 11:41:55,120 - google.google_search - INFO - 🔍 Google搜索: CPH2059 site:gsmarena.com
+2025-07-17 11:42:14,095 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:42:14,096 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A92
+2025-07-17 11:42:14,097 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:42:14,097 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A52 - Full phone specifications
+2025-07-17 11:42:14,097 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo A92 pictures, official photos
+2025-07-17 11:42:14,097 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A92 vs. Oppo A9 (2020)
+2025-07-17 11:42:14,097 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo A92 vs. Oppo A54
+2025-07-17 11:42:14,098 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A92 vs. Oppo A74
+2025-07-17 11:42:14,098 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Oppo A92 - User opinions and reviews
+2025-07-17 11:42:14,098 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A92s vs. Oppo A92
+2025-07-17 11:42:14,098 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A92 vs. Oppo Reno4
+2025-07-17 11:42:14,098 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:42:14,098 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a92-10211.php
+2025-07-17 11:42:14,098 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a92-10211.php
+2025-07-17 11:42:25,109 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:42:25,110 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2059
+2025-07-17 11:42:25,110 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2059
+2025-07-17 11:42:31,285 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: oppo/a92
+2025-07-17 11:42:36,288 - gsmchoice.gsmchoice_scraper - WARNING - 提取设备信息失败: HTTPSConnectionPool(host='www.gsmchoice.com', port=443): Max retries exceeded with url: /en/catalogue/oppo/a92/ (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-07-17 11:42:44,434 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: CPH2059
+2025-07-17 11:42:44,434 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2059
+2025-07-17 11:42:44,434 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2059
+2025-07-17 11:42:44,434 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: CPH2059
+2025-07-17 11:43:03,432 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a92-10211.php
+2025-07-17 11:43:09,940 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A92
+2025-07-17 11:43:09,940 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, May 04
+2025-07-17 11:43:09,940 - gsmarena.gsmarena_scraper - INFO - 价格: About 250 EUR
+2025-07-17 11:43:09,940 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A92
+2025-07-17 11:43:09,940 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: CPH2059
+2025-07-17 11:43:09,940 - scraper.orchestrator - INFO - ✅ 成功: CPH2059 - Oppo A92
+2025-07-17 11:43:09,940 - scraper.orchestrator - INFO - ⏳ 等待 5.1 秒...
+2025-07-17 11:43:15,043 - scraper.orchestrator - INFO - 📱 进度: 32/837 (3.8%)
+2025-07-17 11:43:15,045 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2083
+2025-07-17 11:43:15,045 - google.google_search - INFO - 🔍 Google搜索: CPH2083 site:gsmarena.com
+2025-07-17 11:43:29,954 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:43:29,955 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Oppo A12 - Full phone specifications
+2025-07-17 11:43:29,956 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:43:29,956 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A11k - Full phone specifications
+2025-07-17 11:43:29,956 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo A12 price
+2025-07-17 11:43:29,956 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Oppo A12 bags Bluetooth SIG certification alongside two ...
+2025-07-17 11:43:29,956 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo A15 vs. Oppo A12
+2025-07-17 11:43:29,956 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare vivo Y12s vs. Oppo A12
+2025-07-17 11:43:29,957 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A12 vs. Oppo A7
+2025-07-17 11:43:29,957 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A12 vs. Oppo A16
+2025-07-17 11:43:29,957 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A12 vs. Samsung Galaxy A72
+2025-07-17 11:43:29,957 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:43:29,957 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a12-10171.php
+2025-07-17 11:43:29,957 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a12-10171.php
+2025-07-17 11:43:40,117 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:43:40,118 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2083
+2025-07-17 11:43:40,119 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2083
+2025-07-17 11:43:50,774 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:43:58,099 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: CPH2083
+2025-07-17 11:43:58,099 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2083
+2025-07-17 11:43:58,099 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2083
+2025-07-17 11:43:58,099 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: CPH2083
+2025-07-17 11:44:12,791 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a12-10171.php
+2025-07-17 11:44:21,895 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:44:21,896 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: CPH2083
+2025-07-17 11:44:21,896 - scraper.orchestrator - WARNING - ❌ 失败: CPH2083 - 所有搜索方法都失败
+2025-07-17 11:44:21,896 - scraper.orchestrator - INFO - ⏳ 等待 3.9 秒...
+2025-07-17 11:44:25,781 - scraper.orchestrator - INFO - 📱 进度: 33/837 (3.9%)
+2025-07-17 11:44:25,782 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A055F
+2025-07-17 11:44:25,782 - google.google_search - INFO - 🔍 Google搜索: SM-A055F site:gsmarena.com
+2025-07-17 11:44:49,618 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:44:49,619 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A05 - Full phone specifications
+2025-07-17 11:44:49,620 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:44:49,620 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy A05 does Geekbench 6 with a Helio G85 ...
+2025-07-17 11:44:49,620 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Samsung Galaxy A05 - User opinions and reviews
+2025-07-17 11:44:49,620 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy A05 - User opinions and reviews - page 13
+2025-07-17 11:44:49,620 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Samsung Galaxy A05
+2025-07-17 11:44:49,620 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A05 vs. ... - GSMArena.com
+2025-07-17 11:44:49,621 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Samsung Galaxy A05's battery capacity revealed by FCC
+2025-07-17 11:44:49,621 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Samsung Galaxy A05 - User opinions and reviews - page 10
+2025-07-17 11:44:49,621 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Samsung Galaxy A05 - User opinions and reviews - page 8
+2025-07-17 11:44:49,621 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:44:49,621 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a05-12583.php
+2025-07-17 11:44:49,621 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a05-12583.php
+2025-07-17 11:44:58,582 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:44:58,583 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: SM-A055F
+2025-07-17 11:44:58,583 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: SM-A055F
+2025-07-17 11:45:07,100 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:45:17,065 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:45:17,066 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: SM-A055F
+2025-07-17 11:45:17,066 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: SM-A055F
+2025-07-17 11:45:17,066 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: SM-A055F
+2025-07-17 11:45:27,145 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a05-12583.php
+2025-07-17 11:45:32,452 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A05
+2025-07-17 11:45:32,452 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, September 25
+2025-07-17 11:45:32,453 - gsmarena.gsmarena_scraper - INFO - 价格: £ 67.00 / € 124.99 / $ 78.00 / C$ 129.00
+2025-07-17 11:45:32,453 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A05
+2025-07-17 11:45:32,453 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: SM-A055F
+2025-07-17 11:45:32,453 - scraper.orchestrator - INFO - ✅ 成功: SM-A055F - Samsung Galaxy A05
+2025-07-17 11:45:32,453 - scraper.orchestrator - INFO - ⏳ 等待 3.8 秒...
+2025-07-17 11:45:36,288 - scraper.orchestrator - INFO - 📱 进度: 34/837 (4.1%)
+2025-07-17 11:45:36,288 - scraper.orchestrator - INFO - 🔄 开始处理设备: V2419
+2025-07-17 11:45:36,289 - google.google_search - INFO - 🔍 Google搜索: V2419 site:gsmarena.com
+2025-07-17 11:45:53,935 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:45:53,936 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: vivo Y19s - Full phone specifications
+2025-07-17 11:45:53,936 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:45:53,936 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare - vivo Y19s Pro
+2025-07-17 11:45:53,937 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare vivo Y29 4G vs. vivo Y19s
+2025-07-17 11:45:53,937 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare vivo Y19s vs. Oppo A3x 4G
+2025-07-17 11:45:53,937 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare vivo Y18 vs. vivo Y19s
+2025-07-17 11:45:53,937 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare vivo Y19s vs. Xiaomi Redmi Note 14 4G
+2025-07-17 11:45:53,937 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A06 vs. vivo Y19s
+2025-07-17 11:45:53,937 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare vivo Y19s vs. Realme C71
+2025-07-17 11:45:53,938 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Compare Honor X6b vs. vivo Y19s
+2025-07-17 11:45:53,938 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:45:53,938 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/vivo_y19s-13436.php
+2025-07-17 11:45:53,938 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_y19s-13436.php
+2025-07-17 11:46:04,176 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:46:04,177 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: V2419
+2025-07-17 11:46:04,177 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: V2419
+2025-07-17 11:46:10,103 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: vivo/y19s
+2025-07-17 11:46:15,404 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice找到发布日期: 4Q 2024
+2025-07-17 11:46:15,404 - scraper.orchestrator - INFO - ✅ GSMChoice找到设备名称: Vivo Y19s
+2025-07-17 11:46:15,404 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena按名称搜索: Vivo Y19s
+2025-07-17 11:46:25,903 - gsmarena.gsmarena_scraper - WARNING - ⚠️ GSMArena显示最接近匹配结果
+2025-07-17 11:46:25,905 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_y19s-13436.php
+2025-07-17 11:46:32,714 - gsmarena.gsmarena_scraper - INFO - 设备名称: vivo Y19s
+2025-07-17 11:46:32,714 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, October 15
+2025-07-17 11:46:32,714 - gsmarena.gsmarena_scraper - INFO - 价格: € 149.00
+2025-07-17 11:46:32,715 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: vivo Y19s
+2025-07-17 11:46:32,715 - scraper.orchestrator - INFO - ✅ GSMChoice->GSMArena 路径成功: V2419
+2025-07-17 11:46:32,715 - scraper.orchestrator - INFO - ✅ 成功: V2419 - vivo Y19s
+2025-07-17 11:46:32,715 - scraper.orchestrator - INFO - ⏳ 等待 5.4 秒...
+2025-07-17 11:46:38,127 - scraper.orchestrator - INFO - 📱 进度: 35/837 (4.2%)
+2025-07-17 11:46:38,127 - scraper.orchestrator - INFO - 🔄 开始处理设备: vivo 1904
+2025-07-17 11:46:38,128 - google.google_search - INFO - 🔍 Google搜索: vivo 1904 site:gsmarena.com
+2025-07-17 11:46:56,271 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:46:56,272 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: vivo Y12 - Full phone specifications
+2025-07-17 11:46:56,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:46:56,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare vivo Y12
+2025-07-17 11:46:56,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: vivo Y12 - User opinions and reviews
+2025-07-17 11:46:56,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: vivo Y12 pictures, official photos
+2025-07-17 11:46:56,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare vivo Y12 vs. vivo V15
+2025-07-17 11:46:56,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare vivo Y12 vs. Samsung Galaxy S7
+2025-07-17 11:46:56,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare vivo Y12 vs. Samsung Galaxy A30
+2025-07-17 11:46:56,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare vivo Y12 vs. Samsung Galaxy A20
+2025-07-17 11:46:56,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: vivo Y17 - Full phone specifications
+2025-07-17 11:46:56,274 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:46:56,274 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/vivo_y12-9729.php
+2025-07-17 11:46:56,274 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_y12-9729.php
+2025-07-17 11:47:06,377 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:47:06,378 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: vivo 1904
+2025-07-17 11:47:06,379 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: vivo 1904
+2025-07-17 11:47:10,802 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: vivo/y19s
+2025-07-17 11:47:21,210 - gsmchoice.gsmchoice_scraper - WARNING - 提取设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:47:29,942 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:47:29,943 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: vivo 1904
+2025-07-17 11:47:29,943 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: vivo 1904
+2025-07-17 11:47:29,943 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: vivo 1904
+2025-07-17 11:47:44,069 - gsmarena.gsmarena_scraper - WARNING - ⚠️ GSMArena显示最接近匹配结果
+2025-07-17 11:47:44,071 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_y12-9729.php
+2025-07-17 11:47:49,620 - gsmarena.gsmarena_scraper - INFO - 设备名称: vivo Y12
+2025-07-17 11:47:49,620 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, June 20
+2025-07-17 11:47:49,620 - gsmarena.gsmarena_scraper - INFO - 价格: About 160 EUR
+2025-07-17 11:47:49,620 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: vivo Y12
+2025-07-17 11:47:49,620 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: vivo 1904
+2025-07-17 11:47:49,620 - scraper.orchestrator - INFO - ✅ 成功: vivo 1904 - vivo Y12
+2025-07-17 11:47:49,620 - scraper.orchestrator - INFO - ⏳ 等待 5.6 秒...
+2025-07-17 11:47:55,237 - scraper.orchestrator - INFO - 📱 进度: 36/837 (4.3%)
+2025-07-17 11:47:55,238 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A135F
+2025-07-17 11:47:55,238 - google.google_search - INFO - 🔍 Google搜索: SM-A135F site:gsmarena.com
+2025-07-17 11:48:05,664 - google.google_search - INFO - 找到 13 个Google搜索结果
+2025-07-17 11:48:05,665 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A13 - Full phone specifications
+2025-07-17 11:48:05,666 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-07-17 11:48:05,667 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy A13 5G - Full phone specifications
+2025-07-17 11:48:05,667 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A13 5G vs. ...
+2025-07-17 11:48:05,668 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: The Samsung Galaxy A13 (4G and 5G) will be available in ...
+2025-07-17 11:48:05,670 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Samsung Galaxy A13 - User opinions and reviews - page 7
+2025-07-17 11:48:05,674 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Samsung Galaxy A13 4G's specs, design, and price leak ...
+2025-07-17 11:48:05,674 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Samsung Galaxy A13 - User opinions and reviews - page 19
+2025-07-17 11:48:05,674 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A13
+2025-07-17 11:48:05,674 - google.google_search - INFO - ✅ 找到GSMArena链接 #12: Samsung Galaxy A13 is the latest phone to get Android 13 ...
+2025-07-17 11:48:05,674 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:48:05,674 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a13-11402.php
+2025-07-17 11:48:05,674 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a13-11402.php
+2025-07-17 11:48:15,724 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:48:15,725 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: SM-A135F
+2025-07-17 11:48:15,725 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: SM-A135F
+2025-07-17 11:48:22,230 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: samsung/galaxya13
+2025-07-17 11:48:33,002 - gsmchoice.gsmchoice_scraper - WARNING - 提取设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:48:40,146 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: SM-A135F
+2025-07-17 11:48:40,146 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: SM-A135F
+2025-07-17 11:48:40,146 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: SM-A135F
+2025-07-17 11:48:40,146 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: SM-A135F
+2025-07-17 11:49:16,642 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a13-11402.php
+2025-07-17 11:49:27,040 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:49:27,040 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: SM-A135F
+2025-07-17 11:49:27,041 - scraper.orchestrator - WARNING - ❌ 失败: SM-A135F - 所有搜索方法都失败
+2025-07-17 11:49:27,041 - scraper.orchestrator - INFO - ⏳ 等待 4.0 秒...
+2025-07-17 11:49:31,015 - scraper.orchestrator - INFO - 📱 进度: 37/837 (4.4%)
+2025-07-17 11:49:31,015 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2209
+2025-07-17 11:49:31,015 - google.google_search - INFO - 🔍 Google搜索: CPH2209 site:gsmarena.com
+2025-07-17 11:49:46,290 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-07-17 11:49:46,291 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-17 11:49:46,292 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo Reno4 F - Full phone specifications
+2025-07-17 11:49:46,292 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo F11 Pro - Full phone specifications
+2025-07-17 11:49:46,292 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo Reno4 - Full phone specifications
+2025-07-17 11:49:46,292 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo F11 Pro vs. Oppo F11
+2025-07-17 11:49:46,292 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo Reno 10x zoom vs. Oppo F11 Pro
+2025-07-17 11:49:46,292 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo F11 Pro vs. Oppo Reno2 F
+2025-07-17 11:49:46,292 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo Reno Z vs. Oppo F11 Pro
+2025-07-17 11:49:46,293 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo F11 Pro vs. Oppo K1
+2025-07-17 11:49:46,293 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo F11 Pro vs. vivo V11 (V11 Pro)
+2025-07-17 11:49:46,293 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-07-17 11:49:46,293 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_reno4_f-10478.php
+2025-07-17 11:49:46,293 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_reno4_f-10478.php
+2025-07-17 11:49:55,804 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:49:55,805 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2209
+2025-07-17 11:49:55,805 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2209
+2025-07-17 11:50:05,196 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:50:15,645 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:50:15,647 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2209
+2025-07-17 11:50:15,647 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2209
+2025-07-17 11:50:15,647 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: CPH2209
+2025-07-17 11:50:29,676 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_f11_pro-9566.php
+2025-07-17 11:50:34,640 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo F11 Pro
+2025-07-17 11:50:34,640 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, March
+2025-07-17 11:50:34,640 - gsmarena.gsmarena_scraper - INFO - 价格: About 320 EUR
+2025-07-17 11:50:34,640 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo F11 Pro
+2025-07-17 11:50:34,640 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: CPH2209
+2025-07-17 11:50:34,640 - scraper.orchestrator - INFO - ✅ 成功: CPH2209 - Oppo F11 Pro
+2025-07-17 11:50:34,640 - scraper.orchestrator - INFO - ⏳ 等待 4.2 秒...
+2025-07-17 11:50:38,864 - scraper.orchestrator - INFO - 📱 进度: 38/837 (4.5%)
+2025-07-17 11:50:38,865 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2565
+2025-07-17 11:50:38,865 - google.google_search - INFO - 🔍 Google搜索: CPH2565 site:gsmarena.com
+2025-07-17 11:50:56,295 - google.google_search - INFO - 找到 10 个Google搜索结果
+2025-07-17 11:50:56,295 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-07-17 11:50:56,296 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A78 4G - Full phone specifications
+2025-07-17 11:50:56,296 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A78 - Full phone specifications
+2025-07-17 11:50:56,296 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Oppo A78 4G vs. Xiaomi Mi 3
+2025-07-17 11:50:56,296 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare - Oppo A78 4G
+2025-07-17 11:50:56,296 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Oppo A78 4G - User opinions and reviews
+2025-07-17 11:50:56,296 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A78 4G vs. Motorola Moto G54 Power
+2025-07-17 11:50:56,296 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi Note 14 5G (India) vs. Oppo A78 4G
+2025-07-17 11:50:56,296 - google.google_search - INFO - 🎯 Google搜索找到 8 个GSMArena链接
+2025-07-17 11:50:56,296 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a78_4g-12387.php
+2025-07-17 11:50:56,296 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a78_4g-12387.php
+2025-07-17 11:51:06,824 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:51:06,826 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: CPH2565
+2025-07-17 11:51:06,826 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: CPH2565
+2025-07-17 11:51:12,261 - gsmchoice.gsmchoice_scraper - INFO - ✅ GSMChoice API找到设备: oppo/a784g
+2025-07-17 11:51:22,315 - gsmchoice.gsmchoice_scraper - WARNING - 提取设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:51:29,356 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索无结果: CPH2565
+2025-07-17 11:51:29,356 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: CPH2565
+2025-07-17 11:51:29,356 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: CPH2565
+2025-07-17 11:51:29,356 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: CPH2565
+2025-07-17 11:51:50,018 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a78_4g-12387.php
+2025-07-17 11:51:58,809 - gsmarena.gsmarena_scraper - ERROR - 提取GSMArena设备信息失败: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2025-07-17 11:51:58,810 - scraper.orchestrator - WARNING - ❌ 所有搜索方法都失败: CPH2565
+2025-07-17 11:51:58,810 - scraper.orchestrator - WARNING - ❌ 失败: CPH2565 - 所有搜索方法都失败
+2025-07-17 11:51:58,810 - scraper.orchestrator - INFO - ⏳ 等待 3.9 秒...
+2025-07-17 11:52:02,721 - scraper.orchestrator - INFO - 📱 进度: 39/837 (4.7%)
+2025-07-17 11:52:02,722 - scraper.orchestrator - INFO - 🔄 开始处理设备: 2201117TY
+2025-07-17 11:52:02,723 - google.google_search - INFO - 🔍 Google搜索: 2201117TY site:gsmarena.com
+2025-07-17 11:52:11,738 - __main__ - WARNING - ⚠️ 用户中断处理
+2025-07-17 11:52:11,742 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x137123050>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/860b131dccce413967eae085ed7ea555
+2025-07-17 11:52:11,745 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1364df800>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/860b131dccce413967eae085ed7ea555
+2025-07-17 11:52:11,769 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1364df920>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/860b131dccce413967eae085ed7ea555
+2025-07-17 11:52:11,773 - google.google_search - INFO - Google搜索WebDriver已关闭
+2025-07-17 11:52:11,777 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x13626ae40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b2bf465155f70f6a6ff6ed98c4119a4f
+2025-07-17 11:52:11,781 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1370b4a40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b2bf465155f70f6a6ff6ed98c4119a4f
+2025-07-17 11:52:11,783 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1370b5820>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b2bf465155f70f6a6ff6ed98c4119a4f
+2025-07-17 11:52:11,786 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver已关闭
+2025-07-17 11:52:11,788 - gsmchoice.gsmchoice_scraper - INFO - GSMChoice爬虫已关闭
+2025-07-17 11:52:11,791 - scraper.orchestrator - INFO - 🔒 所有爬虫连接已关闭
+2025-07-17 11:52:11,792 - __main__ - ERROR - ❌ 程序执行失败

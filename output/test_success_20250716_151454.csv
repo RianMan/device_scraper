@@ -1,0 +1,3 @@
+original_model_code,device_name,announced_date,price,inferred_brand
+TEST001,Test Device 1,"2023, January",€200.00,TestBrand
+TEST002,Test Device 2,"2023, February",€300.00,TestBrand
