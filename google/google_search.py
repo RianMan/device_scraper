@@ -65,6 +65,10 @@ class GoogleSearcher:
             chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
             chrome_options.add_experimental_option('useAutomationExtension', False)
             chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+            chrome_options.add_argument('--disable-background-timer-throttling')
+            chrome_options.add_argument('--disable-backgrounding-occluded-windows')
+            chrome_options.add_argument('--disable-renderer-backgrounding')
+            chrome_options.add_argument('--keep-alive-for-test')
             
             self.driver = webdriver.Chrome(options=chrome_options)
             self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -88,6 +92,10 @@ class GoogleSearcher:
             google_url = f"https://www.google.com/search?q={encoded_query}"
             
             logger.info(f"🔍 Google搜索: {search_query}")
+
+            if not self._check_driver_health():
+                logger.warning("Google WebDriver连接失效，正在重新初始化...")
+                self._init_driver()
             
             if not self.driver:
                 logger.error("WebDriver未初始化")
@@ -128,6 +136,43 @@ class GoogleSearcher:
             logger.error(f"Google搜索失败 {model_code}: {str(e)}")
             return []
     
+    def _check_driver_health(self):
+            """检查WebDriver是否健康"""
+            if not self.driver:
+                return False
+            
+            try:
+                # 尝试获取当前窗口句柄来检查session是否有效
+                self.driver.current_window_handle
+                return True
+            except Exception as e:
+                logger.warning(f"WebDriver健康检查失败: {str(e)}")
+                return False
+            
+    def _reinit_driver(self):
+            """重新初始化WebDriver"""
+            try:
+                # 关闭旧的driver
+                if self.driver:
+                    try:
+                        self.driver.quit()
+                    except:
+                        pass
+                
+                # 重新初始化
+                self._init_driver()
+                
+                if self.driver:
+                    logger.info("WebDriver重新初始化成功")
+                    return True
+                else:
+                    logger.error("WebDriver重新初始化失败")
+                    return False
+                    
+            except Exception as e:
+                logger.error(f"WebDriver重新初始化异常: {str(e)}")
+                return False
+
     def _extract_gsmarena_links(self, soup, model_code):
         """从Google搜索结果中提取GSMArena链接"""
         gsmarena_links = []

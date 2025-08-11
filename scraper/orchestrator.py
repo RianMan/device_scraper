@@ -10,7 +10,7 @@ import time
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 import random
-
+import pandas as pd
 # 导入各个模块
 import sys
 import os
@@ -221,11 +221,12 @@ class DeviceInfoOrchestrator:
                 self.successful_results.append(result['data'])
                 self.stats['successful_devices'] += 1
                 logger.info(f"✅ 成功: {model_code} - {result['data']['device_name']}")
+                self._save_single_success_result(result['data'])
             else:
                 self.failed_devices.append(result['data'])
                 self.stats['failed_devices'] += 1
                 logger.warning(f"❌ 失败: {model_code} - {result['data']['error_message']}")
-            
+                self._save_single_failed_result(result['data'])
             # 添加随机延迟
             if i < len(devices):
                 self._random_delay()
@@ -299,6 +300,54 @@ class DeviceInfoOrchestrator:
             self.gsmchoice_scraper.close()
         
         logger.info("🔒 所有爬虫连接已关闭")
+
+    def _save_single_success_result(self, result_data):
+        """立即保存单个成功结果"""
+        try:
+            # 确定文件路径
+            output_dir = "output"
+            os.makedirs(output_dir, exist_ok=True)
+            filepath = os.path.join(output_dir, "device_info_extracted_realtime.csv")
+            
+            # 转换为DataFrame
+            df_new = pd.DataFrame([result_data])
+            
+            # 检查文件是否存在
+            if os.path.exists(filepath):
+                # 文件存在，追加数据
+                df_new.to_csv(filepath, mode='a', header=False, index=False, encoding='utf-8')
+            else:
+                # 文件不存在，创建新文件
+                df_new.to_csv(filepath, mode='w', header=True, index=False, encoding='utf-8')
+            
+            logger.info(f"💾 成功结果已实时保存: {result_data['original_model_code']}")
+            
+        except Exception as e:
+            logger.error(f"实时保存成功结果失败: {str(e)}")
+
+    def _save_single_failed_result(self, failed_data):
+        """立即保存单个失败结果"""
+        try:
+            # 确定文件路径
+            output_dir = "output"
+            os.makedirs(output_dir, exist_ok=True)
+            filepath = os.path.join(output_dir, "failed_devices_realtime.csv")
+            
+            # 转换为DataFrame
+            df_new = pd.DataFrame([failed_data])
+            
+            # 检查文件是否存在
+            if os.path.exists(filepath):
+                # 文件存在，追加数据
+                df_new.to_csv(filepath, mode='a', header=False, index=False, encoding='utf-8')
+            else:
+                # 文件不存在，创建新文件
+                df_new.to_csv(filepath, mode='w', header=True, index=False, encoding='utf-8')
+            
+            logger.info(f"💾 失败结果已实时保存: {failed_data['model_code']}")
+            
+        except Exception as e:
+            logger.error(f"实时保存失败结果失败: {str(e)}")
 
 def main():
     """主函数示例"""

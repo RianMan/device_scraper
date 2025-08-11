@@ -1,0 +1,1045 @@
+2025-08-11 10:32:57,126 - __main__ - INFO - 日志文件: logs/device_scraper_20250811_103257.log
+2025-08-11 10:32:57,126 - __main__ - INFO - 📱 设备信息爬取系统 v1.0.0
+2025-08-11 10:32:57,126 - __main__ - INFO - 🔧 模块化架构 | Google+GSMArena+GSMChoice
+2025-08-11 10:32:57,127 - __main__ - INFO - 🔍 检查运行环境...
+2025-08-11 10:32:57,127 - __main__ - INFO - ✅ requests
+2025-08-11 10:32:57,127 - __main__ - INFO - ✅ beautifulsoup4
+2025-08-11 10:32:57,127 - __main__ - INFO - ✅ selenium
+2025-08-11 10:32:57,127 - __main__ - INFO - ✅ pandas
+2025-08-11 10:33:08,817 - __main__ - INFO - ✅ Chrome WebDriver
+2025-08-11 10:33:08,817 - __main__ - INFO - ✅ 环境检查通过
+2025-08-11 10:33:08,818 - __main__ - INFO - 🚀 启动设备信息爬取系统
+2025-08-11 10:33:08,818 - __main__ - INFO - ============================================================
+2025-08-11 10:33:08,824 - __main__ - INFO - ✅ 输入文件有效: 文件有效，包含 40 行数据
+2025-08-11 10:33:09,818 - google.google_search - INFO - Google搜索WebDriver初始化成功
+2025-08-11 10:33:10,826 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver初始化成功
+2025-08-11 10:33:10,827 - scraper.orchestrator - INFO - 🚀 设备信息爬取调度器初始化完成
+2025-08-11 10:33:10,828 - tools.csv_tools - INFO - 读取CSV文件: model_codes.csv, 共 40 行
+2025-08-11 10:33:10,830 - tools.csv_tools - INFO - 唯一型号数量: 40
+2025-08-11 10:33:10,830 - tools.csv_tools - INFO - 有效设备数量: 40
+2025-08-11 10:33:10,830 - __main__ - INFO - 📄 读取到 40 个设备
+2025-08-11 10:33:10,831 - __main__ - INFO - ⚙️ 配置: 延迟 5 秒/请求
+2025-08-11 10:33:10,831 - scraper.orchestrator - INFO - 🚀 开始批量处理 40 个设备
+2025-08-11 10:33:10,831 - scraper.orchestrator - INFO - 📱 进度: 1/40 (2.5%)
+2025-08-11 10:33:10,831 - scraper.orchestrator - INFO - 🔄 开始处理设备: 23021RAAEG
+2025-08-11 10:33:10,832 - google.google_search - INFO - 🔍 Google搜索: 23021RAAEG site:gsmarena.com
+2025-08-11 10:33:22,022 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:33:22,022 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi Note 12 4G - Full phone specifications
+2025-08-11 10:33:22,023 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:33:22,023 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Xiaomi Redmi Note 12 - Full phone specifications
+2025-08-11 10:33:22,024 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi Note 12 4G ...
+2025-08-11 10:33:22,024 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Redmi Note 12 4G vs. Xiaomi Redmi 12 5G
+2025-08-11 10:33:22,024 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Xiaomi Redmi Note 12 4G - User opinions and reviews
+2025-08-11 10:33:22,024 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi Note 12 4G
+2025-08-11 10:33:22,024 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Xiaomi Redmi Note 12 4G vs. ...
+2025-08-11 10:33:22,024 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Xiaomi Redmi Note 12 4G - User opinions and reviews
+2025-08-11 10:33:22,024 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi Note 13 vs. ...
+2025-08-11 10:33:22,025 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:33:22,025 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_note_12_4g-12188.php
+2025-08-11 10:33:22,025 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_12_4g-12188.php
+2025-08-11 10:33:28,781 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi Note 12 4G
+2025-08-11 10:33:28,782 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, March 23
+2025-08-11 10:33:28,782 - gsmarena.gsmarena_scraper - INFO - 价格: € 89.90 / £ 80.40
+2025-08-11 10:33:28,782 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi Note 12 4G
+2025-08-11 10:33:28,782 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: 23021RAAEG
+2025-08-11 10:33:28,782 - scraper.orchestrator - INFO - ✅ 成功: 23021RAAEG - Xiaomi Redmi Note 12 4G
+2025-08-11 10:33:28,784 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: 23021RAAEG
+2025-08-11 10:33:28,784 - scraper.orchestrator - INFO - ⏳ 等待 4.3 秒...
+2025-08-11 10:33:33,121 - scraper.orchestrator - INFO - 📱 进度: 2/40 (5.0%)
+2025-08-11 10:33:33,121 - scraper.orchestrator - INFO - 🔄 开始处理设备: TECNO CL7
+2025-08-11 10:33:33,121 - google.google_search - INFO - 🔍 Google搜索: TECNO CL7 site:gsmarena.com
+2025-08-11 10:33:42,134 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:33:42,135 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Tecno Camon 30 5G - Full phone specifications
+2025-08-11 10:33:42,135 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Tecno Camon 30 Premier - Full phone specifications
+2025-08-11 10:33:42,135 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Tecno Camon 30 5G vs. ...
+2025-08-11 10:33:42,136 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Tecno Camon 30 - Full phone specifications
+2025-08-11 10:33:42,136 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Tecno Camon 30 Pro - Full phone specifications
+2025-08-11 10:33:42,136 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: 
+2025-08-11 10:33:42,137 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Tecno Camon 30 5G
+2025-08-11 10:33:42,137 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Tecno Camon 30 5G vs. Xiaomi Mi 3
+2025-08-11 10:33:42,137 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Tecno Pouvoir 4 - Full phone specifications
+2025-08-11 10:33:42,137 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Tecno teases new Camon models, will also bring its tri-fold ...
+2025-08-11 10:33:42,137 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:33:42,137 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/tecno_camon_30_5g-12847.php
+2025-08-11 10:33:42,137 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/tecno_camon_30_5g-12847.php
+2025-08-11 10:33:50,140 - gsmarena.gsmarena_scraper - INFO - 设备名称: Tecno Camon 30 5G
+2025-08-11 10:33:50,140 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, February 27
+2025-08-11 10:33:50,140 - gsmarena.gsmarena_scraper - INFO - 价格: ₹ 15,999
+2025-08-11 10:33:50,140 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Tecno Camon 30 5G
+2025-08-11 10:33:50,140 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: TECNO CL7
+2025-08-11 10:33:50,140 - scraper.orchestrator - INFO - ✅ 成功: TECNO CL7 - Tecno Camon 30 5G
+2025-08-11 10:33:50,144 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: TECNO CL7
+2025-08-11 10:33:50,144 - scraper.orchestrator - INFO - ⏳ 等待 6.6 秒...
+2025-08-11 10:33:56,704 - scraper.orchestrator - INFO - 📱 进度: 3/40 (7.5%)
+2025-08-11 10:33:56,705 - scraper.orchestrator - INFO - 🔄 开始处理设备: CPH2325
+2025-08-11 10:33:56,705 - google.google_search - INFO - 🔍 Google搜索: CPH2325 site:gsmarena.com
+2025-08-11 10:34:08,272 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:34:08,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:34:08,273 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A55 - Full phone specifications
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Oppo A55 5G - Full phone specifications
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo A55 pictures, official photos
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A55 5G vs. Oppo A55
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Oppo A55 price in US, UK
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A55
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Oppo A55 vs. Oppo A54
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo A55 vs. Oppo A16
+2025-08-11 10:34:08,274 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Oppo A55 - User opinions and reviews
+2025-08-11 10:34:08,274 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:34:08,274 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_a55-11114.php
+2025-08-11 10:34:08,274 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a55-11114.php
+2025-08-11 10:34:15,842 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A55
+2025-08-11 10:34:15,843 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, October 01
+2025-08-11 10:34:15,843 - gsmarena.gsmarena_scraper - INFO - 价格: $ 555.00 / £ 72.64
+2025-08-11 10:34:15,843 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A55
+2025-08-11 10:34:15,844 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: CPH2325
+2025-08-11 10:34:15,844 - scraper.orchestrator - INFO - ✅ 成功: CPH2325 - Oppo A55
+2025-08-11 10:34:15,845 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: CPH2325
+2025-08-11 10:34:15,845 - scraper.orchestrator - INFO - ⏳ 等待 6.9 秒...
+2025-08-11 10:34:22,741 - scraper.orchestrator - INFO - 📱 进度: 4/40 (10.0%)
+2025-08-11 10:34:22,742 - scraper.orchestrator - INFO - 🔄 开始处理设备: V2342
+2025-08-11 10:34:22,742 - google.google_search - INFO - 🔍 Google搜索: V2342 site:gsmarena.com
+2025-08-11 10:34:32,569 - google.google_search - INFO - 找到 9 个Google搜索结果
+2025-08-11 10:34:32,570 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: vivo Y100 (IDN) - Full phone specifications
+2025-08-11 10:34:32,571 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: vivo Y100 4G - Full phone specifications
+2025-08-11 10:34:32,571 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: vivo Y100 - Full phone specifications
+2025-08-11 10:34:32,571 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: vivo V30 Lite - Full phone specifications
+2025-08-11 10:34:32,571 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: vivo V23e - Full phone specifications
+2025-08-11 10:34:32,572 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: vivo V30 Lite 4G - Full phone specifications
+2025-08-11 10:34:32,572 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: vivo V23 5G - Full phone specifications
+2025-08-11 10:34:32,572 - google.google_search - INFO - 🎯 Google搜索找到 7 个GSMArena链接
+2025-08-11 10:34:32,572 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/vivo_y100_(idn)-12806.php
+2025-08-11 10:34:32,572 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_y100_(idn)-12806.php
+2025-08-11 10:34:39,537 - gsmarena.gsmarena_scraper - INFO - 设备名称: vivo Y100 (IDN)
+2025-08-11 10:34:39,537 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, January 25
+2025-08-11 10:34:39,537 - gsmarena.gsmarena_scraper - INFO - 价格: About 220 EUR
+2025-08-11 10:34:39,537 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: vivo Y100 (IDN)
+2025-08-11 10:34:39,537 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: V2342
+2025-08-11 10:34:39,537 - scraper.orchestrator - INFO - ✅ 成功: V2342 - vivo Y100 (IDN)
+2025-08-11 10:34:39,539 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: V2342
+2025-08-11 10:34:39,539 - scraper.orchestrator - INFO - ⏳ 等待 4.6 秒...
+2025-08-11 10:34:44,108 - scraper.orchestrator - INFO - 📱 进度: 5/40 (12.5%)
+2025-08-11 10:34:44,108 - scraper.orchestrator - INFO - 🔄 开始处理设备: Redmi 7A
+2025-08-11 10:34:44,108 - google.google_search - INFO - 🔍 Google搜索: Redmi 7A site:gsmarena.com
+2025-08-11 10:34:55,777 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:34:55,778 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi 7A - Full phone specifications
+2025-08-11 10:34:55,778 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Xiaomi Redmi Note 7 vs. ...
+2025-08-11 10:34:55,778 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Xiaomi Redmi 7A vs. Xiaomi Redmi 7A
+2025-08-11 10:34:55,779 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Xiaomi Redmi 7A price
+2025-08-11 10:34:55,779 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Xiaomi Redmi 7A pictures, official photos
+2025-08-11 10:34:55,779 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Xiaomi Redmi 7A - User opinions and reviews
+2025-08-11 10:34:55,779 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Xiaomi Redmi 7 vs. Xiaomi Redmi 7A
+2025-08-11 10:34:55,779 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Redmi 7A announced with Snapdragon 439 and ...
+2025-08-11 10:34:55,780 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: 
+2025-08-11 10:34:55,780 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi 7A vs. Xiaomi Redmi 6
+2025-08-11 10:34:55,780 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:34:55,780 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_7a-9716.php
+2025-08-11 10:34:55,780 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_7a-9716.php
+2025-08-11 10:35:04,153 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi 7A
+2025-08-11 10:35:04,153 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, May 24
+2025-08-11 10:35:04,153 - gsmarena.gsmarena_scraper - INFO - 价格: About 130 EUR
+2025-08-11 10:35:04,153 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi 7A
+2025-08-11 10:35:04,153 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: Redmi 7A
+2025-08-11 10:35:04,153 - scraper.orchestrator - INFO - ✅ 成功: Redmi 7A - Xiaomi Redmi 7A
+2025-08-11 10:35:04,155 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: Redmi 7A
+2025-08-11 10:35:04,155 - scraper.orchestrator - INFO - ⏳ 等待 6.8 秒...
+2025-08-11 10:35:10,987 - scraper.orchestrator - INFO - 📱 进度: 6/40 (15.0%)
+2025-08-11 10:35:10,988 - scraper.orchestrator - INFO - 🔄 开始处理设备: vivo 1814
+2025-08-11 10:35:10,989 - google.google_search - INFO - 🔍 Google搜索: vivo 1814 site:gsmarena.com
+2025-08-11 10:35:20,908 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:35:20,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: vivo Y93 - Full phone specifications
+2025-08-11 10:35:20,909 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:35:20,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: vivo Y93 (Mediatek) - Full phone specifications
+2025-08-11 10:35:20,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare vivo Y95 vs. vivo Y93
+2025-08-11 10:35:20,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare vivo Y93 vs. Oppo A7
+2025-08-11 10:35:20,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: vivo Y91 - Full phone specifications
+2025-08-11 10:35:20,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare vivo Y93 vs. Realme 3
+2025-08-11 10:35:20,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare vivo Y91 vs. vivo Y93
+2025-08-11 10:35:20,910 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare vivo Y93 vs. Xiaomi Redmi Note 7
+2025-08-11 10:35:20,911 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare vivo V11 (V11 Pro) vs. vivo V9
+2025-08-11 10:35:20,911 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:35:20,911 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/vivo_y93-9388.php
+2025-08-11 10:35:20,911 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/vivo_y93-9388.php
+2025-08-11 10:35:27,657 - gsmarena.gsmarena_scraper - INFO - 设备名称: vivo Y93
+2025-08-11 10:35:27,657 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, November
+2025-08-11 10:35:27,657 - gsmarena.gsmarena_scraper - INFO - 价格: About 200 EUR
+2025-08-11 10:35:27,657 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: vivo Y93
+2025-08-11 10:35:27,658 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: vivo 1814
+2025-08-11 10:35:27,658 - scraper.orchestrator - INFO - ✅ 成功: vivo 1814 - vivo Y93
+2025-08-11 10:35:27,660 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: vivo 1814
+2025-08-11 10:35:27,660 - scraper.orchestrator - INFO - ⏳ 等待 4.1 秒...
+2025-08-11 10:35:31,790 - scraper.orchestrator - INFO - 📱 进度: 7/40 (17.5%)
+2025-08-11 10:35:31,791 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-G781B
+2025-08-11 10:35:31,791 - google.google_search - INFO - 🔍 Google搜索: SM-G781B site:gsmarena.com
+2025-08-11 10:35:42,064 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:35:42,065 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy S20 FE 5G - Full phone specifications
+2025-08-11 10:35:42,065 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy S20 FE - Full phone specifications
+2025-08-11 10:35:42,065 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy S20 FE 5G - User opinions and reviews
+2025-08-11 10:35:42,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy S20 FE 5G vs. ...
+2025-08-11 10:35:42,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy S20 Lite appears on Geekbench with ...
+2025-08-11 10:35:42,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Samsung Galaxy S20 FE 5G vs. ...
+2025-08-11 10:35:42,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy S20 FE 5G vs. ...
+2025-08-11 10:35:42,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy S20 FE 5G vs. ...
+2025-08-11 10:35:42,066 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy S20 FE 5G vs. ...
+2025-08-11 10:35:42,067 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Samsung Galaxy S20 FE 5G - User opinions and reviews
+2025-08-11 10:35:42,067 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:35:42,067 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_s20_fe_5g-10377.php
+2025-08-11 10:35:42,067 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_s20_fe_5g-10377.php
+2025-08-11 10:35:49,627 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy S20 FE 5G
+2025-08-11 10:35:49,628 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, September 23
+2025-08-11 10:35:49,628 - gsmarena.gsmarena_scraper - INFO - 价格: $ 135.00 / € 249.99 / £ 169.99 / ₹ 29,750
+2025-08-11 10:35:49,628 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy S20 FE 5G
+2025-08-11 10:35:49,628 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-G781B
+2025-08-11 10:35:49,628 - scraper.orchestrator - INFO - ✅ 成功: SM-G781B - Samsung Galaxy S20 FE 5G
+2025-08-11 10:35:49,630 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-G781B
+2025-08-11 10:35:49,630 - scraper.orchestrator - INFO - ⏳ 等待 4.2 秒...
+2025-08-11 10:35:53,830 - scraper.orchestrator - INFO - 📱 进度: 8/40 (20.0%)
+2025-08-11 10:35:53,830 - scraper.orchestrator - INFO - 🔄 开始处理设备: LYA-AL00
+2025-08-11 10:35:53,831 - google.google_search - INFO - 🔍 Google搜索: LYA-AL00 site:gsmarena.com
+2025-08-11 10:36:04,421 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:36:04,424 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:36:04,424 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Huawei Mate 20 Pro - Full phone specifications
+2025-08-11 10:36:04,424 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Huawei Mate 20 Pro
+2025-08-11 10:36:04,424 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Huawei Mate 20 Pro vs. Samsung Galaxy S24 Ultra
+2025-08-11 10:36:04,424 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Huawei Mate 20 Pro vs. OnePlus 2
+2025-08-11 10:36:04,425 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Nothing CMF Phone 2 Pro vs. Huawei Mate 20 Pro
+2025-08-11 10:36:04,425 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Huawei Mate 40 Pro vs. ...
+2025-08-11 10:36:04,425 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Honor View 20 vs. Huawei Mate 20 Pro
+2025-08-11 10:36:04,425 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Huawei Mate 20 lite vs. ...
+2025-08-11 10:36:04,425 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Huawei Mate 20 Pro vs. Sony Xperia 5 III
+2025-08-11 10:36:04,425 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:36:04,425 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/huawei_mate_20_pro-9343.php
+2025-08-11 10:36:04,425 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/huawei_mate_20_pro-9343.php
+2025-08-11 10:36:11,773 - gsmarena.gsmarena_scraper - INFO - 设备名称: Huawei Mate 20 Pro
+2025-08-11 10:36:11,774 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, October 16
+2025-08-11 10:36:11,774 - gsmarena.gsmarena_scraper - INFO - 价格: About 800 EUR
+2025-08-11 10:36:11,774 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Huawei Mate 20 Pro
+2025-08-11 10:36:11,774 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: LYA-AL00
+2025-08-11 10:36:11,774 - scraper.orchestrator - INFO - ✅ 成功: LYA-AL00 - Huawei Mate 20 Pro
+2025-08-11 10:36:11,776 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: LYA-AL00
+2025-08-11 10:36:11,776 - scraper.orchestrator - INFO - ⏳ 等待 6.1 秒...
+2025-08-11 10:36:17,902 - scraper.orchestrator - INFO - 📱 进度: 9/40 (22.5%)
+2025-08-11 10:36:17,902 - scraper.orchestrator - INFO - 🔄 开始处理设备: 2201116TG
+2025-08-11 10:36:17,903 - google.google_search - INFO - 🔍 Google搜索: 2201116TG site:gsmarena.com
+2025-08-11 10:36:28,567 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:36:28,568 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Xiaomi Redmi Note 11 Pro - Full phone specifications
+2025-08-11 10:36:28,568 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Xiaomi Redmi Note 11 Pro 5G - Full phone specifications
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Xiaomi Redmi Note 11 Pro vs. ...
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Xiaomi Redmi Note 11 vs. ...
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Xiaomi Redmi Note 11 Pro pictures, official photos
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Xiaomi Redmi Note 11 Pro price in US, UK, EU
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare - Xiaomi Redmi Note 3
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Xiaomi Redmi Note 11 Pro
+2025-08-11 10:36:28,569 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Redmi Note 11 Pro vs. Xiaomi 11T
+2025-08-11 10:36:28,570 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:36:28,570 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/xiaomi_redmi_note_11_pro-11334.php
+2025-08-11 10:36:28,570 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_redmi_note_11_pro-11334.php
+2025-08-11 10:36:35,741 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Redmi Note 11 Pro
+2025-08-11 10:36:35,741 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, January 26
+2025-08-11 10:36:35,741 - gsmarena.gsmarena_scraper - INFO - 价格: $ 180.00 / € 199.00 / £ 124.00
+2025-08-11 10:36:35,741 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Redmi Note 11 Pro
+2025-08-11 10:36:35,741 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: 2201116TG
+2025-08-11 10:36:35,741 - scraper.orchestrator - INFO - ✅ 成功: 2201116TG - Xiaomi Redmi Note 11 Pro
+2025-08-11 10:36:35,744 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: 2201116TG
+2025-08-11 10:36:35,744 - scraper.orchestrator - INFO - ⏳ 等待 7.2 秒...
+2025-08-11 10:36:42,900 - scraper.orchestrator - INFO - 📱 进度: 10/40 (25.0%)
+2025-08-11 10:36:42,903 - scraper.orchestrator - INFO - 🔄 开始处理设备: Infinix X6962
+2025-08-11 10:36:42,905 - google.google_search - INFO - 🔍 Google搜索: Infinix X6962 site:gsmarena.com
+2025-08-11 10:36:54,571 - google.google_search - INFO - 找到 7 个Google搜索结果
+2025-08-11 10:36:54,572 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:36:54,572 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Infinix Zero Flip - Full phone specifications
+2025-08-11 10:36:54,572 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Infinix Zero Flip stops by the FCC with 70W charging support
+2025-08-11 10:36:54,572 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Infinix Zero Flip
+2025-08-11 10:36:54,573 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Infinix Zero Flip review: Software and performance
+2025-08-11 10:36:54,573 - google.google_search - INFO - 🎯 Google搜索找到 5 个GSMArena链接
+2025-08-11 10:36:54,573 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/infinix_zero_flip_stops_by_the_fcc_with_70w_charging_support-news-63267.php
+2025-08-11 10:36:54,573 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/infinix_zero_flip_stops_by_the_fcc_with_70w_charging_support-news-63267.php
+2025-08-11 10:37:01,019 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-08-11 10:37:01,019 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-08-11 10:37:01,019 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:37:01,019 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-08-11 10:37:01,019 - scraper.orchestrator - WARNING - GSMArena信息不完整: Infinix X6962
+2025-08-11 10:37:01,019 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Infinix X6962
+2025-08-11 10:37:01,020 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: Infinix X6962
+2025-08-11 10:37:08,480 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=Infinix+X6962&lang=en&v=3
+2025-08-11 10:37:13,449 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=Infinix+X6962
+2025-08-11 10:37:13,451 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: Infinix X6962
+2025-08-11 10:37:13,452 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: Infinix X6962
+2025-08-11 10:37:13,453 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: Infinix X6962
+2025-08-11 10:37:37,890 - gsmarena.gsmarena_scraper - WARNING - ⚠️ GSMArena显示最接近匹配结果
+2025-08-11 10:37:37,891 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/infinix_zero_flip-13347.php
+2025-08-11 10:37:43,467 - gsmarena.gsmarena_scraper - INFO - 设备名称: Infinix Zero Flip
+2025-08-11 10:37:43,467 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, September 27
+2025-08-11 10:37:43,467 - gsmarena.gsmarena_scraper - INFO - 价格: ₹ 44,999
+2025-08-11 10:37:43,467 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Infinix Zero Flip
+2025-08-11 10:37:43,467 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: Infinix X6962
+2025-08-11 10:37:43,467 - scraper.orchestrator - INFO - ✅ 成功: Infinix X6962 - Infinix Zero Flip
+2025-08-11 10:37:43,471 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: Infinix X6962
+2025-08-11 10:37:43,471 - scraper.orchestrator - INFO - ⏳ 等待 4.8 秒...
+2025-08-11 10:37:48,311 - scraper.orchestrator - INFO - 📱 进度: 11/40 (27.5%)
+2025-08-11 10:37:48,312 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A5260
+2025-08-11 10:37:48,313 - google.google_search - INFO - 🔍 Google搜索: SM-A5260 site:gsmarena.com
+2025-08-11 10:37:56,501 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:37:56,502 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A52 5G - Full phone specifications
+2025-08-11 10:37:56,502 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy A52 5G bags 3C certification with 15W ...
+2025-08-11 10:37:56,503 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy A52 5G - User opinions and reviews
+2025-08-11 10:37:56,503 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A52 5G vs. ...
+2025-08-11 10:37:56,503 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare - Samsung Galaxy A52 5G
+2025-08-11 10:37:56,503 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare - Samsung Galaxy A52 5G
+2025-08-11 10:37:56,503 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A52 5G vs. ...
+2025-08-11 10:37:56,503 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A52 5G vs. LG V60 ThinQ ...
+2025-08-11 10:37:56,504 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy A52 5G vs. Nothing Phone (3)
+2025-08-11 10:37:56,504 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A52 5G vs. ...
+2025-08-11 10:37:56,504 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:37:56,504 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a52_5g-10631.php
+2025-08-11 10:37:56,504 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a52_5g-10631.php
+2025-08-11 10:38:02,468 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A52 5G
+2025-08-11 10:38:02,468 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, March 17
+2025-08-11 10:38:02,468 - gsmarena.gsmarena_scraper - INFO - 价格: $ 142.50 / € 165.00 / £ 164.00
+2025-08-11 10:38:02,468 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A52 5G
+2025-08-11 10:38:02,468 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A5260
+2025-08-11 10:38:02,468 - scraper.orchestrator - INFO - ✅ 成功: SM-A5260 - Samsung Galaxy A52 5G
+2025-08-11 10:38:02,469 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-A5260
+2025-08-11 10:38:02,469 - scraper.orchestrator - INFO - ⏳ 等待 7.4 秒...
+2025-08-11 10:38:09,863 - scraper.orchestrator - INFO - 📱 进度: 12/40 (30.0%)
+2025-08-11 10:38:09,865 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A146U1
+2025-08-11 10:38:09,866 - google.google_search - INFO - 🔍 Google搜索: SM-A146U1 site:gsmarena.com
+2025-08-11 10:38:18,803 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:38:18,804 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A14 5G - Full phone specifications
+2025-08-11 10:38:18,804 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Samsung Galaxy A14 5G vs. ...
+2025-08-11 10:38:18,804 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy A14 5G, Galaxy A34 5G, and Galaxy A54 ...
+2025-08-11 10:38:18,804 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A14 5G vs. Motorola Moto G ...
+2025-08-11 10:38:18,805 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy A14 5G vs. ...
+2025-08-11 10:38:18,805 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Samsung Galaxy A14 5G vs. ...
+2025-08-11 10:38:18,805 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Samsung Galaxy S24 FE
+2025-08-11 10:38:18,805 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A05s vs. ...
+2025-08-11 10:38:18,805 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Samsung Galaxy A14 - Full phone specifications
+2025-08-11 10:38:18,805 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Samsung Galaxy A14 5G
+2025-08-11 10:38:18,805 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:38:18,806 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a14_5g-12004.php
+2025-08-11 10:38:18,806 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a14_5g-12004.php
+2025-08-11 10:38:26,615 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A14 5G
+2025-08-11 10:38:26,615 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, January 04
+2025-08-11 10:38:26,615 - gsmarena.gsmarena_scraper - INFO - 价格: $ 62.03 / € 128.28 / £ 104.99 / ₹ 11,999
+2025-08-11 10:38:26,615 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A14 5G
+2025-08-11 10:38:26,615 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A146U1
+2025-08-11 10:38:26,615 - scraper.orchestrator - INFO - ✅ 成功: SM-A146U1 - Samsung Galaxy A14 5G
+2025-08-11 10:38:26,617 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-A146U1
+2025-08-11 10:38:26,617 - scraper.orchestrator - INFO - ⏳ 等待 5.7 秒...
+2025-08-11 10:38:32,294 - scraper.orchestrator - INFO - 📱 进度: 13/40 (32.5%)
+2025-08-11 10:38:32,295 - scraper.orchestrator - INFO - 🔄 开始处理设备: T811
+2025-08-11 10:38:32,295 - google.google_search - INFO - 🔍 Google搜索: T811 site:gsmarena.com
+2025-08-11 10:38:55,424 - google.google_search - WARNING - Google搜索页面加载超时: T811
+2025-08-11 10:38:55,426 - scraper.orchestrator - INFO - Google未找到GSMArena链接: T811
+2025-08-11 10:38:55,426 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: T811
+2025-08-11 10:38:55,426 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: T811
+2025-08-11 10:39:02,859 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=T811&lang=en&v=3
+2025-08-11 10:39:08,242 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=T811
+2025-08-11 10:39:08,245 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: T811
+2025-08-11 10:39:08,245 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: T811
+2025-08-11 10:39:08,283 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: T811
+2025-08-11 10:39:29,487 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/search.php3
+2025-08-11 10:39:39,069 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-08-11 10:39:39,070 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-08-11 10:39:39,070 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:39:39,070 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-08-11 10:39:39,070 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: T811
+2025-08-11 10:39:39,070 - scraper.orchestrator - INFO - ✅ 成功: T811 - Unknown
+2025-08-11 10:39:39,077 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: T811
+2025-08-11 10:39:39,077 - scraper.orchestrator - INFO - ⏳ 等待 6.9 秒...
+2025-08-11 10:39:45,976 - scraper.orchestrator - INFO - 📱 进度: 14/40 (35.0%)
+2025-08-11 10:39:45,976 - scraper.orchestrator - INFO - 🔄 开始处理设备: Air3
+2025-08-11 10:39:45,977 - google.google_search - INFO - 🔍 Google搜索: Air3 site:gsmarena.com
+2025-08-11 10:39:53,869 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:39:53,871 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:39:53,871 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Apple iPad Air (2019) - Full tablet specifications
+2025-08-11 10:39:53,871 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: iQOO Pad5 duo, Watch 5 and TWS Air3 announced
+2025-08-11 10:39:53,871 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: The DJI Air 3 is official with two cameras - a wide and ...
+2025-08-11 10:39:53,871 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: iQOO Pad5 duo, Watch 5 and TWS Air3 announced
+2025-08-11 10:39:53,871 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Oppo Reno8 T 5G and Enco Air3 set to launch on February ...
+2025-08-11 10:39:53,871 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Realme Buds Air 3 review
+2025-08-11 10:39:53,872 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Apple iPad Air (2020) vs. ...
+2025-08-11 10:39:53,872 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Apple iPad Air (2019) vs. ...
+2025-08-11 10:39:53,872 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Apple iPad Air (2019) - User opinions and reviews - page 3
+2025-08-11 10:39:53,872 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:39:53,872 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/apple_ipad_air_(2019)-9638.php
+2025-08-11 10:39:53,872 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/apple_ipad_air_(2019)-9638.php
+2025-08-11 10:39:59,705 - gsmarena.gsmarena_scraper - INFO - 设备名称: Apple iPad Air (2019)
+2025-08-11 10:39:59,705 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, March 18
+2025-08-11 10:39:59,705 - gsmarena.gsmarena_scraper - INFO - 价格: About 550 EUR
+2025-08-11 10:39:59,705 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Apple iPad Air (2019)
+2025-08-11 10:39:59,705 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: Air3
+2025-08-11 10:39:59,705 - scraper.orchestrator - INFO - ✅ 成功: Air3 - Apple iPad Air (2019)
+2025-08-11 10:39:59,707 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: Air3
+2025-08-11 10:39:59,707 - scraper.orchestrator - INFO - ⏳ 等待 4.9 秒...
+2025-08-11 10:40:04,667 - scraper.orchestrator - INFO - 📱 进度: 15/40 (37.5%)
+2025-08-11 10:40:04,667 - scraper.orchestrator - INFO - 🔄 开始处理设备: T506T
+2025-08-11 10:40:04,668 - google.google_search - INFO - 🔍 Google搜索: T506T site:gsmarena.com
+2025-08-11 10:40:14,691 - google.google_search - INFO - 找到 4 个Google搜索结果
+2025-08-11 10:40:14,692 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: TCL 406 - Full phone specifications
+2025-08-11 10:40:14,692 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: All TCL phones
+2025-08-11 10:40:14,692 - google.google_search - INFO - 🎯 Google搜索找到 2 个GSMArena链接
+2025-08-11 10:40:14,692 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/tcl_406-12147.php
+2025-08-11 10:40:14,692 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/tcl_406-12147.php
+2025-08-11 10:40:20,180 - gsmarena.gsmarena_scraper - INFO - 设备名称: TCL 406
+2025-08-11 10:40:20,180 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, February 26
+2025-08-11 10:40:20,180 - gsmarena.gsmarena_scraper - INFO - 价格: About 110 EUR
+2025-08-11 10:40:20,180 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: TCL 406
+2025-08-11 10:40:20,180 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: T506T
+2025-08-11 10:40:20,180 - scraper.orchestrator - INFO - ✅ 成功: T506T - TCL 406
+2025-08-11 10:40:20,181 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: T506T
+2025-08-11 10:40:20,181 - scraper.orchestrator - INFO - ⏳ 等待 4.3 秒...
+2025-08-11 10:40:24,502 - scraper.orchestrator - INFO - 📱 进度: 16/40 (40.0%)
+2025-08-11 10:40:24,502 - scraper.orchestrator - INFO - 🔄 开始处理设备: LGL322DL
+2025-08-11 10:40:24,503 - google.google_search - INFO - 🔍 Google搜索: LGL322DL site:gsmarena.com
+2025-08-11 10:40:35,235 - google.google_search - INFO - 找到 3 个Google搜索结果
+2025-08-11 10:40:35,235 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: LG K30 (2019) - Full phone specifications
+2025-08-11 10:40:35,235 - google.google_search - INFO - 🎯 Google搜索找到 1 个GSMArena链接
+2025-08-11 10:40:35,235 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/lg_k30_(2019)-9827.php
+2025-08-11 10:40:35,235 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/lg_k30_(2019)-9827.php
+2025-08-11 10:40:41,662 - gsmarena.gsmarena_scraper - INFO - 设备名称: LG K30 (2019)
+2025-08-11 10:40:41,662 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, August
+2025-08-11 10:40:41,662 - gsmarena.gsmarena_scraper - INFO - 价格: About 140 EUR
+2025-08-11 10:40:41,662 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: LG K30 (2019)
+2025-08-11 10:40:41,662 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: LGL322DL
+2025-08-11 10:40:41,662 - scraper.orchestrator - INFO - ✅ 成功: LGL322DL - LG K30 (2019)
+2025-08-11 10:40:41,665 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: LGL322DL
+2025-08-11 10:40:41,665 - scraper.orchestrator - INFO - ⏳ 等待 6.7 秒...
+2025-08-11 10:40:48,349 - scraper.orchestrator - INFO - 📱 进度: 17/40 (42.5%)
+2025-08-11 10:40:48,350 - scraper.orchestrator - INFO - 🔄 开始处理设备: TA-1053
+2025-08-11 10:40:48,351 - google.google_search - INFO - 🔍 Google搜索: TA-1053 site:gsmarena.com
+2025-08-11 10:40:58,282 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:40:58,282 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Nokia 5 - Full phone specifications
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Nokia 5
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare - Nokia 5
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Nokia 5 - User opinions and reviews - page 54
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Nokia 6.1 vs. Nokia 5
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Nokia 5 vs. Samsung Galaxy J5 Prime
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Nokia 1 vs. Nokia 5
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Nokia 5 vs. Huawei P9 lite
+2025-08-11 10:40:58,283 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Nokia 5 review: Numb3r5 don't lie
+2025-08-11 10:40:58,283 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:40:58,283 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/nokia_5-8571.php
+2025-08-11 10:40:58,284 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/nokia_5-8571.php
+2025-08-11 10:41:03,681 - gsmarena.gsmarena_scraper - INFO - 设备名称: Nokia 5
+2025-08-11 10:41:03,681 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2017, February 26
+2025-08-11 10:41:03,681 - gsmarena.gsmarena_scraper - INFO - 价格: About 170 EUR
+2025-08-11 10:41:03,681 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Nokia 5
+2025-08-11 10:41:03,681 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: TA-1053
+2025-08-11 10:41:03,681 - scraper.orchestrator - INFO - ✅ 成功: TA-1053 - Nokia 5
+2025-08-11 10:41:03,683 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: TA-1053
+2025-08-11 10:41:03,683 - scraper.orchestrator - INFO - ⏳ 等待 4.3 秒...
+2025-08-11 10:41:07,957 - scraper.orchestrator - INFO - 📱 进度: 18/40 (45.0%)
+2025-08-11 10:41:07,958 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-F766B
+2025-08-11 10:41:07,958 - google.google_search - INFO - 🔍 Google搜索: SM-F766B site:gsmarena.com
+2025-08-11 10:41:16,682 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:41:16,683 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy Z Flip7 - Full phone specifications
+2025-08-11 10:41:16,683 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy Z Fold7, Z Flip7 and Z Flip7 FE certified ...
+2025-08-11 10:41:16,683 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy Z Flip7
+2025-08-11 10:41:16,683 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare - Samsung Galaxy Z Flip7
+2025-08-11 10:41:16,683 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Motorola Razr 60 Ultra vs. Samsung Galaxy Z Flip7
+2025-08-11 10:41:16,683 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Samsung Galaxy Z Fold7 vs. ...
+2025-08-11 10:41:16,683 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy Z Flip7 vs. Samsung Galaxy S23+
+2025-08-11 10:41:16,684 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy Z Flip7 vs. Apple iPhone 7
+2025-08-11 10:41:16,684 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy Z Flip7 vs. Nokia Lumia 820
+2025-08-11 10:41:16,684 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: 
+2025-08-11 10:41:16,684 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:41:16,684 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_z_flip7-13712.php
+2025-08-11 10:41:16,684 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_z_flip7-13712.php
+2025-08-11 10:41:25,625 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy Z Flip7
+2025-08-11 10:41:25,625 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2025, July 09
+2025-08-11 10:41:25,625 - gsmarena.gsmarena_scraper - INFO - 价格: $ 1,049.00 / € 994.95 / £ 925.91 / ₹ 97,999
+2025-08-11 10:41:25,625 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy Z Flip7
+2025-08-11 10:41:25,625 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-F766B
+2025-08-11 10:41:25,625 - scraper.orchestrator - INFO - ✅ 成功: SM-F766B - Samsung Galaxy Z Flip7
+2025-08-11 10:41:25,627 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-F766B
+2025-08-11 10:41:25,627 - scraper.orchestrator - INFO - ⏳ 等待 7.1 秒...
+2025-08-11 10:41:32,761 - scraper.orchestrator - INFO - 📱 进度: 19/40 (47.5%)
+2025-08-11 10:41:32,762 - scraper.orchestrator - INFO - 🔄 开始处理设备: PBFM00
+2025-08-11 10:41:32,762 - google.google_search - INFO - 🔍 Google搜索: PBFM00 site:gsmarena.com
+2025-08-11 10:41:40,451 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:41:40,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:41:40,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo A7 - Full phone specifications
+2025-08-11 10:41:40,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo A5s (AX5s) vs. Oppo A7
+2025-08-11 10:41:40,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: New mysterious Oppo shines on TENAA
+2025-08-11 10:41:40,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo A9 vs. Oppo A7
+2025-08-11 10:41:40,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo A7 vs. Samsung Galaxy M20
+2025-08-11 10:41:40,452 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Oppo A12 vs. Oppo A7
+2025-08-11 10:41:40,453 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare vivo Y15 vs. Oppo A7
+2025-08-11 10:41:40,453 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo K1 vs. Oppo A7
+2025-08-11 10:41:40,453 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Oppo A7 vs. Xiaomi Redmi Note 7
+2025-08-11 10:41:40,453 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:41:40,453 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/new_mysterious_oppo_tenaa-news-33811.php
+2025-08-11 10:41:40,453 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/new_mysterious_oppo_tenaa-news-33811.php
+2025-08-11 10:41:46,939 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-08-11 10:41:46,939 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-08-11 10:41:46,939 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:41:46,940 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-08-11 10:41:46,940 - scraper.orchestrator - WARNING - GSMArena信息不完整: PBFM00
+2025-08-11 10:41:46,940 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: PBFM00
+2025-08-11 10:41:46,940 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: PBFM00
+2025-08-11 10:41:52,386 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=PBFM00&lang=en&v=3
+2025-08-11 10:41:58,729 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=PBFM00
+2025-08-11 10:41:58,733 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: PBFM00
+2025-08-11 10:41:58,733 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: PBFM00
+2025-08-11 10:41:58,735 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: PBFM00
+2025-08-11 10:42:18,589 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_a7-9394.php
+2025-08-11 10:42:24,253 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo A7
+2025-08-11 10:42:24,253 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, November
+2025-08-11 10:42:24,254 - gsmarena.gsmarena_scraper - INFO - 价格: About 270 EUR
+2025-08-11 10:42:24,254 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo A7
+2025-08-11 10:42:24,254 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: PBFM00
+2025-08-11 10:42:24,254 - scraper.orchestrator - INFO - ✅ 成功: PBFM00 - Oppo A7
+2025-08-11 10:42:24,255 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: PBFM00
+2025-08-11 10:42:24,255 - scraper.orchestrator - INFO - ⏳ 等待 7.1 秒...
+2025-08-11 10:42:31,332 - scraper.orchestrator - INFO - 📱 进度: 20/40 (50.0%)
+2025-08-11 10:42:31,334 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A165M
+2025-08-11 10:42:31,334 - google.google_search - INFO - 🔍 Google搜索: SM-A165M site:gsmarena.com
+2025-08-11 10:42:39,801 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:42:39,803 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy A16 - Full phone specifications
+2025-08-11 10:42:39,803 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy A16 5G - Full phone specifications
+2025-08-11 10:42:39,803 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare - Samsung Galaxy A16
+2025-08-11 10:42:39,803 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A16
+2025-08-11 10:42:39,803 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy M15 vs. Samsung Galaxy A16
+2025-08-11 10:42:39,803 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare - Samsung Galaxy A16
+2025-08-11 10:42:39,803 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy M16 vs. Samsung Galaxy A16
+2025-08-11 10:42:39,804 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: 
+2025-08-11 10:42:39,804 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Samsung Galaxy A16
+2025-08-11 10:42:39,804 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A05 vs. Samsung Galaxy A16
+2025-08-11 10:42:39,804 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:42:39,804 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a16-13383.php
+2025-08-11 10:42:39,804 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a16-13383.php
+2025-08-11 10:42:45,397 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A16
+2025-08-11 10:42:45,397 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, October 15
+2025-08-11 10:42:45,397 - gsmarena.gsmarena_scraper - INFO - 价格: $ 127.77 / € 121.00 / £ 104.00
+2025-08-11 10:42:45,397 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A16
+2025-08-11 10:42:45,397 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A165M
+2025-08-11 10:42:45,397 - scraper.orchestrator - INFO - ✅ 成功: SM-A165M - Samsung Galaxy A16
+2025-08-11 10:42:45,399 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-A165M
+2025-08-11 10:42:45,399 - scraper.orchestrator - INFO - ⏳ 等待 4.5 秒...
+2025-08-11 10:42:49,890 - scraper.orchestrator - INFO - 📱 进度: 21/40 (52.5%)
+2025-08-11 10:42:49,891 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A127M
+2025-08-11 10:42:49,892 - google.google_search - INFO - 🔍 Google搜索: SM-A127M site:gsmarena.com
+2025-08-11 10:42:59,177 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:42:59,178 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:42:59,178 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy A12 Nacho - Full phone specifications
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy A12 - Full phone specifications
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A12 Nacho vs. ...
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy A12 Nacho
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Motorola Moto G54 vs. Samsung Galaxy A12 ...
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Samsung Galaxy A12 Nacho
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A12 Nacho vs. ...
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Xiaomi Redmi 10C vs. Samsung Galaxy A12 ...
+2025-08-11 10:42:59,179 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A12 Nacho vs. Apple iPhone 7 ...
+2025-08-11 10:42:59,179 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:42:59,179 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a12_nacho-11041.php
+2025-08-11 10:42:59,179 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a12_nacho-11041.php
+2025-08-11 10:43:05,573 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A12 Nacho
+2025-08-11 10:43:05,574 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, August 09
+2025-08-11 10:43:05,574 - gsmarena.gsmarena_scraper - INFO - 价格: About 130 EUR
+2025-08-11 10:43:05,574 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A12 Nacho
+2025-08-11 10:43:05,574 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A127M
+2025-08-11 10:43:05,574 - scraper.orchestrator - INFO - ✅ 成功: SM-A127M - Samsung Galaxy A12 Nacho
+2025-08-11 10:43:05,575 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-A127M
+2025-08-11 10:43:05,575 - scraper.orchestrator - INFO - ⏳ 等待 6.7 秒...
+2025-08-11 10:43:12,256 - scraper.orchestrator - INFO - 📱 进度: 22/40 (55.0%)
+2025-08-11 10:43:12,257 - scraper.orchestrator - INFO - 🔄 开始处理设备: 6165H
+2025-08-11 10:43:12,258 - google.google_search - INFO - 🔍 Google搜索: 6165H site:gsmarena.com
+2025-08-11 10:43:23,224 - google.google_search - INFO - 找到 10 个Google搜索结果
+2025-08-11 10:43:23,224 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: TCL 30 SE - Full phone specifications
+2025-08-11 10:43:23,225 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:43:23,225 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: TCL 30 SE - User opinions and reviews
+2025-08-11 10:43:23,225 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare TCL 30 SE
+2025-08-11 10:43:23,225 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare TCL 20 R 5G vs. TCL 30 SE
+2025-08-11 10:43:23,225 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Motorola Moto G Power (2022) vs. TCL 30 SE
+2025-08-11 10:43:23,225 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A50 vs. TCL 30 SE
+2025-08-11 10:43:23,225 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A13 vs. TCL 30 SE
+2025-08-11 10:43:23,226 - google.google_search - INFO - 🎯 Google搜索找到 8 个GSMArena链接
+2025-08-11 10:43:23,226 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/tcl_30_se-11384.php
+2025-08-11 10:43:23,226 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/tcl_30_se-11384.php
+2025-08-11 10:43:31,393 - gsmarena.gsmarena_scraper - INFO - 设备名称: TCL 30 SE
+2025-08-11 10:43:31,394 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, February 27
+2025-08-11 10:43:31,394 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:43:31,394 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: TCL 30 SE
+2025-08-11 10:43:31,394 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: 6165H
+2025-08-11 10:43:31,394 - scraper.orchestrator - INFO - ✅ 成功: 6165H - TCL 30 SE
+2025-08-11 10:43:31,399 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: 6165H
+2025-08-11 10:43:31,399 - scraper.orchestrator - INFO - ⏳ 等待 7.0 秒...
+2025-08-11 10:43:38,418 - scraper.orchestrator - INFO - 📱 进度: 23/40 (57.5%)
+2025-08-11 10:43:38,418 - scraper.orchestrator - INFO - 🔄 开始处理设备: P80
+2025-08-11 10:43:38,419 - google.google_search - INFO - 🔍 Google搜索: P80 site:gsmarena.com
+2025-08-11 10:43:50,301 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:43:50,302 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Cubot P80 - Full phone specifications
+2025-08-11 10:43:50,302 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Cubot P80 - User opinions and reviews
+2025-08-11 10:43:50,303 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Huawei Pura 80 Pro - Full phone specifications
+2025-08-11 10:43:50,303 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Cubot P80 pictures, official photos
+2025-08-11 10:43:50,303 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: 
+2025-08-11 10:43:50,303 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Cubot P80
+2025-08-11 10:43:50,304 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Cubot P80 price
+2025-08-11 10:43:50,304 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Huawei Pura 80 Ultra - Full phone specifications
+2025-08-11 10:43:50,304 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Cubot P80 alternatives - Similar or related devices
+2025-08-11 10:43:50,304 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Huawei Pura 80 Pro+ - Full phone specifications
+2025-08-11 10:43:50,304 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:43:50,304 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/cubot_p80-12304.php
+2025-08-11 10:43:50,304 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/cubot_p80-12304.php
+2025-08-11 10:43:56,732 - gsmarena.gsmarena_scraper - INFO - 设备名称: Cubot P80
+2025-08-11 10:43:56,732 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023
+2025-08-11 10:43:56,732 - gsmarena.gsmarena_scraper - INFO - 价格: About 160 EUR
+2025-08-11 10:43:56,732 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Cubot P80
+2025-08-11 10:43:56,732 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: P80
+2025-08-11 10:43:56,732 - scraper.orchestrator - INFO - ✅ 成功: P80 - Cubot P80
+2025-08-11 10:43:56,734 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: P80
+2025-08-11 10:43:56,734 - scraper.orchestrator - INFO - ⏳ 等待 5.0 秒...
+2025-08-11 10:44:01,757 - scraper.orchestrator - INFO - 📱 进度: 24/40 (60.0%)
+2025-08-11 10:44:01,758 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A5660
+2025-08-11 10:44:01,758 - google.google_search - INFO - 🔍 Google搜索: SM-A5660 site:gsmarena.com
+2025-08-11 10:44:11,977 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:44:11,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:44:11,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy A56 - Full phone specifications
+2025-08-11 10:44:11,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Galaxy A56, A36 and A26 get TUV Rheinland certification ...
+2025-08-11 10:44:11,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Samsung Galaxy A56 emerges in TENAA listing
+2025-08-11 10:44:11,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy A56 certification reveals its battery capacity
+2025-08-11 10:44:11,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Samsung Galaxy A56 - User opinions and reviews - page 23
+2025-08-11 10:44:11,979 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy A55 vs. Samsung Galaxy A56
+2025-08-11 10:44:11,980 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy A56
+2025-08-11 10:44:11,980 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Samsung Galaxy A56
+2025-08-11 10:44:11,980 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy A70 vs. Samsung Galaxy A56
+2025-08-11 10:44:11,980 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:44:11,980 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/galaxy_a56_a36_and_a26_get_tuv_rheinland_certification_hinting_at_imminent_release-news-66260.php
+2025-08-11 10:44:11,980 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/galaxy_a56_a36_and_a26_get_tuv_rheinland_certification_hinting_at_imminent_release-news-66260.php
+2025-08-11 10:44:21,117 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-08-11 10:44:21,118 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-08-11 10:44:21,118 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:44:21,118 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-08-11 10:44:21,118 - scraper.orchestrator - WARNING - GSMArena信息不完整: SM-A5660
+2025-08-11 10:44:21,118 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: SM-A5660
+2025-08-11 10:44:21,118 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: SM-A5660
+2025-08-11 10:44:28,753 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=SM-A5660&lang=en&v=3
+2025-08-11 10:44:35,411 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=SM-A5660
+2025-08-11 10:44:35,413 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: SM-A5660
+2025-08-11 10:44:35,413 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: SM-A5660
+2025-08-11 10:44:35,454 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: SM-A5660
+2025-08-11 10:44:53,760 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a56-13603.php
+2025-08-11 10:45:00,938 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A56
+2025-08-11 10:45:00,938 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2025, March 02
+2025-08-11 10:45:00,938 - gsmarena.gsmarena_scraper - INFO - 价格: $ 321.60 / € 287.00 / £ 281.59 / ₹ 38,248
+2025-08-11 10:45:00,938 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A56
+2025-08-11 10:45:00,938 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: SM-A5660
+2025-08-11 10:45:00,939 - scraper.orchestrator - INFO - ✅ 成功: SM-A5660 - Samsung Galaxy A56
+2025-08-11 10:45:00,940 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-A5660
+2025-08-11 10:45:00,940 - scraper.orchestrator - INFO - ⏳ 等待 4.0 秒...
+2025-08-11 10:45:04,983 - scraper.orchestrator - INFO - 📱 进度: 25/40 (62.5%)
+2025-08-11 10:45:04,984 - scraper.orchestrator - INFO - 🔄 开始处理设备: MAA-AN00
+2025-08-11 10:45:04,984 - google.google_search - INFO - 🔍 Google搜索: MAA-AN00 site:gsmarena.com
+2025-08-11 10:45:16,335 - google.google_search - INFO - 找到 6 个Google搜索结果
+2025-08-11 10:45:16,336 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:45:16,337 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Honor 100 - Full phone specifications
+2025-08-11 10:45:16,337 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Honor 100 series certified with 100W charging
+2025-08-11 10:45:16,337 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Honor 100
+2025-08-11 10:45:16,337 - google.google_search - INFO - 🎯 Google搜索找到 4 个GSMArena链接
+2025-08-11 10:45:16,337 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/honor_100_series_certified_with_100w_charging-news-60526.php
+2025-08-11 10:45:16,337 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/honor_100_series_certified_with_100w_charging-news-60526.php
+2025-08-11 10:45:21,926 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-08-11 10:45:21,926 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-08-11 10:45:21,926 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:45:21,926 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-08-11 10:45:21,926 - scraper.orchestrator - WARNING - GSMArena信息不完整: MAA-AN00
+2025-08-11 10:45:21,926 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: MAA-AN00
+2025-08-11 10:45:21,926 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: MAA-AN00
+2025-08-11 10:45:26,573 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=MAA-AN00&lang=en&v=3
+2025-08-11 10:45:33,609 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=MAA-AN00
+2025-08-11 10:45:33,613 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: MAA-AN00
+2025-08-11 10:45:33,613 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: MAA-AN00
+2025-08-11 10:45:33,632 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: MAA-AN00
+2025-08-11 10:45:52,833 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/honor_100-12700.php
+2025-08-11 10:45:59,451 - gsmarena.gsmarena_scraper - INFO - 设备名称: Honor 100
+2025-08-11 10:45:59,451 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, November 23
+2025-08-11 10:45:59,451 - gsmarena.gsmarena_scraper - INFO - 价格: About 320 EUR
+2025-08-11 10:45:59,451 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Honor 100
+2025-08-11 10:45:59,451 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: MAA-AN00
+2025-08-11 10:45:59,451 - scraper.orchestrator - INFO - ✅ 成功: MAA-AN00 - Honor 100
+2025-08-11 10:45:59,455 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: MAA-AN00
+2025-08-11 10:45:59,455 - scraper.orchestrator - INFO - ⏳ 等待 5.6 秒...
+2025-08-11 10:46:05,078 - scraper.orchestrator - INFO - 📱 进度: 26/40 (65.0%)
+2025-08-11 10:46:05,080 - scraper.orchestrator - INFO - 🔄 开始处理设备: HD1907
+2025-08-11 10:46:05,080 - google.google_search - INFO - 🔍 Google搜索: HD1907 site:gsmarena.com
+2025-08-11 10:46:15,399 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:46:15,400 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:46:15,400 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: OnePlus 7T - Full phone specifications
+2025-08-11 10:46:15,400 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare OnePlus 7 Pro vs. OnePlus 7T
+2025-08-11 10:46:15,400 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare OnePlus 13s vs. OnePlus 7T
+2025-08-11 10:46:15,400 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare OnePlus 7T vs. OnePlus Nord 4
+2025-08-11 10:46:15,400 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Samsung Galaxy S21+ 5G vs. OnePlus 7T
+2025-08-11 10:46:15,400 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: OnePlus 7T - User opinions and reviews - page 14
+2025-08-11 10:46:15,401 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare OnePlus 7T vs. Motorola Edge
+2025-08-11 10:46:15,401 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy S24 FE vs. OnePlus 7T
+2025-08-11 10:46:15,401 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Xiaomi Poco F7 vs. OnePlus 7T
+2025-08-11 10:46:15,401 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:46:15,401 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oneplus_7t-9816.php
+2025-08-11 10:46:15,401 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oneplus_7t-9816.php
+2025-08-11 10:46:21,357 - gsmarena.gsmarena_scraper - INFO - 设备名称: OnePlus 7T
+2025-08-11 10:46:21,357 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, September 26
+2025-08-11 10:46:21,357 - gsmarena.gsmarena_scraper - INFO - 价格: About 130 EUR
+2025-08-11 10:46:21,357 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: OnePlus 7T
+2025-08-11 10:46:21,357 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: HD1907
+2025-08-11 10:46:21,357 - scraper.orchestrator - INFO - ✅ 成功: HD1907 - OnePlus 7T
+2025-08-11 10:46:21,359 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: HD1907
+2025-08-11 10:46:21,359 - scraper.orchestrator - INFO - ⏳ 等待 6.6 秒...
+2025-08-11 10:46:27,925 - scraper.orchestrator - INFO - 📱 进度: 27/40 (67.5%)
+2025-08-11 10:46:27,926 - scraper.orchestrator - INFO - 🔄 开始处理设备: SAMSUNG-SM-G935A
+2025-08-11 10:46:27,926 - google.google_search - INFO - 🔍 Google搜索: SAMSUNG-SM-G935A site:gsmarena.com
+2025-08-11 10:46:37,253 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:46:37,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy S7 edge (USA) - Full phone specifications
+2025-08-11 10:46:37,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Samsung Galaxy S7 edge (USA) vs. ...
+2025-08-11 10:46:37,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare - Samsung Galaxy S7 edge (USA)
+2025-08-11 10:46:37,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare OnePlus 3 vs. Samsung Galaxy S7 edge (USA) ...
+2025-08-11 10:46:37,254 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy S7 edge (USA) - User opinions and reviews
+2025-08-11 10:46:37,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare - Samsung Galaxy S7 edge (USA)
+2025-08-11 10:46:37,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy S7 edge (USA) vs. Huawei ...
+2025-08-11 10:46:37,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Snapdragon 820 Galaxy S7 and S7 edge finally rooted
+2025-08-11 10:46:37,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Samsung Galaxy S8 vs. ...
+2025-08-11 10:46:37,255 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy S7 edge (USA) vs. OnePlus 2
+2025-08-11 10:46:37,255 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:46:37,255 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_s7_edge_(usa)-7961.php
+2025-08-11 10:46:37,255 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_s7_edge_(usa)-7961.php
+2025-08-11 10:46:45,572 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy S7 edge (USA)
+2025-08-11 10:46:45,573 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2016, February
+2025-08-11 10:46:45,573 - gsmarena.gsmarena_scraper - INFO - 价格: About 350 EUR
+2025-08-11 10:46:45,573 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy S7 edge (USA)
+2025-08-11 10:46:45,573 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SAMSUNG-SM-G935A
+2025-08-11 10:46:45,573 - scraper.orchestrator - INFO - ✅ 成功: SAMSUNG-SM-G935A - Samsung Galaxy S7 edge (USA)
+2025-08-11 10:46:45,575 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SAMSUNG-SM-G935A
+2025-08-11 10:46:45,575 - scraper.orchestrator - INFO - ⏳ 等待 6.4 秒...
+2025-08-11 10:46:52,030 - scraper.orchestrator - INFO - 📱 进度: 28/40 (70.0%)
+2025-08-11 10:46:52,032 - scraper.orchestrator - INFO - 🔄 开始处理设备: ASUS_X018D
+2025-08-11 10:46:52,032 - google.google_search - INFO - 🔍 Google搜索: ASUS_X018D site:gsmarena.com
+2025-08-11 10:47:02,250 - google.google_search - INFO - 找到 7 个Google搜索结果
+2025-08-11 10:47:02,251 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Asus Zenfone Max Plus (M1) ZB570TL
+2025-08-11 10:47:02,252 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:47:02,252 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Asus Zenfone Max Plus (M1) ZB570TL
+2025-08-11 10:47:02,252 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Asus Zenfone Max Plus (M1) ZB570TL vs. ...
+2025-08-11 10:47:02,252 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Asus Zenfone Max Plus (M1) ZB570TL
+2025-08-11 10:47:02,252 - google.google_search - INFO - 🎯 Google搜索找到 5 个GSMArena链接
+2025-08-11 10:47:02,252 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/asus_zenfone_max_plus_(m1)_zb570tl-8953.php
+2025-08-11 10:47:02,252 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/asus_zenfone_max_plus_(m1)_zb570tl-8953.php
+2025-08-11 10:47:08,262 - gsmarena.gsmarena_scraper - INFO - 设备名称: Asus Zenfone Max Plus (M1) ZB570TL
+2025-08-11 10:47:08,262 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2017, November
+2025-08-11 10:47:08,262 - gsmarena.gsmarena_scraper - INFO - 价格: About 250 EUR
+2025-08-11 10:47:08,262 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Asus Zenfone Max Plus (M1) ZB570TL
+2025-08-11 10:47:08,262 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: ASUS_X018D
+2025-08-11 10:47:08,263 - scraper.orchestrator - INFO - ✅ 成功: ASUS_X018D - Asus Zenfone Max Plus (M1) ZB570TL
+2025-08-11 10:47:08,267 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: ASUS_X018D
+2025-08-11 10:47:08,267 - scraper.orchestrator - INFO - ⏳ 等待 4.8 秒...
+2025-08-11 10:47:13,083 - scraper.orchestrator - INFO - 📱 进度: 29/40 (72.5%)
+2025-08-11 10:47:13,085 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-N970U
+2025-08-11 10:47:13,085 - google.google_search - INFO - 🔍 Google搜索: SM-N970U site:gsmarena.com
+2025-08-11 10:47:24,021 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:47:24,021 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy Note10 - Full phone specifications
+2025-08-11 10:47:24,022 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:47:24,022 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy Note10
+2025-08-11 10:47:24,022 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy Note10 vs. HTC Touch 3G
+2025-08-11 10:47:24,022 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy Note10 vs. ...
+2025-08-11 10:47:24,022 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare - Samsung Galaxy S10+
+2025-08-11 10:47:24,022 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy Note10 vs. Essential PH-1
+2025-08-11 10:47:24,023 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy Note10 vs. ...
+2025-08-11 10:47:24,023 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Samsung Galaxy Note7
+2025-08-11 10:47:24,023 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy Note10 vs. ...
+2025-08-11 10:47:24,023 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:47:24,023 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_note10-9788.php
+2025-08-11 10:47:24,023 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_note10-9788.php
+2025-08-11 10:47:31,539 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy Note10
+2025-08-11 10:47:31,539 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, August 07
+2025-08-11 10:47:31,539 - gsmarena.gsmarena_scraper - INFO - 价格: About 590 EUR
+2025-08-11 10:47:31,539 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy Note10
+2025-08-11 10:47:31,539 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-N970U
+2025-08-11 10:47:31,539 - scraper.orchestrator - INFO - ✅ 成功: SM-N970U - Samsung Galaxy Note10
+2025-08-11 10:47:31,541 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-N970U
+2025-08-11 10:47:31,541 - scraper.orchestrator - INFO - ⏳ 等待 6.8 秒...
+2025-08-11 10:47:38,334 - scraper.orchestrator - INFO - 📱 进度: 30/40 (75.0%)
+2025-08-11 10:47:38,335 - scraper.orchestrator - INFO - 🔄 开始处理设备: Hot 30 plus
+2025-08-11 10:47:38,335 - google.google_search - INFO - 🔍 Google搜索: Hot 30 plus site:gsmarena.com
+2025-08-11 10:47:48,262 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:47:48,263 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Infinix Hot 30 - Full phone specifications
+2025-08-11 10:47:48,263 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Compare Infinix Hot 30
+2025-08-11 10:47:48,263 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Infinix GT 30 Pro - Full phone specifications
+2025-08-11 10:47:48,263 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Infinix Hot 30 Play NFC - Full phone specifications
+2025-08-11 10:47:48,263 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Infinix Hot 30 5G - Full phone specifications
+2025-08-11 10:47:48,263 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Infinix Hot 30i - Full phone specifications
+2025-08-11 10:47:48,264 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: 
+2025-08-11 10:47:48,264 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Infinix Hot 30 Play NFC - User opinions and reviews - page 5
+2025-08-11 10:47:48,264 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Honor Play 30 Plus - Full phone specifications
+2025-08-11 10:47:48,264 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Infinix Hot 30 - User opinions and reviews - page 3
+2025-08-11 10:47:48,264 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:47:48,264 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/infinix_hot_30-12214.php
+2025-08-11 10:47:48,264 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/infinix_hot_30-12214.php
+2025-08-11 10:47:56,275 - gsmarena.gsmarena_scraper - INFO - 设备名称: Infinix Hot 30
+2025-08-11 10:47:56,275 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, March 31
+2025-08-11 10:47:56,275 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:47:56,275 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Infinix Hot 30
+2025-08-11 10:47:56,275 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: Hot 30 plus
+2025-08-11 10:47:56,275 - scraper.orchestrator - INFO - ✅ 成功: Hot 30 plus - Infinix Hot 30
+2025-08-11 10:47:56,279 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: Hot 30 plus
+2025-08-11 10:47:56,279 - scraper.orchestrator - INFO - ⏳ 等待 5.9 秒...
+2025-08-11 10:48:02,227 - scraper.orchestrator - INFO - 📱 进度: 31/40 (77.5%)
+2025-08-11 10:48:02,229 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-N920C
+2025-08-11 10:48:02,229 - google.google_search - INFO - 🔍 Google搜索: SM-N920C site:gsmarena.com
+2025-08-11 10:48:13,339 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:48:13,340 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy Note5 Duos - Full phone specifications
+2025-08-11 10:48:13,341 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:48:13,341 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Samsung Galaxy Note5 - Full phone specifications
+2025-08-11 10:48:13,341 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare - Samsung Galaxy Note5
+2025-08-11 10:48:13,341 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Samsung Galaxy Note5 - User opinions and reviews - page 352
+2025-08-11 10:48:13,341 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Samsung Galaxy Note5 Duos - User opinions and reviews
+2025-08-11 10:48:13,341 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Samsung Galaxy Note5 - User opinions and reviews
+2025-08-11 10:48:13,342 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Samsung Galaxy Note5 Duos - User opinions and reviews
+2025-08-11 10:48:13,342 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Samsung Galaxy Note5 - User opinions and reviews
+2025-08-11 10:48:13,342 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare Samsung Galaxy Note5 Duos vs. ...
+2025-08-11 10:48:13,342 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:48:13,342 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_note5_duos-7508.php
+2025-08-11 10:48:13,342 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_note5_duos-7508.php
+2025-08-11 10:48:20,239 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy Note5 Duos
+2025-08-11 10:48:20,240 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2015, August
+2025-08-11 10:48:20,240 - gsmarena.gsmarena_scraper - INFO - 价格: About 450 EUR
+2025-08-11 10:48:20,240 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy Note5 Duos
+2025-08-11 10:48:20,240 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-N920C
+2025-08-11 10:48:20,240 - scraper.orchestrator - INFO - ✅ 成功: SM-N920C - Samsung Galaxy Note5 Duos
+2025-08-11 10:48:20,241 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-N920C
+2025-08-11 10:48:20,241 - scraper.orchestrator - INFO - ⏳ 等待 5.6 秒...
+2025-08-11 10:48:25,858 - scraper.orchestrator - INFO - 📱 进度: 32/40 (80.0%)
+2025-08-11 10:48:25,858 - scraper.orchestrator - INFO - 🔄 开始处理设备: ASUS_AI2205_C
+2025-08-11 10:48:25,859 - google.google_search - INFO - 🔍 Google搜索: ASUS_AI2205_C site:gsmarena.com
+2025-08-11 10:48:36,160 - google.google_search - INFO - 找到 3 个Google搜索结果
+2025-08-11 10:48:36,161 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Asus ROG Phone 7 - GSMArena.com
+2025-08-11 10:48:36,161 - google.google_search - INFO - 🎯 Google搜索找到 1 个GSMArena链接
+2025-08-11 10:48:36,161 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/asus_rog_phone_7-12223.php
+2025-08-11 10:48:36,161 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/asus_rog_phone_7-12223.php
+2025-08-11 10:48:43,985 - gsmarena.gsmarena_scraper - INFO - 设备名称: Asus ROG Phone 7
+2025-08-11 10:48:43,985 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2023, April 13
+2025-08-11 10:48:43,985 - gsmarena.gsmarena_scraper - INFO - 价格: $ 1,799.00 / € 1,788.38 / £ 1,322.33
+2025-08-11 10:48:43,985 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Asus ROG Phone 7
+2025-08-11 10:48:43,985 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: ASUS_AI2205_C
+2025-08-11 10:48:43,985 - scraper.orchestrator - INFO - ✅ 成功: ASUS_AI2205_C - Asus ROG Phone 7
+2025-08-11 10:48:43,989 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: ASUS_AI2205_C
+2025-08-11 10:48:43,989 - scraper.orchestrator - INFO - ⏳ 等待 4.3 秒...
+2025-08-11 10:48:48,266 - scraper.orchestrator - INFO - 📱 进度: 33/40 (82.5%)
+2025-08-11 10:48:48,266 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-A305G
+2025-08-11 10:48:48,267 - google.google_search - INFO - 🔍 Google搜索: SM-A305G site:gsmarena.com
+2025-08-11 10:48:58,687 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:48:58,688 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy A30 - Full phone specifications
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare - Samsung Galaxy A30
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Samsung Galaxy A30 vs. ...
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy Note 8.0 vs. ...
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare - Samsung Galaxy A30
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare - Samsung Galaxy A30
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare - Samsung Galaxy A30
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare - Samsung Galaxy A30
+2025-08-11 10:48:58,689 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Samsung Galaxy A30
+2025-08-11 10:48:58,689 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:48:58,689 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_a30-9579.php
+2025-08-11 10:48:58,690 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_a30-9579.php
+2025-08-11 10:49:06,123 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy A30
+2025-08-11 10:49:06,123 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2019, February 25
+2025-08-11 10:49:06,123 - gsmarena.gsmarena_scraper - INFO - 价格: About 110 EUR
+2025-08-11 10:49:06,123 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy A30
+2025-08-11 10:49:06,123 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-A305G
+2025-08-11 10:49:06,123 - scraper.orchestrator - INFO - ✅ 成功: SM-A305G - Samsung Galaxy A30
+2025-08-11 10:49:06,124 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-A305G
+2025-08-11 10:49:06,124 - scraper.orchestrator - INFO - ⏳ 等待 5.3 秒...
+2025-08-11 10:49:11,451 - scraper.orchestrator - INFO - 📱 进度: 34/40 (85.0%)
+2025-08-11 10:49:11,452 - scraper.orchestrator - INFO - 🔄 开始处理设备: S_TAB
+2025-08-11 10:49:11,453 - google.google_search - INFO - 🔍 Google搜索: S_TAB site:gsmarena.com
+2025-08-11 10:49:35,866 - google.google_search - WARNING - Google搜索页面加载超时: S_TAB
+2025-08-11 10:49:35,868 - scraper.orchestrator - INFO - Google未找到GSMArena链接: S_TAB
+2025-08-11 10:49:35,868 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: S_TAB
+2025-08-11 10:49:35,868 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: S_TAB
+2025-08-11 10:49:41,356 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=S_TAB&lang=en&v=3
+2025-08-11 10:49:47,831 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=S_TAB
+2025-08-11 10:49:47,835 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: S_TAB
+2025-08-11 10:49:47,835 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: S_TAB
+2025-08-11 10:49:47,881 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: S_TAB
+2025-08-11 10:50:05,786 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_tab_s10+-13363.php
+2025-08-11 10:50:12,644 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy Tab S10+
+2025-08-11 10:50:12,644 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2024, September 26
+2025-08-11 10:50:12,644 - gsmarena.gsmarena_scraper - INFO - 价格: $ 879.99
+2025-08-11 10:50:12,644 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy Tab S10+
+2025-08-11 10:50:12,644 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: S_TAB
+2025-08-11 10:50:12,644 - scraper.orchestrator - INFO - ✅ 成功: S_TAB - Samsung Galaxy Tab S10+
+2025-08-11 10:50:12,647 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: S_TAB
+2025-08-11 10:50:12,647 - scraper.orchestrator - INFO - ⏳ 等待 4.9 秒...
+2025-08-11 10:50:17,575 - scraper.orchestrator - INFO - 📱 进度: 35/40 (87.5%)
+2025-08-11 10:50:17,575 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-X526B
+2025-08-11 10:50:17,575 - google.google_search - INFO - 🔍 Google搜索: SM-X526B site:gsmarena.com
+2025-08-11 10:50:29,989 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Samsung Galaxy Tab S10 FE - Full tablet specifications
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Samsung Galaxy Tab S10 FE and Tab S10 FE+ renders ...
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Samsung Galaxy Tab A9+ vs. ...
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Samsung Galaxy S25 Edge and Tab S10 FE spotted on ...
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Samsung Galaxy Tab S10 FE+ vs. ...
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare - Samsung Galaxy Tab S10 FE
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare Samsung Galaxy Tab S10 FE vs. Xiaomi Pad 7 Pro
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Honor Pad 9 vs. Samsung Galaxy Tab S10 FE
+2025-08-11 10:50:29,990 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Apple iPad (2025) vs. Samsung Galaxy Tab S10 ...
+2025-08-11 10:50:29,991 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare - Samsung Galaxy Tab S10 Ultra
+2025-08-11 10:50:29,991 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:50:29,991 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/samsung_galaxy_tab_s10_fe-13761.php
+2025-08-11 10:50:29,991 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_tab_s10_fe-13761.php
+2025-08-11 10:50:35,690 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy Tab S10 FE
+2025-08-11 10:50:35,691 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2025, April 02
+2025-08-11 10:50:35,691 - gsmarena.gsmarena_scraper - INFO - 价格: About 580 EUR
+2025-08-11 10:50:35,691 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy Tab S10 FE
+2025-08-11 10:50:35,691 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: SM-X526B
+2025-08-11 10:50:35,691 - scraper.orchestrator - INFO - ✅ 成功: SM-X526B - Samsung Galaxy Tab S10 FE
+2025-08-11 10:50:35,692 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-X526B
+2025-08-11 10:50:35,692 - scraper.orchestrator - INFO - ⏳ 等待 6.1 秒...
+2025-08-11 10:50:41,850 - scraper.orchestrator - INFO - 📱 进度: 36/40 (90.0%)
+2025-08-11 10:50:41,851 - scraper.orchestrator - INFO - 🔄 开始处理设备: TECNO AD8
+2025-08-11 10:50:41,851 - google.google_search - INFO - 🔍 Google搜索: TECNO AD8 site:gsmarena.com
+2025-08-11 10:50:51,612 - google.google_search - INFO - 找到 8 个Google搜索结果
+2025-08-11 10:50:51,613 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: Tecno Phantom X2 - Full phone specifications
+2025-08-11 10:50:51,614 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: 
+2025-08-11 10:50:51,614 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Tecno Phantom X2 Pro vs. ... - GSMArena.com
+2025-08-11 10:50:51,614 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Compare Tecno Phantom X vs. Tecno Phantom X2
+2025-08-11 10:50:51,614 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Tecno Phantom X2 vs. Tecno Camon 19 Pro
+2025-08-11 10:50:51,614 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Tecno Phantom 8 - Full phone specifications
+2025-08-11 10:50:51,615 - google.google_search - INFO - 🎯 Google搜索找到 6 个GSMArena链接
+2025-08-11 10:50:51,615 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/tecno_phantom_x2-12009.php
+2025-08-11 10:50:51,615 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/tecno_phantom_x2-12009.php
+2025-08-11 10:50:58,159 - gsmarena.gsmarena_scraper - INFO - 设备名称: Tecno Phantom X2
+2025-08-11 10:50:58,159 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2022, December 07
+2025-08-11 10:50:58,159 - gsmarena.gsmarena_scraper - INFO - 价格: About 460 EUR
+2025-08-11 10:50:58,160 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Tecno Phantom X2
+2025-08-11 10:50:58,160 - scraper.orchestrator - INFO - ✅ Google->GSMArena 路径成功: TECNO AD8
+2025-08-11 10:50:58,160 - scraper.orchestrator - INFO - ✅ 成功: TECNO AD8 - Tecno Phantom X2
+2025-08-11 10:50:58,160 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: TECNO AD8
+2025-08-11 10:50:58,161 - scraper.orchestrator - INFO - ⏳ 等待 4.5 秒...
+2025-08-11 10:51:02,644 - scraper.orchestrator - INFO - 📱 进度: 37/40 (92.5%)
+2025-08-11 10:51:02,644 - scraper.orchestrator - INFO - 🔄 开始处理设备: PDSM00
+2025-08-11 10:51:02,644 - google.google_search - INFO - 🔍 Google搜索: PDSM00 site:gsmarena.com
+2025-08-11 10:51:13,295 - google.google_search - INFO - 找到 12 个Google搜索结果
+2025-08-11 10:51:13,297 - google.google_search - INFO - ✅ 找到GSMArena链接 #1: 
+2025-08-11 10:51:13,297 - google.google_search - INFO - ✅ 找到GSMArena链接 #3: Oppo Reno5 Pro 5G - Full phone specifications
+2025-08-11 10:51:13,297 - google.google_search - INFO - ✅ 找到GSMArena链接 #4: Compare Oppo Reno5 5G vs. Oppo ...
+2025-08-11 10:51:13,297 - google.google_search - INFO - ✅ 找到GSMArena链接 #5: Oppo Reno5 Pro is finally listed on TENAA, a bigger ...
+2025-08-11 10:51:13,297 - google.google_search - INFO - ✅ 找到GSMArena链接 #6: Compare Oppo Reno5 4G vs. Oppo Reno5 Pro 5G
+2025-08-11 10:51:13,297 - google.google_search - INFO - ✅ 找到GSMArena链接 #7: Compare Oppo Reno5 Pro 5G
+2025-08-11 10:51:13,297 - google.google_search - INFO - ✅ 找到GSMArena链接 #8: Compare OnePlus 8 vs. Oppo Reno5 Pro 5G
+2025-08-11 10:51:13,298 - google.google_search - INFO - ✅ 找到GSMArena链接 #9: Compare Samsung Galaxy S21 5G vs. Oppo Reno5 Pro ...
+2025-08-11 10:51:13,298 - google.google_search - INFO - ✅ 找到GSMArena链接 #10: Compare Oppo Reno6 Pro 5G vs. ...
+2025-08-11 10:51:13,298 - google.google_search - INFO - ✅ 找到GSMArena链接 #11: Compare vivo V20 Pro vs. Oppo Reno5 Pro 5G
+2025-08-11 10:51:13,298 - google.google_search - INFO - 🎯 Google搜索找到 10 个GSMArena链接
+2025-08-11 10:51:13,298 - scraper.orchestrator - INFO - 📄 从Google找到GSMArena链接: https://www.gsmarena.com/oppo_reno5_pro_is_finally_listed_on_tenaa_a_bigger_battery_incoming-news-46436.php
+2025-08-11 10:51:13,298 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_reno5_pro_is_finally_listed_on_tenaa_a_bigger_battery_incoming-news-46436.php
+2025-08-11 10:51:21,658 - gsmarena.gsmarena_scraper - INFO - 设备名称: Unknown
+2025-08-11 10:51:21,658 - gsmarena.gsmarena_scraper - INFO - 发布日期: 
+2025-08-11 10:51:21,658 - gsmarena.gsmarena_scraper - INFO - 价格: 
+2025-08-11 10:51:21,658 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Unknown
+2025-08-11 10:51:21,658 - scraper.orchestrator - WARNING - GSMArena信息不完整: PDSM00
+2025-08-11 10:51:21,658 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: PDSM00
+2025-08-11 10:51:21,658 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: PDSM00
+2025-08-11 10:51:30,452 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=PDSM00&lang=en&v=3
+2025-08-11 10:51:38,148 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=PDSM00
+2025-08-11 10:51:38,152 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: PDSM00
+2025-08-11 10:51:38,152 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: PDSM00
+2025-08-11 10:51:38,167 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: PDSM00
+2025-08-11 10:51:59,240 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/oppo_reno5_pro_5g-10606.php
+2025-08-11 10:52:05,763 - gsmarena.gsmarena_scraper - INFO - 设备名称: Oppo Reno5 Pro 5G
+2025-08-11 10:52:05,764 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2020, December 10
+2025-08-11 10:52:05,764 - gsmarena.gsmarena_scraper - INFO - 价格: About 410 EUR
+2025-08-11 10:52:05,764 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Oppo Reno5 Pro 5G
+2025-08-11 10:52:05,764 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: PDSM00
+2025-08-11 10:52:05,765 - scraper.orchestrator - INFO - ✅ 成功: PDSM00 - Oppo Reno5 Pro 5G
+2025-08-11 10:52:05,769 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: PDSM00
+2025-08-11 10:52:05,769 - scraper.orchestrator - INFO - ⏳ 等待 5.4 秒...
+2025-08-11 10:52:11,219 - scraper.orchestrator - INFO - 📱 进度: 38/40 (95.0%)
+2025-08-11 10:52:11,219 - scraper.orchestrator - INFO - 🔄 开始处理设备: 2106118C
+2025-08-11 10:52:11,220 - google.google_search - INFO - 🔍 Google搜索: 2106118C site:gsmarena.com
+2025-08-11 10:52:39,238 - google.google_search - WARNING - Google搜索页面加载超时: 2106118C
+2025-08-11 10:52:39,244 - scraper.orchestrator - INFO - Google未找到GSMArena链接: 2106118C
+2025-08-11 10:52:39,245 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: 2106118C
+2025-08-11 10:52:39,245 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: 2106118C
+2025-08-11 10:52:46,306 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=2106118C&lang=en&v=3
+2025-08-11 10:52:54,053 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=2106118C
+2025-08-11 10:52:54,055 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: 2106118C
+2025-08-11 10:52:54,055 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: 2106118C
+2025-08-11 10:52:54,078 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: 2106118C
+2025-08-11 10:53:16,659 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/xiaomi_mix_4-11040.php
+2025-08-11 10:53:23,241 - gsmarena.gsmarena_scraper - INFO - 设备名称: Xiaomi Mix 4
+2025-08-11 10:53:23,241 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2021, August 10
+2025-08-11 10:53:23,241 - gsmarena.gsmarena_scraper - INFO - 价格: About 660 EUR
+2025-08-11 10:53:23,241 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Xiaomi Mix 4
+2025-08-11 10:53:23,241 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: 2106118C
+2025-08-11 10:53:23,241 - scraper.orchestrator - INFO - ✅ 成功: 2106118C - Xiaomi Mix 4
+2025-08-11 10:53:23,245 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: 2106118C
+2025-08-11 10:53:23,245 - scraper.orchestrator - INFO - ⏳ 等待 7.5 秒...
+2025-08-11 10:53:30,736 - scraper.orchestrator - INFO - 📱 进度: 39/40 (97.5%)
+2025-08-11 10:53:30,737 - scraper.orchestrator - INFO - 🔄 开始处理设备: Lenovo K520
+2025-08-11 10:53:30,737 - google.google_search - INFO - 🔍 Google搜索: Lenovo K520 site:gsmarena.com
+2025-08-11 10:53:52,178 - google.google_search - WARNING - Google搜索页面加载超时: Lenovo K520
+2025-08-11 10:53:52,179 - scraper.orchestrator - INFO - Google未找到GSMArena链接: Lenovo K520
+2025-08-11 10:53:52,179 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: Lenovo K520
+2025-08-11 10:53:52,179 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: Lenovo K520
+2025-08-11 10:53:59,574 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=Lenovo+K520&lang=en&v=3
+2025-08-11 10:54:05,204 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=Lenovo+K520
+2025-08-11 10:54:05,206 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: Lenovo K520
+2025-08-11 10:54:05,206 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: Lenovo K520
+2025-08-11 10:54:05,229 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: Lenovo K520
+2025-08-11 10:54:25,695 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/lenovo_s5-9116.php
+2025-08-11 10:54:32,105 - gsmarena.gsmarena_scraper - INFO - 设备名称: Lenovo S5
+2025-08-11 10:54:32,106 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2018, March
+2025-08-11 10:54:32,106 - gsmarena.gsmarena_scraper - INFO - 价格: About 150 EUR
+2025-08-11 10:54:32,106 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Lenovo S5
+2025-08-11 10:54:32,106 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: Lenovo K520
+2025-08-11 10:54:32,106 - scraper.orchestrator - INFO - ✅ 成功: Lenovo K520 - Lenovo S5
+2025-08-11 10:54:32,112 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: Lenovo K520
+2025-08-11 10:54:32,112 - scraper.orchestrator - INFO - ⏳ 等待 4.8 秒...
+2025-08-11 10:54:36,874 - scraper.orchestrator - INFO - 📱 进度: 40/40 (100.0%)
+2025-08-11 10:54:36,875 - scraper.orchestrator - INFO - 🔄 开始处理设备: SM-G930P
+2025-08-11 10:54:36,875 - google.google_search - INFO - 🔍 Google搜索: SM-G930P site:gsmarena.com
+2025-08-11 10:55:00,322 - google.google_search - WARNING - Google搜索页面加载超时: SM-G930P
+2025-08-11 10:55:00,323 - scraper.orchestrator - INFO - Google未找到GSMArena链接: SM-G930P
+2025-08-11 10:55:00,324 - scraper.orchestrator - INFO - 🔄 Google搜索失败，尝试GSMChoice获取设备名称: SM-G930P
+2025-08-11 10:55:00,324 - gsmchoice.gsmchoice_scraper - INFO - 🔍 GSMChoice搜索设备信息: SM-G930P
+2025-08-11 10:55:07,304 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice API搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/js/searchy.xhtml?search=SM-G930P&lang=en&v=3
+2025-08-11 10:55:13,798 - gsmchoice.gsmchoice_scraper - WARNING - GSMChoice网页搜索失败: 403 Client Error: Forbidden for url: https://www.gsmchoice.com/en/search/?sSearch4=SM-G930P
+2025-08-11 10:55:13,800 - gsmchoice.gsmchoice_scraper - WARNING - ❌ GSMChoice未找到设备: SM-G930P
+2025-08-11 10:55:13,800 - scraper.orchestrator - INFO - 🔄 尝试直接GSMArena搜索: SM-G930P
+2025-08-11 10:55:13,815 - gsmarena.gsmarena_scraper - INFO - 🔍 GSMArena搜索: SM-G930P
+2025-08-11 10:55:32,216 - gsmarena.gsmarena_scraper - INFO - 📄 提取GSMArena设备信息: https://www.gsmarena.com/samsung_galaxy_s7-7821.php
+2025-08-11 10:55:40,531 - gsmarena.gsmarena_scraper - INFO - 设备名称: Samsung Galaxy S7
+2025-08-11 10:55:40,531 - gsmarena.gsmarena_scraper - INFO - 发布日期: 2016, February 21
+2025-08-11 10:55:40,531 - gsmarena.gsmarena_scraper - INFO - 价格: About 190 EUR
+2025-08-11 10:55:40,531 - gsmarena.gsmarena_scraper - INFO - ✅ 成功提取设备信息: Samsung Galaxy S7
+2025-08-11 10:55:40,531 - scraper.orchestrator - INFO - ✅ 直接GSMArena搜索成功: SM-G930P
+2025-08-11 10:55:40,531 - scraper.orchestrator - INFO - ✅ 成功: SM-G930P - Samsung Galaxy S7
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - 💾 成功结果已实时保存: SM-G930P
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - 
+🎯 处理完成!
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - 📊 总数: 40
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - ✅ 成功: 40
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - ❌ 失败: 0
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - 📈 成功率: 100.0%
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - ⏱️ 处理时间: 1349.7 秒
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - 🔍 Google搜索: 40 次
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - 🎯 GSMArena直接命中: 30 次
+2025-08-11 10:55:40,534 - scraper.orchestrator - INFO - 🔄 GSMChoice备用方案: 10 次
+2025-08-11 10:55:40,538 - tools.csv_tools - INFO - ✅ 成功保存 40 条结果到: output/device_info_extracted_20250811_105540.csv
+2025-08-11 10:55:40,538 - tools.csv_tools - INFO - 📋 样例数据:
+2025-08-11 10:55:40,538 - tools.csv_tools - INFO -    设备: Xiaomi Redmi Note 12 4G
+2025-08-11 10:55:40,538 - tools.csv_tools - INFO -    价格: € 89.90 / £ 80.40
+2025-08-11 10:55:40,538 - tools.csv_tools - INFO -    发布: 2023, March 23
+2025-08-11 10:55:40,540 - tools.csv_tools - INFO - 📊 处理日志已保存到: output/processing_log_20250811_105540.csv
+2025-08-11 10:55:40,540 - __main__ - INFO - 
+============================================================
+2025-08-11 10:55:40,540 - __main__ - INFO - 🎉 处理完成!
+2025-08-11 10:55:40,540 - __main__ - INFO - ============================================================
+2025-08-11 10:55:40,540 - __main__ - INFO - ⏱️ 总耗时: 1349.7 秒
+2025-08-11 10:55:40,540 - __main__ - INFO - 📁 保存的文件:
+2025-08-11 10:55:40,540 - __main__ - INFO -    success_file: output/device_info_extracted_20250811_105540.csv
+2025-08-11 10:55:40,540 - __main__ - INFO -    log_file: output/processing_log_20250811_105540.csv
+2025-08-11 10:55:40,732 - google.google_search - INFO - Google搜索WebDriver已关闭
+2025-08-11 10:55:40,883 - gsmarena.gsmarena_scraper - INFO - GSMArena WebDriver已关闭
+2025-08-11 10:55:40,883 - gsmchoice.gsmchoice_scraper - INFO - GSMChoice爬虫已关闭
+2025-08-11 10:55:40,883 - scraper.orchestrator - INFO - 🔒 所有爬虫连接已关闭
+2025-08-11 10:55:40,885 - __main__ - INFO - ✅ 程序执行成功

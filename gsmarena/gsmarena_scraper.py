@@ -32,6 +32,14 @@ class GSMArenaScraper:
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0',
+            'Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15'
+
         ]
         
         self._update_session_headers()
@@ -69,9 +77,17 @@ class GSMArenaScraper:
             chrome_options.add_argument('--disable-dev-shm-usage')
             chrome_options.add_argument('--disable-gpu')
             chrome_options.add_argument('--window-size=1920,1080')
+
+            chrome_options.add_argument('--incognito')  # 无痕模式
+           
+
             chrome_options.add_argument(f'--user-agent={self._get_random_user_agent()}')
             chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
             chrome_options.add_experimental_option('useAutomationExtension', False)
+            chrome_options.add_argument('--disable-background-timer-throttling')
+            chrome_options.add_argument('--disable-backgrounding-occluded-windows')
+            chrome_options.add_argument('--disable-renderer-backgrounding')
+            chrome_options.add_argument('--keep-alive-for-test')
             
             self.driver = webdriver.Chrome(options=chrome_options)
             self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -84,6 +100,7 @@ class GSMArenaScraper:
     def _random_delay(self):
         delay = random.uniform(self.request_delay * 0.8, self.request_delay * 1.5)
         time.sleep(delay)
+        self._update_session_headers()
     
     def extract_device_info_from_url(self, gsmarena_url):
         """从GSMArena URL直接提取设备信息"""
@@ -96,7 +113,6 @@ class GSMArenaScraper:
             response.raise_for_status()
             
             soup = BeautifulSoup(response.content, 'html.parser')
-            
             device_info = self._parse_device_page(soup, gsmarena_url)
             
             if device_info:
@@ -121,6 +137,9 @@ class GSMArenaScraper:
             }
     
     def search_device_by_model(self, model_code):
+        if not self._check_driver_health():
+            logger.warning("WebDriver连接失效，正在重新初始化...")
+            self._init_driver()
         """通过型号在GSMArena搜索设备"""
         if not self.driver:
             logger.error("WebDriver未初始化")
@@ -189,8 +208,50 @@ class GSMArenaScraper:
         except Exception as e:
             logger.error(f"GSMArena搜索失败 {model_code}: {str(e)}")
             return None
+        
+    def _check_driver_health(self):
+        """检查WebDriver是否健康"""
+        if not self.driver:
+            return False
+        
+        try:
+            # 尝试获取当前窗口句柄来检查session是否有效
+            self.driver.current_window_handle
+            return True
+        except Exception as e:
+            logger.warning(f"WebDriver健康检查失败: {str(e)}")
+            return False
+        
+    def _reinit_driver(self):
+        """重新初始化WebDriver"""
+        try:
+            # 关闭旧的driver
+            if self.driver:
+                try:
+                    self.driver.quit()
+                except:
+                    pass
+            
+            # 重新初始化
+            self._init_driver()
+            
+            if self.driver:
+                logger.info("WebDriver重新初始化成功")
+                return True
+            else:
+                logger.error("WebDriver重新初始化失败")
+                return False
+                
+        except Exception as e:
+            logger.error(f"WebDriver重新初始化异常: {str(e)}")
+            return False
     
     def search_device_by_name(self, device_name):
+        
+        if not self._check_driver_health():
+            logger.warning("WebDriver连接失效，正在重新初始化...")
+            self._init_driver()
+
         """通过设备名称在GSMArena搜索"""
         if not self.driver:
             logger.error("WebDriver未初始化")

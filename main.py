@@ -238,7 +238,7 @@ def main():
                        help='输入CSV文件路径 (默认: model_codes.csv)')
     
     parser.add_argument('-d', '--delay',
-                       type=int, default=4,
+                       type=int, default=5,
                        help='请求间隔延迟(秒) (默认: 4)')
     
     parser.add_argument('-l', '--limit',
